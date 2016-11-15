@@ -13,24 +13,24 @@ import com.zixi.tools.BroadcasterLoggableApiWorker;
 
 public class VisualQualityDriver extends BroadcasterLoggableApiWorker implements TestDriver{
 	
-	private static final String 	hostName			= "10.7.0.42";
-	private static final int    	portNumber 			= 4445;
-	private static final int    	attempts   			= 20;
-	private static final int    	hlsAttempts   		= 200;
-	private static final String 	fromUser 			= "9999";
-	private static final int    	negativeAttempts	= 5;
-	private static final String 	HLS 				= "hls";
+	private static final String 	hostName			= 	"10.7.0.111";
+	private static final int    	portNumber 			= 	4445;
+	private static final int    	attempts   			= 	20;
+	private static final int    	hlsAttempts   		= 	200;
+	private static final String 	fromUser 			= 	"9999";
+	private static final int    	negativeAttempts	= 	5;
+	private static final String 	HLS 				= 	"hls";
 	private Socket              	clientSocket;
 	private PrintWriter 			out;
 	private BufferedReader 			in;
 	private int 					loopCnt;
-	private final boolean 			autoFlush			= true;
+	private final boolean 			autoFlush			= 	true;
 	
 	public String testVideo() 
 	{
-		long sum = 0;
-		loopCnt = 0;
-		String resultToTest = null;
+		long sum 			= 	0;
+		loopCnt 			= 	0;
+		String resultToTest = 	null;
 		
 		try {
 			clientSocket = new Socket(hostName, portNumber); // blocking operation, connects to the destination server.

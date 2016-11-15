@@ -13,26 +13,21 @@ import com.zixi.tools.BroadcasterInputStatisticHelper;
 import com.zixi.tools.BroadcasterLoggableApiWorker;
 import com.zixi.tools.StreamStatisticAnalyzer;
 
-public class BroadcasterInputStatisticSingleStreamDriver extends
-		BroadcasterLoggableApiWorker implements TestDriver {
+public class BroadcasterInputStatisticSingleStreamDriver extends BroadcasterLoggableApiWorker implements TestDriver {
 
 	private BroadcasterInputStatisticHelper broadcasterInputStatisticHelper = new BroadcasterInputStatisticHelper();
 	private JSONObject statisitcJson;
 	protected StreamStatisticAnalyzer streamStatisticAnalyzer = new StreamStatisticAnalyzer();
 
 	final private static String HTTP = "http://";
-	final private static String FUNCTION = "/input_stream_stats.json?"; 
 	
 	public String testStatistic(String userName, String userPass, String host,
 			String loin_ip, String uiport, String id, String testduration) {
 		
-		testParameters = new TestParameters("userName:" + userName, "userPass:"
-				+ userPass, "host:" + host, "loin_ip:" + loin_ip, "uiport:"
-				+ uiport, "id:" + id, "testduration:" + testduration);
+		testParameters = new TestParameters("userName:" + userName, "userPass:" + userPass, "host:" + host, "loin_ip:" + loin_ip, "uiport:"
+		+ uiport, "id:" + id, "testduration:" + testduration);
 		
-		responseCookieContainer = broadcasterInitialSecuredLogin.sendGet(HTTP
-				+ loin_ip + ":" + uiport + "/login.htm", userName, userPass,
-				loin_ip, uiport);
+		responseCookieContainer = broadcasterInitialSecuredLogin.sendGet("http://" + loin_ip + ":" + uiport + "/login.htm", userName, userPass, loin_ip, uiport);
 		
 		ArrayList<Integer> bitRateList = new ArrayList<Integer>();
 
@@ -52,9 +47,8 @@ public class BroadcasterInputStatisticSingleStreamDriver extends
 			}
 			
 			// Returns a json response to a "/input_stream_stats.json?" request.
-			statisitcJson = broadcasterInputStatisticHelper.sendGet(HTTP
-					+ loin_ip + ":" + uiport + FUNCTION + "id" + "=" + id,
-					loin_ip, responseCookieContainer);
+			statisitcJson = broadcasterInputStatisticHelper.sendGet("http://"+ loin_ip + ":" + uiport + "/input_stream_stats.json?" + "id" + "=" + id,
+			loin_ip, responseCookieContainer);
 			// debug printing System.out.println(statisitcJson.toString());
 			
 			int bitrate = streamStatisticAnalyzer.getStatBitrate(statisitcJson);

@@ -49,7 +49,13 @@ public class BroadcasterFileInputDriver extends BroadcasterLoggableApiWorker imp
 		File file = FileManagerTools.createFile("src/test/resources/cpu/" + id);
 		for(int i = 0; i < 120; i++)
 		{
-			String cpuLoad = broadcasterSystemDriver.getCpuFromBroadcaster(userName, userPass, login_ip, uiport);
+			String cpuLoad = null;
+			try {
+				cpuLoad = broadcasterSystemDriver.getCpuFromBroadcaster(userName, userPass, login_ip, uiport);
+			} catch (Exception e1) {
+				// TODO Auto-generated catch block
+				e1.printStackTrace();
+			}
 			System.out.println("CPU Load is " + cpuLoad); 
 			
 			if (file != null)

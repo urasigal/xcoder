@@ -80,7 +80,7 @@ public class BaseTest {
         } else {
             tl.setResult(testid,
                     ExecutionStatus.FAILED,  this.getClass().getCanonicalName() + "\n" + version + "\n"+  
-                            automationTestIdentifiers + "\nTest Parameters: "+ testParameters + " Manul description: " + manulDescription );
+                            automationTestIdentifiers + "\nTest Parameters: "+ testParameters + "\n Error is " + result.getThrowable().getMessage() + "\n Exception stack trace: " + result.getThrowable().getStackTrace() + " Manul description: " + manulDescription );
         }
      }catch(Exception e)
      {

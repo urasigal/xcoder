@@ -14,17 +14,17 @@ import com.zixi.tools.BroadcasterLoggableApiWorker;
 public class FFMPEGImageStatisticTestDriver extends BroadcasterLoggableApiWorker
 		implements TestDriver {
 
-	private static final String hostName      = "10.7.0.150";
-	private static final int    portNumber    = 4445;
-	private static final int    attempts      = 10;
-	private static final int    hlsAttempts   = 200;
-	private static final String fromUser = "get";
-	private static final int    negativeAttempts   = 5;
-	private static final String HLS = "hls";
-	private Socket clientSocket;
-	private PrintWriter out;
-	private BufferedReader in;
-	private int loopCnt;
+	private static final String 	hostName      	   = "10.7.0.150";
+	private static final int    	portNumber    	   = 4445;
+	private static final int    	attempts      	   = 10;
+	private static final int    	hlsAttempts   	   = 200;
+	private static final String 	fromUser 	 	   = "get";
+	private static final int   		negativeAttempts   = 5;
+	private static final String 	HLS 			   = "hls";
+	private Socket 					clientSocket;
+	private PrintWriter 			out;
+	private BufferedReader 			in;
+	private int 					loopCnt;
 	public String testStatistic() 
 	{
 		// TODO Auto-generated method stub
@@ -35,7 +35,7 @@ public class FFMPEGImageStatisticTestDriver extends BroadcasterLoggableApiWorker
 			clientSocket = new Socket(hostName, portNumber);
 			clientSocket.setSoTimeout(120000);
 			 
-             out = new PrintWriter(clientSocket.getOutputStream(), true);
+            out = new PrintWriter(clientSocket.getOutputStream(), true);
 		 
             in = new BufferedReader(new InputStreamReader(clientSocket.getInputStream()));
 

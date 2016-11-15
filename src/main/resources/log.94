@@ -1,0 +1,34 @@
+Nov 10, 2016 10:41:58 AM com.zixi.testing.BaseTest beforeTes
+INFO: com.zixi.testing.BroadcasterSinglePullInStreamCreationTest
+Nov 10, 2016 10:41:58 AM com.zixi.testing.BaseTest beforeTes
+INFO: com.zixi.testing.BroadcasterAddIntelTranscoderProfileTest
+Nov 10, 2016 10:41:59 AM com.zixi.testing.BaseTest beforeTes
+INFO: com.zixi.testing.BroadcasterInputStatisticSingleStreamTest
+Nov 10, 2016 10:42:29 AM com.zixi.testing.BaseTest beforeTes
+INFO: com.zixi.testing.BroadcasterIntelTrannscodeStreamTest
+Nov 10, 2016 10:42:29 AM com.zixi.testing.BaseTest beforeTes
+INFO: com.zixi.testing.BroadcasterUDPOutputStreamCreationTest
+Nov 10, 2016 10:42:29 AM com.zixi.testing.BaseTest beforeTes
+INFO: com.zixi.testing.BroadcasterUDPOutputStreamCreationTest
+Nov 10, 2016 10:42:29 AM com.zixi.testing.BaseTest beforeTes
+INFO: com.zixi.testing.FFMPEGImageStatisticTest
+Nov 10, 2016 10:49:12 AM com.zixi.testing.BaseTest beforeTes
+INFO: com.zixi.testing.VisualQualityTest
+Nov 10, 2016 11:43:17 AM com.zixi.testing.BaseTest beforeTes
+INFO: com.zixi.testing.BroadcaserSingleOutputStreamDeletionTest
+Nov 10, 2016 11:43:18 AM com.zixi.testing.BroadcaserSingleOutputStreamDeletionTest broadcasterSingleStreamRemoving
+INFO: com.zixi.testing.BroadcaserSingleOutputStreamDeletionTest
+Nov 10, 2016 11:43:18 AM com.zixi.testing.BaseTest beforeTes
+INFO: com.zixi.testing.BroadcaserSingleOutputStreamDeletionTest
+Nov 10, 2016 11:43:18 AM com.zixi.testing.BroadcaserSingleOutputStreamDeletionTest broadcasterSingleStreamRemoving
+INFO: com.zixi.testing.BroadcaserSingleOutputStreamDeletionTest
+Nov 10, 2016 11:43:18 AM com.zixi.testing.BaseTest beforeTes
+INFO: com.zixi.testing.BroadcasterSingleInputStreamDeletionTest
+Nov 10, 2016 11:43:18 AM com.zixi.testing.BaseTest beforeTes
+INFO: com.zixi.testing.BroadcasterTranscoderDeletProfileTest
+Nov 10, 2016 11:43:18 AM com.zixi.testing.BaseTest beforeTes
+INFO: com.zixi.testing.BroadcasterSinglePullInStreamCreationTest
+Nov 10, 2016 11:43:18 AM com.zixi.testing.BaseTest beforeTes
+INFO: com.zixi.testing.BroadcasterAddIntelTranscoderProfileTest
+Nov 10, 2016 11:43:18 AM com.zixi.testing.BaseTest beforeTes
+INFO: com.zixi.testing.BroadcasterInputStatisticSingleStreamTest

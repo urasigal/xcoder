@@ -30,20 +30,17 @@ public class BroadcasterSingleInputStreamDeletionTest extends BaseTest {
 
 	@Parameters({ "login_ip", "userName", "userPassword", "streamId", "uiport" ,"testid"})
 	@Test
-	public void broadcasterInputStreamDeletion(String login_ip,
-			String userName, String userPassword, String streamId,
-			String uiport, String testid) throws InterruptedException {
-		this.testid = testid;
+	public void broadcasterInputStreamDeletion(String login_ip, String userName, String userPassword, String streamId,
+	String uiport, String testid) throws InterruptedException {
 		
-this.version = productAboutDriver.getBroadcasterVersion(login_ip, uiport, userName, userPassword);
+		this.testid = testid;
+		this.version = productAboutDriver.getBroadcasterVersion(login_ip, uiport, userName, userPassword);
 		
 		testParameters = buildTestParametersString(new String[] {"login_ip", "userName", "userPassword", "streamId", "uiport" ,"testid" }, 
-				
-				new String[] {login_ip, userName, userPassword, streamId, uiport ,testid });
+		new String[] {login_ip, userName, userPassword, streamId, uiport ,testid });
 		
 		
-		Assert.assertNotNull(((BroadcasterSingleInputStreamDeletionDriver) testDriver)
-				.removeInput(login_ip, userName, userPassword, streamId, uiport));
+		Assert.assertNotNull(((BroadcasterSingleInputStreamDeletionDriver) testDriver).removeInput(login_ip, userName, userPassword, streamId, uiport));
 	}
 
 }
