@@ -1,12 +1,12 @@
-Jun 19, 2016 3:39:19 PM com.zixi.testing.BaseTest beforeTes
-INFO: com.zixi.testing.BroadcasterFileInputTest
-Jun 19, 2016 3:39:20 PM com.zixi.testing.BaseTest beforeTes
-INFO: com.zixi.testing.BroadcasterFileInputTest
-Jun 19, 2016 3:39:20 PM com.zixi.testing.BaseTest beforeTes
+Jan 10, 2017 4:11:32 PM com.zixi.testing.BaseTest beforeTes
+INFO: com.zixi.testing.BroadcasterSinglePullInStreamCreationTest
+Jan 10, 2017 4:11:32 PM com.zixi.testing.BaseTest beforeTes
+INFO: com.zixi.testing.BroadcasterUDPOutputStreamCreationTest
+Jan 10, 2017 4:11:32 PM com.zixi.testing.BaseTest beforeTes
+INFO: com.zixi.testing.FFMPEGStreamPrameters
+Jan 10, 2017 4:11:38 PM com.zixi.testing.BaseTest beforeTes
+INFO: com.zixi.testing.BroadcaserSingleOutputStreamDeletionTest
+Jan 10, 2017 4:11:38 PM com.zixi.testing.BaseTest beforeTes
 INFO: com.zixi.testing.BroadcasterAddIntelTranscoderProfileTest
-Jun 19, 2016 3:39:20 PM com.zixi.testing.BaseTest beforeTes
-INFO: com.zixi.testing.BroadcasterIntelTrannscodeStreamTest
-Jun 19, 2016 3:39:20 PM com.zixi.testing.BaseTest beforeTes
-INFO: com.zixi.testing.BroadcasterFileInputTest
-Jun 19, 2016 3:39:20 PM com.zixi.testing.BaseTest beforeTes
-INFO: com.zixi.testing.BroadcasterFileInputTest
+Jan 10, 2017 4:11:38 PM com.zixi.testing.BaseTest beforeTes
+INFO: com.zixi.testing.BroadcasterInputStatisticSingleStreamTest

@@ -19,6 +19,7 @@ import org.testng.annotations.Parameters;
 import br.eti.kinoshita.testlinkjavaapi.constants.ExecutionStatus;
 
 import com.zixi.drivers.*;
+import com.zixi.drivers.tools.DriverReslut;
 import com.zixi.tools.TestlinkIntegration;
 
 /*
@@ -51,6 +52,8 @@ public class BaseTest {
 	protected Object 				params[];
 	protected String manulDescription 				= "";
 	
+	protected DriverReslut		driverReslut		= 	new DriverReslut();	
+	
 	@BeforeTest
 	public void startTest(final ITestContext testContext) {
 		automationTestIdentifiers = "Test name is: " + testContext.getName() + "\nSuite name is: " + testContext.getSuite().getName() ;
@@ -73,14 +76,14 @@ public class BaseTest {
      try{		
         TestlinkIntegration tl = new TestlinkIntegration();
         if (result.isSuccess()) {
- 
-            tl.setResult(testid,
-                    ExecutionStatus.PASSED, this.getClass().getCanonicalName() + "\n" + version + "\n"+  
-            automationTestIdentifiers + "\nTest Parameters: "+ testParameters  + " Manul description: " + manulDescription); // pass data to a testLink notes in test execution.
+        	String desc = driverReslut.touchResutlDescription("");
+            tl.setResult(testid, ExecutionStatus.PASSED, this.getClass().getCanonicalName() + "\n" + version + "\n"+  
+            automationTestIdentifiers + "\nTest Parameters: "+ testParameters  + " Manul description: " + manulDescription +
+            desc); // pass data to a testLink notes in test execution.
         } else {
-            tl.setResult(testid,
-                    ExecutionStatus.FAILED,  this.getClass().getCanonicalName() + "\n" + version + "\n"+  
-                            automationTestIdentifiers + "\nTest Parameters: "+ testParameters + "\n Error is " + result.getThrowable().getMessage() + "\n Exception stack trace: " + result.getThrowable().getStackTrace() + " Manul description: " + manulDescription );
+            tl.setResult(testid, ExecutionStatus.FAILED,  this.getClass().getCanonicalName() + "\n" + version + "\n"+  
+            automationTestIdentifiers + "\nTest Parameters: "+ testParameters + "\n Error is " + result.getThrowable().getMessage() + "\n Exception stack trace: "
+            + result.getThrowable().getStackTrace() + " Manul description: " + manulDescription + driverReslut.touchResutlDescription(""));
         }
      }catch(Exception e)
      {

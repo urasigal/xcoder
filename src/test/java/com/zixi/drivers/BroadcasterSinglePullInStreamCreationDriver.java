@@ -54,37 +54,21 @@ public class BroadcasterSinglePullInStreamCreationDriver extends
 	String nic, String max_outputs, String type, String password, String mcast_port, String complete, String mcast_ip,
 	String fec_adaptive, String mcast_ttl, String on, String func,String fec_force, String mcast_out, String propertiesFile) {
 		
-	testParameters = new TestParameters("userName:" + userName, "userPass:"+ userPass, "Host:" + Host, "loin_ip:" + loin_ip, "id:" + id,
-	"source:" + source, "uiport:" + uiport, "pull_port:" + pull_port, "latency:" + latency, "fec_latency:"
-	+ fec_latency, "fec_overhead:" + fec_overhead, "mcast_force:" + mcast_force, "time_shift:" + time_shift,
-	"nic:" + nic, "max_outputs:" + max_outputs, "type:" + type, "password:" + password, "mcast_port:" + mcast_port, "complete:"
-	+ complete, "mcast_ip:" + mcast_ip, "fec_adaptive:" + fec_adaptive, "mcast_ttl:" + mcast_ttl, "on:" + on,
-	"func:" + func, "fec_force:" + fec_force, "mcast_out:" + mcast_out, "propertiesFile:" + propertiesFile);
-
-//		try {
-//			input = new FileInputStream(propertiesFile);
-//			prop = new Properties();
-//			prop.load(input);
-//			streamEntity = new StreamEntity(prop.getProperty("width"),
-//					prop.getProperty("hight"),
-//					prop.getProperty("progressivness"),
-//					prop.getProperty("fps"), prop.getProperty("audiobitrate"),
-//					prop.getProperty("videocodec"),
-//					prop.getProperty("audiocodec"));
-//		} catch (FileNotFoundException e) {
-//			// TODO Auto-generated catch block
-//			e.printStackTrace();
-//		} catch (IOException e) {
-//			// TODO Auto-generated catch block
-//			e.printStackTrace();
-//		}
+		testParameters = new TestParameters("userName:" + userName, "userPass:"+ userPass, "Host:" + Host, "loin_ip:" + loin_ip, "id:" + id,
+		"source:" + source, "uiport:" + uiport, "pull_port:" + pull_port, "latency:" + latency, "fec_latency:"
+		+ fec_latency, "fec_overhead:" + fec_overhead, "mcast_force:" + mcast_force, "time_shift:" + time_shift,
+		"nic:" + nic, "max_outputs:" + max_outputs, "type:" + type, "password:" + password, "mcast_port:" + mcast_port, "complete:"
+		+ complete, "mcast_ip:" + mcast_ip, "fec_adaptive:" + fec_adaptive, "mcast_ttl:" + mcast_ttl, "on:" + on,
+		"func:" + func, "fec_force:" + fec_force, "mcast_out:" + mcast_out, "propertiesFile:" + propertiesFile);
 
 		responseCookieContainer = broadcasterInitialSecuredLogin.sendGet("http://" + loin_ip + ":" + uiport + "/login.htm", userName,userPass, loin_ip, uiport);
 		
-		// this function creates a single pull stream
-		return createPullInWithRandomName(userName, userPass, Host, loin_ip, id, source, uiport, pull_port, latency, fec_latency,
+		// this function creates a single pull stream 
+		String  res = createPullInWithRandomName(userName, userPass, Host, loin_ip, id, source, uiport, pull_port, latency, fec_latency,
 		fec_overhead, mcast_force, time_shift, nic, max_outputs, type, password, mcast_port, complete, mcast_ip, fec_adaptive,
 		mcast_ttl, on, func, fec_force, mcast_out);
+		
+		return res;
 	}
 
 	public String createPullInWithRandomName(String userName, String userPass, String Host, String loin_ip, String id, String source,
