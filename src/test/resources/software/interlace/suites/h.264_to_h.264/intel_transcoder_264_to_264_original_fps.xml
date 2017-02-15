@@ -158,7 +158,7 @@
 	<test name="Broadcaster - Record a transcoded steam and waits 480p_trans1">
 		<parameter name="userName" value="admin" />
 		<parameter name="userPass" value="1234" />
-		<parameter name="login_ip" value="10.7.0.62" />
+		<parameter name="login_ip" value="10.7.0.78" />
 		<parameter name="uiport" value="4444" />
 		<parameter name="id" value="480p_trans1" />
 		<parameter name="on" value="1" />
@@ -358,7 +358,7 @@
 	<test name="Broadcaster - Record a transcoded steam and waits 480p_trans2">
 		<parameter name="userName" value="admin" />
 		<parameter name="userPass" value="1234" />
-		<parameter name="login_ip" value="10.7.0.62" />
+		<parameter name="login_ip" value="10.7.0.78" />
 		<parameter name="uiport" value="4444" />
 		<parameter name="id" value="480p_trans2" />
 		<parameter name="on" value="1" />
@@ -558,7 +558,7 @@
 	<test name="Broadcaster - Record a transcoded steam and waits 1280x720p30_trans">
 		<parameter name="userName" value="admin" />
 		<parameter name="userPass" value="1234" />
-		<parameter name="login_ip" value="10.7.0.62" />
+		<parameter name="login_ip" value="10.7.0.78" />
 		<parameter name="uiport" value="4444" />
 		<parameter name="id" value="1280x720p30_trans" />
 		<parameter name="on" value="1" />
@@ -758,7 +758,7 @@
 	<test name="Broadcaster - Record a transcoded steam and waits 1280x720p30_trans2">
 		<parameter name="userName" value="admin" />
 		<parameter name="userPass" value="1234" />
-		<parameter name="login_ip" value="10.7.0.62" />
+		<parameter name="login_ip" value="10.7.0.78" />
 		<parameter name="uiport" value="4444" />
 		<parameter name="id" value="1280x720p30_trans2" />
 		<parameter name="on" value="1" />
