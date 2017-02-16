@@ -64,13 +64,14 @@ public class BroadcasterFileInputTest extends BaseTest{
 	@Parameters({ "userName", "userPass", "login_ip", "uiport", "id", "on","testid" })
 	@Test
 	public void broadcasterRecordInout(String userName, String userPass, String login_ip, String uiport,String id, String on, String testid)
-									  throws InterruptedException {
+	throws InterruptedException {
+		
 		this.testid = testid;
 		
 		this.version = productAboutDriver.getBroadcasterVersion(login_ip, uiport, userName, userPass);
 		
 		testParameters = buildTestParametersString(new String[] { "userName", "userPass", "login_ip", "uiport", "id","on", "testid"}, 
-												   new String[] {userName, userPass, login_ip, uiport, id, on, testid });
+		new String[] {userName, userPass, login_ip, uiport, id, on, testid });
 		
 		Assert.assertEquals(((BroadcasterFileInputDriver) testDriver).testIMPLRec(userName, userPass, login_ip, uiport, id, on), "added");
 		

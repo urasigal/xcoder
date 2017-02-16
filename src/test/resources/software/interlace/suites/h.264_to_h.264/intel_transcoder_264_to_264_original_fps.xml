@@ -67,7 +67,7 @@
 		<parameter name="height" value="480" />
 		<parameter name="crf" value="23" />
 		<parameter name="tune" value="zerolatency" />
-		<parameter name="use_hw" value="1" />
+		<parameter name="use_hw" value="0" />
 		<parameter name="max_bitrate" value="500000" />  
 		<parameter name="testid" value="4726" />
 		<classes>
@@ -107,7 +107,7 @@
 		<parameter name="rec_duration" value="7200" />
 		<parameter name="src" value="transcoder" />
 		<parameter name="ap" value="-1" />
-		<parameter name="use_hw" value="1" />
+		<parameter name="use_hw" value="0" />
 		<parameter name="ll" value="0" />
 		<parameter name="all_pids" value="0" />
 		<parameter name="bit" value="0" />
@@ -164,10 +164,11 @@
 		<parameter name="on" value="1" />
 		<parameter name="testid" value="1249" />    
 		<classes>
-		    <class name="com.zixi.testing.BroadcasterFileInputTest"/>
+		    <class name="com.zixi.testing.BroadcasterFileInputTest">
 		    <methods>
         		<include name="broadcasterRecordInout" />
      		 </methods>
+     		 </class>
 		</classes>
 	</test>
 	<test name="Broadcaster - Remove udp output stream - 720*480">
@@ -204,6 +205,7 @@
 		    <class name="com.zixi.testing.BroadcasterTranscoderDeletProfileTest"/>
 		</classes>
 	</test>
+	<!-- all PIDs scenario -->
 	<test name="Broadcaster Pull input creation test 720*480 all_pids" >
 		<parameter name="userName" value="admin" />
 		<parameter name="userPass" value="1234" />
@@ -267,7 +269,7 @@
 		<parameter name="height" value="480" />
 		<parameter name="crf" value="23" />
 		<parameter name="tune" value="zerolatency" />
-		<parameter name="use_hw" value="1" />
+		<parameter name="use_hw" value="0" />
 		<parameter name="max_bitrate" value="2500000" />  
 		<parameter name="testid" value="4751" />
 		<classes>
@@ -307,7 +309,7 @@
 		<parameter name="rec_duration" value="7200" />
 		<parameter name="src" value="transcoder" />
 		<parameter name="ap" value="-1" />
-		<parameter name="use_hw" value="1" />
+		<parameter name="use_hw" value="0" />
 		<parameter name="ll" value="0" />
 		<parameter name="all_pids" value="1" />
 		<parameter name="bit" value="0" />
@@ -467,7 +469,7 @@
 		<parameter name="height" value="720" />
 		<parameter name="crf" value="23" />
 		<parameter name="tune" value="zerolatency" />
-		<parameter name="use_hw" value="1" />
+		<parameter name="use_hw" value="0" />
 		<parameter name="max_bitrate" value="3000000" />  
 		<parameter name="testid" value="4776" />
 		<classes>
@@ -493,7 +495,7 @@
 		<parameter name="login_ip" value="10.7.0.78" />
 		<parameter name="uiport" value="4444" />
 		<parameter name="type" value="Transcoded" />
-		<parameter name="id" value="1280x720p30_trans" />
+		<parameter name="id" value="1280x720p30_trans_sw" />
 		<parameter name="matrix" value="1" />
 		<parameter name="max_outputs" value="-1" />
 		<parameter name="mcast_out" value="0" />
@@ -507,7 +509,7 @@
 		<parameter name="rec_duration" value="7200" />
 		<parameter name="src" value="transcoder" />
 		<parameter name="ap" value="-1" />
-		<parameter name="use_hw" value="1" />
+		<parameter name="use_hw" value="0" />
 		<parameter name="ll" value="0" />
 		<parameter name="all_pids" value="0" />
 		<parameter name="bit" value="0" />
@@ -523,10 +525,10 @@
 		<parameter name="userPass" value="1234" />
 		<parameter name="login_ip" value="10.7.0.78" />
 		<parameter name="port" value="5555" />
-		<parameter name="stream" value="1280x720p30_trans" />
-		<parameter name="streamname" value="1280x720p30_trans" />
+		<parameter name="stream" value="1280x720p30_trans_sw" />
+		<parameter name="streamname" value="1280x720p30_trans_sw" />
 		<parameter name="host" value="10.7.0.150" />
-		<parameter name="id" value="1280x720p30_trans" />
+		<parameter name="id" value="1280x720p30_trans_sw" />
 		<parameter name="rtp" value="0" />
 		<parameter name="fec" value="0" />
 		<parameter name="smoothing" value="0" />
@@ -555,12 +557,12 @@
 		    <class name="com.zixi.testing.FFMPEGImageStatisticTest"/>
 		</classes>
 	</test>
-	<test name="Broadcaster - Record a transcoded steam and waits 1280x720p30_trans">
+	<test name="Broadcaster - Record a transcoded steam and waits 1280x720p30_trans_sw">
 		<parameter name="userName" value="admin" />
 		<parameter name="userPass" value="1234" />
 		<parameter name="login_ip" value="10.7.0.78" />
 		<parameter name="uiport" value="4444" />
-		<parameter name="id" value="1280x720p30_trans" />
+		<parameter name="id" value="1280x720p30_trans_sw" />
 		<parameter name="on" value="1" />
 		<parameter name="testid" value="1249" />    
 		<classes>
@@ -574,7 +576,7 @@
 		<parameter name="login_ip" value="10.7.0.78" />
 		<parameter name="userName" value="admin" />
 		<parameter name="userPassword" value="1234" />
-		<parameter name="id" value="1280x720p30_trans" />
+		<parameter name="id" value="1280x720p30_trans_sw" />
 		<parameter name="uiport" value="4444" />
 		<parameter name="testid" value="4790" />  
 		<classes>
@@ -667,7 +669,7 @@
 		<parameter name="height" value="720" />
 		<parameter name="crf" value="23" />
 		<parameter name="tune" value="zerolatency" />
-		<parameter name="use_hw" value="1" />
+		<parameter name="use_hw" value="0" />
 		<parameter name="max_bitrate" value="3000000" />  
 		<parameter name="testid" value="4801" />
 		<classes>
@@ -693,7 +695,7 @@
 		<parameter name="login_ip" value="10.7.0.78" />
 		<parameter name="uiport" value="4444" />
 		<parameter name="type" value="Transcoded" />
-		<parameter name="id" value="1280x720p30_trans2" />
+		<parameter name="id" value="1280x720p30_trans_sw_all_pids" />
 		<parameter name="matrix" value="1" />
 		<parameter name="max_outputs" value="-1" />
 		<parameter name="mcast_out" value="0" />
@@ -707,7 +709,7 @@
 		<parameter name="rec_duration" value="7200" />
 		<parameter name="src" value="transcoder" />
 		<parameter name="ap" value="-1" />
-		<parameter name="use_hw" value="1" />
+		<parameter name="use_hw" value="0" />
 		<parameter name="ll" value="0" />
 		<parameter name="all_pids" value="1" />
 		<parameter name="bit" value="0" />
@@ -723,10 +725,10 @@
 		<parameter name="userPass" value="1234" />
 		<parameter name="login_ip" value="10.7.0.78" />
 		<parameter name="port" value="5555" />
-		<parameter name="stream" value="1280x720p30_trans2" />
-		<parameter name="streamname" value="1280x720p30_trans2" />
+		<parameter name="stream" value="1280x720p30_trans_sw_all_pids" />
+		<parameter name="streamname" value="1280x720p30_trans_sw_all_pids" />
 		<parameter name="host" value="10.7.0.150" />
-		<parameter name="id" value="1280x720p30_trans2" />
+		<parameter name="id" value="1280x720p30_trans_sw_all_pids" />
 		<parameter name="rtp" value="0" />
 		<parameter name="fec" value="0" />
 		<parameter name="smoothing" value="0" />
@@ -755,12 +757,12 @@
 		    <class name="com.zixi.testing.FFMPEGImageStatisticTest"/>
 		</classes>
 	</test>
-	<test name="Broadcaster - Record a transcoded steam and waits 1280x720p30_trans2">
+	<test name="Broadcaster - Record a transcoded steam and waits 1280x720p30_trans_sw2">
 		<parameter name="userName" value="admin" />
 		<parameter name="userPass" value="1234" />
 		<parameter name="login_ip" value="10.7.0.78" />
 		<parameter name="uiport" value="4444" />
-		<parameter name="id" value="1280x720p30_trans2" />
+		<parameter name="id" value="1280x720p30_trans_sw_all_pids" />
 		<parameter name="on" value="1" />
 		<parameter name="testid" value="1249" />    
 		<classes>
@@ -774,7 +776,7 @@
 		<parameter name="login_ip" value="10.7.0.78" />
 		<parameter name="userName" value="admin" />
 		<parameter name="userPassword" value="1234" />
-		<parameter name="id" value="1280x720p30_trans2" />
+		<parameter name="id" value="1280x720p30_trans_sw_all_pids" />
 		<parameter name="uiport" value="4444" />
 		<parameter name="testid" value="4815" />  
 		<classes>
