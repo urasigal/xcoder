@@ -39,8 +39,7 @@ public class BroadcasterFileInputDriver extends BroadcasterLoggableApiWorker imp
 		return apiworker.sendGet("http://" + login_ip + ":" + uiport + "/zixi/edit_stream.json?id=" + id + "&on=" + on, "", UDPMODE, responseCookieContainer, login_ip, this, uiport);
 	}
 	
-	public String testIMPLRec(String userName, String userPass, String login_ip,
-			String uiport, String id, String on) throws InterruptedException 
+	public String testIMPLRec(String userName, String userPass, String login_ip, String uiport, String id, String on) throws InterruptedException 
 	{
 		BroadcasterSystemDriver broadcasterSystemDriver = new BroadcasterSystemDriver();
 		responseCookieContainer = broadcasterInitialSecuredLogin.sendGet("http://" + login_ip + ":" + uiport + "/login.htm", userName, userPass, login_ip, uiport);
