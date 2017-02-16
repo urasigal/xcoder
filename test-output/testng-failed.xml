@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite verbose="5" name="Failed suite [Broadcaster: Intel Transcoder H.264 to H.264 24 FPS]" data-provider-thread-count="1">
+<suite verbose="5" name="Failed suite [Broadcaster: Intel Transcoder H.264 to H.264]" data-provider-thread-count="1">
   <parameter name="ll" value="0"/>
   <parameter name="remux_bitrate" value="0"/>
   <parameter name="df" value="0"/>
@@ -22,9 +22,9 @@
   <parameter name="profile_name" value="1280x720p30FPS"/>
   <parameter name="kompression" value="1"/>
   <parameter name="password" value=""/>
-  <parameter name="host" value="10.7.0.111"/>
+  <parameter name="host" value="10.7.0.150"/>
   <parameter name="mcast_ttl" value=""/>
-  <parameter name="testid" value="1431"/>
+  <parameter name="testid" value="4821"/>
   <parameter name="id" value="transcoder"/>
   <parameter name="fec_latency" value="300"/>
   <parameter name="hrd" value="2"/>
@@ -36,14 +36,14 @@
   <parameter name="old" value="0"/>
   <parameter name="fec_adaptive" value="1"/>
   <parameter name="profile" value="1"/>
-  <parameter name="frame_type" value="0"/>
+  <parameter name="frame_type" value="1"/>
   <parameter name="login_ip" value="10.7.0.78"/>
   <parameter name="max_bitrate" value="3000000"/>
   <parameter name="fixed_gop" value="1"/>
   <parameter name="ap" value="-1"/>
   <parameter name="local_ip" value="0.0.0.0"/>
   <parameter name="fast_connect" value="0"/>
-  <parameter name="port" value="9999"/>
+  <parameter name="port" value="5555"/>
   <parameter name="uiport" value="4444"/>
   <parameter name="contrast" value="1"/>
   <parameter name="userPassword" value="1234"/>
@@ -53,7 +53,7 @@
   <parameter name="bitrate_mode" value="1"/>
   <parameter name="tune" value="zerolatency"/>
   <parameter name="enc_key" value=""/>
-  <parameter name="stream" value="1280x720p30_trans"/>
+  <parameter name="stream" value="1280x720p30_trans_sw_all_pids"/>
   <parameter name="crf" value="23"/>
   <parameter name="remux_restampdts" value="0"/>
   <parameter name="enc_type" value=""/>
@@ -61,7 +61,7 @@
   <parameter name="testduration" value="5"/>
   <parameter name="cols" value="10"/>
   <parameter name="max_outputs" value="-1"/>
-  <parameter name="streamname" value="1280x720p30_transs"/>
+  <parameter name="streamname" value="1280x720p30_trans_sw_all_pids"/>
   <parameter name="on" value="1"/>
   <parameter name="propertiesFile" value="stream.properties"/>
   <parameter name="fec_force" value=""/>
@@ -72,7 +72,7 @@
   <parameter name="local_port" value=""/>
   <parameter name="userPass" value="1234"/>
   <parameter name="mcast_port" value=""/>
-  <parameter name="fps" value="24"/>
+  <parameter name="fps" value="0"/>
   <parameter name="closed_gop" value="1"/>
   <parameter name="Host" value="10.7.0.64"/>
   <parameter name="userName" value="admin"/>
@@ -91,9 +91,141 @@
   <parameter name="mcast_out" value="0"/>
   <parameter name="complete" value=""/>
   <parameter name="dec_type" value=""/>
-  <test name="FFMPEG test - 720*480(failed)">
-    <parameter name="testid" value="3801"/>
+  <test name="Broadcaster: add profile h.264 - 720*480(failed)">
+    <parameter name="b_frames" value="3"/>
+    <parameter name="gop" value="30"/>
+    <parameter name="bitrate" value="300000"/>
+    <parameter name="ref_frames" value="2"/>
+    <parameter name="bitrate_mode" value="1"/>
+    <parameter name="tune" value="zerolatency"/>
+    <parameter name="mode" value="h.264"/>
+    <parameter name="profile_name" value="480p"/>
+    <parameter name="crf" value="23"/>
+    <parameter name="testid" value="4726"/>
+    <parameter name="enc" value="1"/>
+    <parameter name="hrd" value="2"/>
+    <parameter name="height" value="480"/>
+    <parameter name="idr_int" value="1"/>
+    <parameter name="copy_gop" value="0"/>
+    <parameter name="level" value="100"/>
+    <parameter name="userPass" value="1234"/>
+    <parameter name="profile" value="1"/>
+    <parameter name="fps" value="0"/>
+    <parameter name="closed_gop" value="1"/>
+    <parameter name="userName" value="admin"/>
+    <parameter name="frame_type" value="1"/>
+    <parameter name="login_ip" value="10.7.0.78"/>
+    <parameter name="use_hw" value="0"/>
+    <parameter name="max_bitrate" value="500000"/>
+    <parameter name="fixed_gop" value="1"/>
+    <parameter name="cavlc" value="0"/>
+    <parameter name="performance" value="4"/>
+    <parameter name="brightness" value="0"/>
+    <parameter name="uiport" value="4444"/>
+    <parameter name="contrast" value="1"/>
+    <parameter name="width" value="720"/>
     <classes>
+      <class name="com.zixi.testing.BroadcasterAddIntelTranscoderProfileTest">
+        <methods>
+          <include name="broadcasterSingleInputStreamstatisticAnilyzer" invocation-numbers="0"/>
+          <include name="startTest"/>
+          <include name="startTest"/>
+          <include name="startTest"/>
+          <include name="startTest"/>
+          <include name="beforeTes"/>
+          <include name="beforeTes"/>
+          <include name="beforeTes"/>
+          <include name="beforeTes"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+          <include name="testInit"/>
+          <include name="testInit"/>
+          <include name="testInit"/>
+          <include name="testInit"/>
+        </methods>
+      </class> <!-- com.zixi.testing.BroadcasterAddIntelTranscoderProfileTest -->
+      <class name="com.zixi.testing.BroadcasterFileInputTest">
+        <methods>
+          <include name="startTest"/>
+          <include name="startTest"/>
+          <include name="startTest"/>
+          <include name="startTest"/>
+          <include name="beforeTes"/>
+          <include name="beforeTes"/>
+          <include name="beforeTes"/>
+          <include name="beforeTes"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+          <include name="testInit"/>
+          <include name="testInit"/>
+          <include name="testInit"/>
+          <include name="testInit"/>
+        </methods>
+      </class> <!-- com.zixi.testing.BroadcasterFileInputTest -->
+      <class name="com.zixi.testing.BroadcasterTranscoderDeletProfileTest">
+        <methods>
+          <include name="startTest"/>
+          <include name="startTest"/>
+          <include name="startTest"/>
+          <include name="startTest"/>
+          <include name="beforeTes"/>
+          <include name="beforeTes"/>
+          <include name="beforeTes"/>
+          <include name="beforeTes"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+          <include name="testInit"/>
+          <include name="testInit"/>
+          <include name="testInit"/>
+          <include name="testInit"/>
+        </methods>
+      </class> <!-- com.zixi.testing.BroadcasterTranscoderDeletProfileTest -->
+      <class name="com.zixi.testing.BroadcasterSingleInputStreamDeletionTest">
+        <methods>
+          <include name="startTest"/>
+          <include name="startTest"/>
+          <include name="startTest"/>
+          <include name="startTest"/>
+          <include name="testInit"/>
+          <include name="testInit"/>
+          <include name="testInit"/>
+          <include name="testInit"/>
+          <include name="beforeTes"/>
+          <include name="beforeTes"/>
+          <include name="beforeTes"/>
+          <include name="beforeTes"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- com.zixi.testing.BroadcasterSingleInputStreamDeletionTest -->
+      <class name="com.zixi.testing.BroadcasterSinglePullInStreamCreationTest">
+        <methods>
+          <include name="startTest"/>
+          <include name="startTest"/>
+          <include name="startTest"/>
+          <include name="startTest"/>
+          <include name="testInit"/>
+          <include name="testInit"/>
+          <include name="testInit"/>
+          <include name="testInit"/>
+          <include name="beforeTes"/>
+          <include name="beforeTes"/>
+          <include name="beforeTes"/>
+          <include name="beforeTes"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- com.zixi.testing.BroadcasterSinglePullInStreamCreationTest -->
       <class name="com.zixi.testing.BroadcasterInputStatisticSingleStreamTest">
         <methods>
           <include name="startTest"/>
@@ -120,6 +252,22 @@
           <include name="startTest"/>
           <include name="startTest"/>
           <include name="startTest"/>
+          <include name="beforeTes"/>
+          <include name="beforeTes"/>
+          <include name="beforeTes"/>
+          <include name="beforeTes"/>
+          <include name="testInit"/>
+          <include name="testInit"/>
+          <include name="testInit"/>
+          <include name="testInit"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- com.zixi.testing.BroadcasterUDPOutputStreamCreationTest -->
+      <class name="com.zixi.testing.FFMPEGImageStatisticTest">
+        <methods>
           <include name="startTest"/>
           <include name="startTest"/>
           <include name="startTest"/>
@@ -128,6 +276,22 @@
           <include name="beforeTes"/>
           <include name="beforeTes"/>
           <include name="beforeTes"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+          <include name="testInit"/>
+          <include name="testInit"/>
+          <include name="testInit"/>
+          <include name="testInit"/>
+        </methods>
+      </class> <!-- com.zixi.testing.FFMPEGImageStatisticTest -->
+      <class name="com.zixi.testing.BroadcasterIntelTrannscodeStreamTest">
+        <methods>
+          <include name="startTest"/>
+          <include name="startTest"/>
+          <include name="startTest"/>
+          <include name="startTest"/>
           <include name="beforeTes"/>
           <include name="beforeTes"/>
           <include name="beforeTes"/>
@@ -136,6 +300,22 @@
           <include name="afterTest"/>
           <include name="afterTest"/>
           <include name="afterTest"/>
+          <include name="testInit"/>
+          <include name="testInit"/>
+          <include name="testInit"/>
+          <include name="testInit"/>
+        </methods>
+      </class> <!-- com.zixi.testing.BroadcasterIntelTrannscodeStreamTest -->
+      <class name="com.zixi.testing.BroadcaserSingleOutputStreamDeletionTest">
+        <methods>
+          <include name="startTest"/>
+          <include name="startTest"/>
+          <include name="startTest"/>
+          <include name="startTest"/>
+          <include name="beforeTes"/>
+          <include name="beforeTes"/>
+          <include name="beforeTes"/>
+          <include name="beforeTes"/>
           <include name="afterTest"/>
           <include name="afterTest"/>
           <include name="afterTest"/>
@@ -144,10 +324,172 @@
           <include name="testInit"/>
           <include name="testInit"/>
           <include name="testInit"/>
+        </methods>
+      </class> <!-- com.zixi.testing.BroadcaserSingleOutputStreamDeletionTest -->
+    </classes>
+  </test> <!-- Broadcaster: add profile h.264 - 720*480(failed) -->
+  <test name="FFMPEG test - 720*480(failed)">
+    <parameter name="testid" value="4736"/>
+    <classes>
+      <class name="com.zixi.testing.BroadcasterAddIntelTranscoderProfileTest">
+        <methods>
+          <include name="startTest"/>
+          <include name="startTest"/>
+          <include name="startTest"/>
+          <include name="startTest"/>
+          <include name="beforeTes"/>
+          <include name="beforeTes"/>
+          <include name="beforeTes"/>
+          <include name="beforeTes"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
           <include name="testInit"/>
           <include name="testInit"/>
           <include name="testInit"/>
           <include name="testInit"/>
+        </methods>
+      </class> <!-- com.zixi.testing.BroadcasterAddIntelTranscoderProfileTest -->
+      <class name="com.zixi.testing.BroadcasterFileInputTest">
+        <methods>
+          <include name="startTest"/>
+          <include name="startTest"/>
+          <include name="startTest"/>
+          <include name="startTest"/>
+          <include name="beforeTes"/>
+          <include name="beforeTes"/>
+          <include name="beforeTes"/>
+          <include name="beforeTes"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+          <include name="testInit"/>
+          <include name="testInit"/>
+          <include name="testInit"/>
+          <include name="testInit"/>
+        </methods>
+      </class> <!-- com.zixi.testing.BroadcasterFileInputTest -->
+      <class name="com.zixi.testing.BroadcasterTranscoderDeletProfileTest">
+        <methods>
+          <include name="startTest"/>
+          <include name="startTest"/>
+          <include name="startTest"/>
+          <include name="startTest"/>
+          <include name="beforeTes"/>
+          <include name="beforeTes"/>
+          <include name="beforeTes"/>
+          <include name="beforeTes"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+          <include name="testInit"/>
+          <include name="testInit"/>
+          <include name="testInit"/>
+          <include name="testInit"/>
+        </methods>
+      </class> <!-- com.zixi.testing.BroadcasterTranscoderDeletProfileTest -->
+      <class name="com.zixi.testing.BroadcasterSingleInputStreamDeletionTest">
+        <methods>
+          <include name="startTest"/>
+          <include name="startTest"/>
+          <include name="startTest"/>
+          <include name="startTest"/>
+          <include name="testInit"/>
+          <include name="testInit"/>
+          <include name="testInit"/>
+          <include name="testInit"/>
+          <include name="beforeTes"/>
+          <include name="beforeTes"/>
+          <include name="beforeTes"/>
+          <include name="beforeTes"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- com.zixi.testing.BroadcasterSingleInputStreamDeletionTest -->
+      <class name="com.zixi.testing.BroadcasterSinglePullInStreamCreationTest">
+        <methods>
+          <include name="startTest"/>
+          <include name="startTest"/>
+          <include name="startTest"/>
+          <include name="startTest"/>
+          <include name="testInit"/>
+          <include name="testInit"/>
+          <include name="testInit"/>
+          <include name="testInit"/>
+          <include name="beforeTes"/>
+          <include name="beforeTes"/>
+          <include name="beforeTes"/>
+          <include name="beforeTes"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- com.zixi.testing.BroadcasterSinglePullInStreamCreationTest -->
+      <class name="com.zixi.testing.BroadcasterInputStatisticSingleStreamTest">
+        <methods>
+          <include name="startTest"/>
+          <include name="startTest"/>
+          <include name="startTest"/>
+          <include name="startTest"/>
+          <include name="beforeTes"/>
+          <include name="beforeTes"/>
+          <include name="beforeTes"/>
+          <include name="beforeTes"/>
+          <include name="testInit"/>
+          <include name="testInit"/>
+          <include name="testInit"/>
+          <include name="testInit"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- com.zixi.testing.BroadcasterInputStatisticSingleStreamTest -->
+      <class name="com.zixi.testing.FFMPEGImageStatisticTest">
+        <methods>
+          <include name="startTest"/>
+          <include name="startTest"/>
+          <include name="startTest"/>
+          <include name="startTest"/>
+          <include name="beforeTes"/>
+          <include name="beforeTes"/>
+          <include name="beforeTes"/>
+          <include name="beforeTes"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+          <include name="testInit"/>
+          <include name="testInit"/>
+          <include name="testInit"/>
+          <include name="testInit"/>
+          <include name="broadcasterSingleInputStreamStatisticAnilyzer" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.zixi.testing.FFMPEGImageStatisticTest -->
+      <class name="com.zixi.testing.BroadcasterUDPOutputStreamCreationTest">
+        <methods>
+          <include name="startTest"/>
+          <include name="startTest"/>
+          <include name="startTest"/>
+          <include name="startTest"/>
+          <include name="beforeTes"/>
+          <include name="beforeTes"/>
+          <include name="beforeTes"/>
+          <include name="beforeTes"/>
+          <include name="testInit"/>
+          <include name="testInit"/>
+          <include name="testInit"/>
+          <include name="testInit"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
         </methods>
       </class> <!-- com.zixi.testing.BroadcasterUDPOutputStreamCreationTest -->
       <class name="com.zixi.testing.BroadcasterIntelTrannscodeStreamTest">
@@ -170,101 +512,12 @@
           <include name="testInit"/>
         </methods>
       </class> <!-- com.zixi.testing.BroadcasterIntelTrannscodeStreamTest -->
-      <class name="com.zixi.testing.BroadcasterSingleInputStreamDeletionTest">
-        <methods>
-          <include name="startTest"/>
-          <include name="startTest"/>
-          <include name="startTest"/>
-          <include name="startTest"/>
-          <include name="testInit"/>
-          <include name="testInit"/>
-          <include name="testInit"/>
-          <include name="testInit"/>
-          <include name="beforeTes"/>
-          <include name="beforeTes"/>
-          <include name="beforeTes"/>
-          <include name="beforeTes"/>
-          <include name="afterTest"/>
-          <include name="afterTest"/>
-          <include name="afterTest"/>
-          <include name="afterTest"/>
-        </methods>
-      </class> <!-- com.zixi.testing.BroadcasterSingleInputStreamDeletionTest -->
-      <class name="com.zixi.testing.BroadcasterAddIntelTranscoderProfileTest">
-        <methods>
-          <include name="startTest"/>
-          <include name="startTest"/>
-          <include name="startTest"/>
-          <include name="startTest"/>
-          <include name="beforeTes"/>
-          <include name="beforeTes"/>
-          <include name="beforeTes"/>
-          <include name="beforeTes"/>
-          <include name="afterTest"/>
-          <include name="afterTest"/>
-          <include name="afterTest"/>
-          <include name="afterTest"/>
-          <include name="testInit"/>
-          <include name="testInit"/>
-          <include name="testInit"/>
-          <include name="testInit"/>
-        </methods>
-      </class> <!-- com.zixi.testing.BroadcasterAddIntelTranscoderProfileTest -->
-      <class name="com.zixi.testing.FFMPEGImageStatisticTest">
-        <methods>
-          <include name="startTest"/>
-          <include name="startTest"/>
-          <include name="startTest"/>
-          <include name="startTest"/>
-          <include name="beforeTes"/>
-          <include name="beforeTes"/>
-          <include name="beforeTes"/>
-          <include name="beforeTes"/>
-          <include name="afterTest"/>
-          <include name="afterTest"/>
-          <include name="afterTest"/>
-          <include name="afterTest"/>
-          <include name="testInit"/>
-          <include name="testInit"/>
-          <include name="testInit"/>
-          <include name="testInit"/>
-          <include name="broadcasterSingleInputStreamStatisticAnilyzer" invocation-numbers="0"/>
-        </methods>
-      </class> <!-- com.zixi.testing.FFMPEGImageStatisticTest -->
-      <class name="com.zixi.testing.BroadcasterSinglePullInStreamCreationTest">
-        <methods>
-          <include name="startTest"/>
-          <include name="startTest"/>
-          <include name="startTest"/>
-          <include name="startTest"/>
-          <include name="testInit"/>
-          <include name="testInit"/>
-          <include name="testInit"/>
-          <include name="testInit"/>
-          <include name="beforeTes"/>
-          <include name="beforeTes"/>
-          <include name="beforeTes"/>
-          <include name="beforeTes"/>
-          <include name="afterTest"/>
-          <include name="afterTest"/>
-          <include name="afterTest"/>
-          <include name="afterTest"/>
-        </methods>
-      </class> <!-- com.zixi.testing.BroadcasterSinglePullInStreamCreationTest -->
       <class name="com.zixi.testing.BroadcaserSingleOutputStreamDeletionTest">
         <methods>
           <include name="startTest"/>
           <include name="startTest"/>
           <include name="startTest"/>
           <include name="startTest"/>
-          <include name="startTest"/>
-          <include name="startTest"/>
-          <include name="startTest"/>
-          <include name="startTest"/>
-          <include name="beforeTes"/>
-          <include name="beforeTes"/>
-          <include name="beforeTes"/>
-          <include name="beforeTes"/>
           <include name="beforeTes"/>
           <include name="beforeTes"/>
           <include name="beforeTes"/>
@@ -273,45 +526,124 @@
           <include name="afterTest"/>
           <include name="afterTest"/>
           <include name="afterTest"/>
-          <include name="afterTest"/>
-          <include name="afterTest"/>
-          <include name="afterTest"/>
-          <include name="afterTest"/>
-          <include name="testInit"/>
-          <include name="testInit"/>
-          <include name="testInit"/>
-          <include name="testInit"/>
           <include name="testInit"/>
           <include name="testInit"/>
           <include name="testInit"/>
           <include name="testInit"/>
         </methods>
       </class> <!-- com.zixi.testing.BroadcaserSingleOutputStreamDeletionTest -->
-      <class name="com.zixi.testing.BroadcasterTranscoderDeletProfileTest">
-        <methods>
-          <include name="startTest"/>
-          <include name="startTest"/>
-          <include name="startTest"/>
-          <include name="startTest"/>
-          <include name="beforeTes"/>
-          <include name="beforeTes"/>
-          <include name="beforeTes"/>
-          <include name="beforeTes"/>
-          <include name="afterTest"/>
-          <include name="afterTest"/>
-          <include name="afterTest"/>
-          <include name="afterTest"/>
-          <include name="testInit"/>
-          <include name="testInit"/>
-          <include name="testInit"/>
-          <include name="testInit"/>
-        </methods>
-      </class> <!-- com.zixi.testing.BroadcasterTranscoderDeletProfileTest -->
     </classes>
   </test> <!-- FFMPEG test - 720*480(failed) -->
-  <test name="FFMPEG test Pull input FFMPEG analyser- 720*480 all_pids(failed)">
-    <parameter name="testid" value="2378"/>
+  <test name="Broadcaster - Record a transcoded steam and waits 480p_trans1(failed)">
+    <parameter name="uiport" value="4444"/>
+    <parameter name="userPass" value="1234"/>
+    <parameter name="testid" value="1249"/>
+    <parameter name="id" value="480p_trans1"/>
+    <parameter name="userName" value="admin"/>
+    <parameter name="login_ip" value="10.7.0.78"/>
+    <parameter name="on" value="1"/>
     <classes>
+      <class name="com.zixi.testing.BroadcasterAddIntelTranscoderProfileTest">
+        <methods>
+          <include name="startTest"/>
+          <include name="startTest"/>
+          <include name="startTest"/>
+          <include name="startTest"/>
+          <include name="beforeTes"/>
+          <include name="beforeTes"/>
+          <include name="beforeTes"/>
+          <include name="beforeTes"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+          <include name="testInit"/>
+          <include name="testInit"/>
+          <include name="testInit"/>
+          <include name="testInit"/>
+        </methods>
+      </class> <!-- com.zixi.testing.BroadcasterAddIntelTranscoderProfileTest -->
+      <class name="com.zixi.testing.BroadcasterFileInputTest">
+        <methods>
+          <include name="startTest"/>
+          <include name="startTest"/>
+          <include name="startTest"/>
+          <include name="startTest"/>
+          <include name="beforeTes"/>
+          <include name="beforeTes"/>
+          <include name="beforeTes"/>
+          <include name="beforeTes"/>
+          <include name="broadcasterRecordInout" invocation-numbers="0"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+          <include name="testInit"/>
+          <include name="testInit"/>
+          <include name="testInit"/>
+          <include name="testInit"/>
+        </methods>
+      </class> <!-- com.zixi.testing.BroadcasterFileInputTest -->
+      <class name="com.zixi.testing.BroadcasterTranscoderDeletProfileTest">
+        <methods>
+          <include name="startTest"/>
+          <include name="startTest"/>
+          <include name="startTest"/>
+          <include name="startTest"/>
+          <include name="beforeTes"/>
+          <include name="beforeTes"/>
+          <include name="beforeTes"/>
+          <include name="beforeTes"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+          <include name="testInit"/>
+          <include name="testInit"/>
+          <include name="testInit"/>
+          <include name="testInit"/>
+        </methods>
+      </class> <!-- com.zixi.testing.BroadcasterTranscoderDeletProfileTest -->
+      <class name="com.zixi.testing.BroadcasterSingleInputStreamDeletionTest">
+        <methods>
+          <include name="startTest"/>
+          <include name="startTest"/>
+          <include name="startTest"/>
+          <include name="startTest"/>
+          <include name="testInit"/>
+          <include name="testInit"/>
+          <include name="testInit"/>
+          <include name="testInit"/>
+          <include name="beforeTes"/>
+          <include name="beforeTes"/>
+          <include name="beforeTes"/>
+          <include name="beforeTes"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- com.zixi.testing.BroadcasterSingleInputStreamDeletionTest -->
+      <class name="com.zixi.testing.BroadcasterSinglePullInStreamCreationTest">
+        <methods>
+          <include name="startTest"/>
+          <include name="startTest"/>
+          <include name="startTest"/>
+          <include name="startTest"/>
+          <include name="testInit"/>
+          <include name="testInit"/>
+          <include name="testInit"/>
+          <include name="testInit"/>
+          <include name="beforeTes"/>
+          <include name="beforeTes"/>
+          <include name="beforeTes"/>
+          <include name="beforeTes"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- com.zixi.testing.BroadcasterSinglePullInStreamCreationTest -->
       <class name="com.zixi.testing.BroadcasterInputStatisticSingleStreamTest">
         <methods>
           <include name="startTest"/>
@@ -338,6 +670,22 @@
           <include name="startTest"/>
           <include name="startTest"/>
           <include name="startTest"/>
+          <include name="beforeTes"/>
+          <include name="beforeTes"/>
+          <include name="beforeTes"/>
+          <include name="beforeTes"/>
+          <include name="testInit"/>
+          <include name="testInit"/>
+          <include name="testInit"/>
+          <include name="testInit"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- com.zixi.testing.BroadcasterUDPOutputStreamCreationTest -->
+      <class name="com.zixi.testing.FFMPEGImageStatisticTest">
+        <methods>
           <include name="startTest"/>
           <include name="startTest"/>
           <include name="startTest"/>
@@ -346,6 +694,22 @@
           <include name="beforeTes"/>
           <include name="beforeTes"/>
           <include name="beforeTes"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+          <include name="testInit"/>
+          <include name="testInit"/>
+          <include name="testInit"/>
+          <include name="testInit"/>
+        </methods>
+      </class> <!-- com.zixi.testing.FFMPEGImageStatisticTest -->
+      <class name="com.zixi.testing.BroadcasterIntelTrannscodeStreamTest">
+        <methods>
+          <include name="startTest"/>
+          <include name="startTest"/>
+          <include name="startTest"/>
+          <include name="startTest"/>
           <include name="beforeTes"/>
           <include name="beforeTes"/>
           <include name="beforeTes"/>
@@ -354,6 +718,22 @@
           <include name="afterTest"/>
           <include name="afterTest"/>
           <include name="afterTest"/>
+          <include name="testInit"/>
+          <include name="testInit"/>
+          <include name="testInit"/>
+          <include name="testInit"/>
+        </methods>
+      </class> <!-- com.zixi.testing.BroadcasterIntelTrannscodeStreamTest -->
+      <class name="com.zixi.testing.BroadcaserSingleOutputStreamDeletionTest">
+        <methods>
+          <include name="startTest"/>
+          <include name="startTest"/>
+          <include name="startTest"/>
+          <include name="startTest"/>
+          <include name="beforeTes"/>
+          <include name="beforeTes"/>
+          <include name="beforeTes"/>
+          <include name="beforeTes"/>
           <include name="afterTest"/>
           <include name="afterTest"/>
           <include name="afterTest"/>
@@ -362,10 +742,172 @@
           <include name="testInit"/>
           <include name="testInit"/>
           <include name="testInit"/>
+        </methods>
+      </class> <!-- com.zixi.testing.BroadcaserSingleOutputStreamDeletionTest -->
+    </classes>
+  </test> <!-- Broadcaster - Record a transcoded steam and waits 480p_trans1(failed) -->
+  <test name="FFMPEG test Pull input FFMPEG analyser- 720*480 all_pids(failed)">
+    <parameter name="testid" value="4761"/>
+    <classes>
+      <class name="com.zixi.testing.BroadcasterAddIntelTranscoderProfileTest">
+        <methods>
+          <include name="startTest"/>
+          <include name="startTest"/>
+          <include name="startTest"/>
+          <include name="startTest"/>
+          <include name="beforeTes"/>
+          <include name="beforeTes"/>
+          <include name="beforeTes"/>
+          <include name="beforeTes"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
           <include name="testInit"/>
           <include name="testInit"/>
           <include name="testInit"/>
           <include name="testInit"/>
+        </methods>
+      </class> <!-- com.zixi.testing.BroadcasterAddIntelTranscoderProfileTest -->
+      <class name="com.zixi.testing.BroadcasterFileInputTest">
+        <methods>
+          <include name="startTest"/>
+          <include name="startTest"/>
+          <include name="startTest"/>
+          <include name="startTest"/>
+          <include name="beforeTes"/>
+          <include name="beforeTes"/>
+          <include name="beforeTes"/>
+          <include name="beforeTes"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+          <include name="testInit"/>
+          <include name="testInit"/>
+          <include name="testInit"/>
+          <include name="testInit"/>
+        </methods>
+      </class> <!-- com.zixi.testing.BroadcasterFileInputTest -->
+      <class name="com.zixi.testing.BroadcasterTranscoderDeletProfileTest">
+        <methods>
+          <include name="startTest"/>
+          <include name="startTest"/>
+          <include name="startTest"/>
+          <include name="startTest"/>
+          <include name="beforeTes"/>
+          <include name="beforeTes"/>
+          <include name="beforeTes"/>
+          <include name="beforeTes"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+          <include name="testInit"/>
+          <include name="testInit"/>
+          <include name="testInit"/>
+          <include name="testInit"/>
+        </methods>
+      </class> <!-- com.zixi.testing.BroadcasterTranscoderDeletProfileTest -->
+      <class name="com.zixi.testing.BroadcasterSingleInputStreamDeletionTest">
+        <methods>
+          <include name="startTest"/>
+          <include name="startTest"/>
+          <include name="startTest"/>
+          <include name="startTest"/>
+          <include name="testInit"/>
+          <include name="testInit"/>
+          <include name="testInit"/>
+          <include name="testInit"/>
+          <include name="beforeTes"/>
+          <include name="beforeTes"/>
+          <include name="beforeTes"/>
+          <include name="beforeTes"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- com.zixi.testing.BroadcasterSingleInputStreamDeletionTest -->
+      <class name="com.zixi.testing.BroadcasterSinglePullInStreamCreationTest">
+        <methods>
+          <include name="startTest"/>
+          <include name="startTest"/>
+          <include name="startTest"/>
+          <include name="startTest"/>
+          <include name="testInit"/>
+          <include name="testInit"/>
+          <include name="testInit"/>
+          <include name="testInit"/>
+          <include name="beforeTes"/>
+          <include name="beforeTes"/>
+          <include name="beforeTes"/>
+          <include name="beforeTes"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- com.zixi.testing.BroadcasterSinglePullInStreamCreationTest -->
+      <class name="com.zixi.testing.BroadcasterInputStatisticSingleStreamTest">
+        <methods>
+          <include name="startTest"/>
+          <include name="startTest"/>
+          <include name="startTest"/>
+          <include name="startTest"/>
+          <include name="beforeTes"/>
+          <include name="beforeTes"/>
+          <include name="beforeTes"/>
+          <include name="beforeTes"/>
+          <include name="testInit"/>
+          <include name="testInit"/>
+          <include name="testInit"/>
+          <include name="testInit"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- com.zixi.testing.BroadcasterInputStatisticSingleStreamTest -->
+      <class name="com.zixi.testing.FFMPEGImageStatisticTest">
+        <methods>
+          <include name="startTest"/>
+          <include name="startTest"/>
+          <include name="startTest"/>
+          <include name="startTest"/>
+          <include name="beforeTes"/>
+          <include name="beforeTes"/>
+          <include name="beforeTes"/>
+          <include name="beforeTes"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+          <include name="testInit"/>
+          <include name="testInit"/>
+          <include name="testInit"/>
+          <include name="testInit"/>
+          <include name="broadcasterSingleInputStreamStatisticAnilyzer" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.zixi.testing.FFMPEGImageStatisticTest -->
+      <class name="com.zixi.testing.BroadcasterUDPOutputStreamCreationTest">
+        <methods>
+          <include name="startTest"/>
+          <include name="startTest"/>
+          <include name="startTest"/>
+          <include name="startTest"/>
+          <include name="beforeTes"/>
+          <include name="beforeTes"/>
+          <include name="beforeTes"/>
+          <include name="beforeTes"/>
+          <include name="testInit"/>
+          <include name="testInit"/>
+          <include name="testInit"/>
+          <include name="testInit"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
         </methods>
       </class> <!-- com.zixi.testing.BroadcasterUDPOutputStreamCreationTest -->
       <class name="com.zixi.testing.BroadcasterIntelTrannscodeStreamTest">
@@ -388,101 +930,12 @@
           <include name="testInit"/>
         </methods>
       </class> <!-- com.zixi.testing.BroadcasterIntelTrannscodeStreamTest -->
-      <class name="com.zixi.testing.BroadcasterSingleInputStreamDeletionTest">
-        <methods>
-          <include name="startTest"/>
-          <include name="startTest"/>
-          <include name="startTest"/>
-          <include name="startTest"/>
-          <include name="testInit"/>
-          <include name="testInit"/>
-          <include name="testInit"/>
-          <include name="testInit"/>
-          <include name="beforeTes"/>
-          <include name="beforeTes"/>
-          <include name="beforeTes"/>
-          <include name="beforeTes"/>
-          <include name="afterTest"/>
-          <include name="afterTest"/>
-          <include name="afterTest"/>
-          <include name="afterTest"/>
-        </methods>
-      </class> <!-- com.zixi.testing.BroadcasterSingleInputStreamDeletionTest -->
-      <class name="com.zixi.testing.BroadcasterAddIntelTranscoderProfileTest">
-        <methods>
-          <include name="startTest"/>
-          <include name="startTest"/>
-          <include name="startTest"/>
-          <include name="startTest"/>
-          <include name="beforeTes"/>
-          <include name="beforeTes"/>
-          <include name="beforeTes"/>
-          <include name="beforeTes"/>
-          <include name="afterTest"/>
-          <include name="afterTest"/>
-          <include name="afterTest"/>
-          <include name="afterTest"/>
-          <include name="testInit"/>
-          <include name="testInit"/>
-          <include name="testInit"/>
-          <include name="testInit"/>
-        </methods>
-      </class> <!-- com.zixi.testing.BroadcasterAddIntelTranscoderProfileTest -->
-      <class name="com.zixi.testing.FFMPEGImageStatisticTest">
-        <methods>
-          <include name="startTest"/>
-          <include name="startTest"/>
-          <include name="startTest"/>
-          <include name="startTest"/>
-          <include name="beforeTes"/>
-          <include name="beforeTes"/>
-          <include name="beforeTes"/>
-          <include name="beforeTes"/>
-          <include name="afterTest"/>
-          <include name="afterTest"/>
-          <include name="afterTest"/>
-          <include name="afterTest"/>
-          <include name="testInit"/>
-          <include name="testInit"/>
-          <include name="testInit"/>
-          <include name="testInit"/>
-          <include name="broadcasterSingleInputStreamStatisticAnilyzer" invocation-numbers="0"/>
-        </methods>
-      </class> <!-- com.zixi.testing.FFMPEGImageStatisticTest -->
-      <class name="com.zixi.testing.BroadcasterSinglePullInStreamCreationTest">
-        <methods>
-          <include name="startTest"/>
-          <include name="startTest"/>
-          <include name="startTest"/>
-          <include name="startTest"/>
-          <include name="testInit"/>
-          <include name="testInit"/>
-          <include name="testInit"/>
-          <include name="testInit"/>
-          <include name="beforeTes"/>
-          <include name="beforeTes"/>
-          <include name="beforeTes"/>
-          <include name="beforeTes"/>
-          <include name="afterTest"/>
-          <include name="afterTest"/>
-          <include name="afterTest"/>
-          <include name="afterTest"/>
-        </methods>
-      </class> <!-- com.zixi.testing.BroadcasterSinglePullInStreamCreationTest -->
       <class name="com.zixi.testing.BroadcaserSingleOutputStreamDeletionTest">
         <methods>
           <include name="startTest"/>
           <include name="startTest"/>
           <include name="startTest"/>
           <include name="startTest"/>
-          <include name="startTest"/>
-          <include name="startTest"/>
-          <include name="startTest"/>
-          <include name="startTest"/>
-          <include name="beforeTes"/>
-          <include name="beforeTes"/>
-          <include name="beforeTes"/>
-          <include name="beforeTes"/>
           <include name="beforeTes"/>
           <include name="beforeTes"/>
           <include name="beforeTes"/>
@@ -491,45 +944,124 @@
           <include name="afterTest"/>
           <include name="afterTest"/>
           <include name="afterTest"/>
-          <include name="afterTest"/>
-          <include name="afterTest"/>
-          <include name="afterTest"/>
-          <include name="afterTest"/>
-          <include name="testInit"/>
-          <include name="testInit"/>
-          <include name="testInit"/>
-          <include name="testInit"/>
           <include name="testInit"/>
           <include name="testInit"/>
           <include name="testInit"/>
           <include name="testInit"/>
         </methods>
       </class> <!-- com.zixi.testing.BroadcaserSingleOutputStreamDeletionTest -->
-      <class name="com.zixi.testing.BroadcasterTranscoderDeletProfileTest">
-        <methods>
-          <include name="startTest"/>
-          <include name="startTest"/>
-          <include name="startTest"/>
-          <include name="startTest"/>
-          <include name="beforeTes"/>
-          <include name="beforeTes"/>
-          <include name="beforeTes"/>
-          <include name="beforeTes"/>
-          <include name="afterTest"/>
-          <include name="afterTest"/>
-          <include name="afterTest"/>
-          <include name="afterTest"/>
-          <include name="testInit"/>
-          <include name="testInit"/>
-          <include name="testInit"/>
-          <include name="testInit"/>
-        </methods>
-      </class> <!-- com.zixi.testing.BroadcasterTranscoderDeletProfileTest -->
     </classes>
   </test> <!-- FFMPEG test Pull input FFMPEG analyser- 720*480 all_pids(failed) -->
-  <test name="FFMPEG test transcoded stream - 1280x720p30(failed)">
-    <parameter name="testid" value="1406"/>
+  <test name="Broadcaster - Record a transcoded steam and waits 480p_trans2(failed)">
+    <parameter name="uiport" value="4444"/>
+    <parameter name="userPass" value="1234"/>
+    <parameter name="testid" value="1249"/>
+    <parameter name="id" value="480p_trans2"/>
+    <parameter name="userName" value="admin"/>
+    <parameter name="login_ip" value="10.7.0.78"/>
+    <parameter name="on" value="1"/>
     <classes>
+      <class name="com.zixi.testing.BroadcasterAddIntelTranscoderProfileTest">
+        <methods>
+          <include name="startTest"/>
+          <include name="startTest"/>
+          <include name="startTest"/>
+          <include name="startTest"/>
+          <include name="beforeTes"/>
+          <include name="beforeTes"/>
+          <include name="beforeTes"/>
+          <include name="beforeTes"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+          <include name="testInit"/>
+          <include name="testInit"/>
+          <include name="testInit"/>
+          <include name="testInit"/>
+        </methods>
+      </class> <!-- com.zixi.testing.BroadcasterAddIntelTranscoderProfileTest -->
+      <class name="com.zixi.testing.BroadcasterFileInputTest">
+        <methods>
+          <include name="startTest"/>
+          <include name="startTest"/>
+          <include name="startTest"/>
+          <include name="startTest"/>
+          <include name="beforeTes"/>
+          <include name="beforeTes"/>
+          <include name="beforeTes"/>
+          <include name="beforeTes"/>
+          <include name="broadcasterRecordInout" invocation-numbers="0"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+          <include name="testInit"/>
+          <include name="testInit"/>
+          <include name="testInit"/>
+          <include name="testInit"/>
+        </methods>
+      </class> <!-- com.zixi.testing.BroadcasterFileInputTest -->
+      <class name="com.zixi.testing.BroadcasterTranscoderDeletProfileTest">
+        <methods>
+          <include name="startTest"/>
+          <include name="startTest"/>
+          <include name="startTest"/>
+          <include name="startTest"/>
+          <include name="beforeTes"/>
+          <include name="beforeTes"/>
+          <include name="beforeTes"/>
+          <include name="beforeTes"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+          <include name="testInit"/>
+          <include name="testInit"/>
+          <include name="testInit"/>
+          <include name="testInit"/>
+        </methods>
+      </class> <!-- com.zixi.testing.BroadcasterTranscoderDeletProfileTest -->
+      <class name="com.zixi.testing.BroadcasterSingleInputStreamDeletionTest">
+        <methods>
+          <include name="startTest"/>
+          <include name="startTest"/>
+          <include name="startTest"/>
+          <include name="startTest"/>
+          <include name="testInit"/>
+          <include name="testInit"/>
+          <include name="testInit"/>
+          <include name="testInit"/>
+          <include name="beforeTes"/>
+          <include name="beforeTes"/>
+          <include name="beforeTes"/>
+          <include name="beforeTes"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- com.zixi.testing.BroadcasterSingleInputStreamDeletionTest -->
+      <class name="com.zixi.testing.BroadcasterSinglePullInStreamCreationTest">
+        <methods>
+          <include name="startTest"/>
+          <include name="startTest"/>
+          <include name="startTest"/>
+          <include name="startTest"/>
+          <include name="testInit"/>
+          <include name="testInit"/>
+          <include name="testInit"/>
+          <include name="testInit"/>
+          <include name="beforeTes"/>
+          <include name="beforeTes"/>
+          <include name="beforeTes"/>
+          <include name="beforeTes"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- com.zixi.testing.BroadcasterSinglePullInStreamCreationTest -->
       <class name="com.zixi.testing.BroadcasterInputStatisticSingleStreamTest">
         <methods>
           <include name="startTest"/>
@@ -556,6 +1088,22 @@
           <include name="startTest"/>
           <include name="startTest"/>
           <include name="startTest"/>
+          <include name="beforeTes"/>
+          <include name="beforeTes"/>
+          <include name="beforeTes"/>
+          <include name="beforeTes"/>
+          <include name="testInit"/>
+          <include name="testInit"/>
+          <include name="testInit"/>
+          <include name="testInit"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- com.zixi.testing.BroadcasterUDPOutputStreamCreationTest -->
+      <class name="com.zixi.testing.FFMPEGImageStatisticTest">
+        <methods>
           <include name="startTest"/>
           <include name="startTest"/>
           <include name="startTest"/>
@@ -564,6 +1112,22 @@
           <include name="beforeTes"/>
           <include name="beforeTes"/>
           <include name="beforeTes"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+          <include name="testInit"/>
+          <include name="testInit"/>
+          <include name="testInit"/>
+          <include name="testInit"/>
+        </methods>
+      </class> <!-- com.zixi.testing.FFMPEGImageStatisticTest -->
+      <class name="com.zixi.testing.BroadcasterIntelTrannscodeStreamTest">
+        <methods>
+          <include name="startTest"/>
+          <include name="startTest"/>
+          <include name="startTest"/>
+          <include name="startTest"/>
           <include name="beforeTes"/>
           <include name="beforeTes"/>
           <include name="beforeTes"/>
@@ -572,6 +1136,22 @@
           <include name="afterTest"/>
           <include name="afterTest"/>
           <include name="afterTest"/>
+          <include name="testInit"/>
+          <include name="testInit"/>
+          <include name="testInit"/>
+          <include name="testInit"/>
+        </methods>
+      </class> <!-- com.zixi.testing.BroadcasterIntelTrannscodeStreamTest -->
+      <class name="com.zixi.testing.BroadcaserSingleOutputStreamDeletionTest">
+        <methods>
+          <include name="startTest"/>
+          <include name="startTest"/>
+          <include name="startTest"/>
+          <include name="startTest"/>
+          <include name="beforeTes"/>
+          <include name="beforeTes"/>
+          <include name="beforeTes"/>
+          <include name="beforeTes"/>
           <include name="afterTest"/>
           <include name="afterTest"/>
           <include name="afterTest"/>
@@ -580,10 +1160,172 @@
           <include name="testInit"/>
           <include name="testInit"/>
           <include name="testInit"/>
+        </methods>
+      </class> <!-- com.zixi.testing.BroadcaserSingleOutputStreamDeletionTest -->
+    </classes>
+  </test> <!-- Broadcaster - Record a transcoded steam and waits 480p_trans2(failed) -->
+  <test name="FFMPEG test transcoded stream - 1280x720p30(failed)">
+    <parameter name="testid" value="4786"/>
+    <classes>
+      <class name="com.zixi.testing.BroadcasterAddIntelTranscoderProfileTest">
+        <methods>
+          <include name="startTest"/>
+          <include name="startTest"/>
+          <include name="startTest"/>
+          <include name="startTest"/>
+          <include name="beforeTes"/>
+          <include name="beforeTes"/>
+          <include name="beforeTes"/>
+          <include name="beforeTes"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
           <include name="testInit"/>
           <include name="testInit"/>
           <include name="testInit"/>
           <include name="testInit"/>
+        </methods>
+      </class> <!-- com.zixi.testing.BroadcasterAddIntelTranscoderProfileTest -->
+      <class name="com.zixi.testing.BroadcasterFileInputTest">
+        <methods>
+          <include name="startTest"/>
+          <include name="startTest"/>
+          <include name="startTest"/>
+          <include name="startTest"/>
+          <include name="beforeTes"/>
+          <include name="beforeTes"/>
+          <include name="beforeTes"/>
+          <include name="beforeTes"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+          <include name="testInit"/>
+          <include name="testInit"/>
+          <include name="testInit"/>
+          <include name="testInit"/>
+        </methods>
+      </class> <!-- com.zixi.testing.BroadcasterFileInputTest -->
+      <class name="com.zixi.testing.BroadcasterTranscoderDeletProfileTest">
+        <methods>
+          <include name="startTest"/>
+          <include name="startTest"/>
+          <include name="startTest"/>
+          <include name="startTest"/>
+          <include name="beforeTes"/>
+          <include name="beforeTes"/>
+          <include name="beforeTes"/>
+          <include name="beforeTes"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+          <include name="testInit"/>
+          <include name="testInit"/>
+          <include name="testInit"/>
+          <include name="testInit"/>
+        </methods>
+      </class> <!-- com.zixi.testing.BroadcasterTranscoderDeletProfileTest -->
+      <class name="com.zixi.testing.BroadcasterSingleInputStreamDeletionTest">
+        <methods>
+          <include name="startTest"/>
+          <include name="startTest"/>
+          <include name="startTest"/>
+          <include name="startTest"/>
+          <include name="testInit"/>
+          <include name="testInit"/>
+          <include name="testInit"/>
+          <include name="testInit"/>
+          <include name="beforeTes"/>
+          <include name="beforeTes"/>
+          <include name="beforeTes"/>
+          <include name="beforeTes"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- com.zixi.testing.BroadcasterSingleInputStreamDeletionTest -->
+      <class name="com.zixi.testing.BroadcasterSinglePullInStreamCreationTest">
+        <methods>
+          <include name="startTest"/>
+          <include name="startTest"/>
+          <include name="startTest"/>
+          <include name="startTest"/>
+          <include name="testInit"/>
+          <include name="testInit"/>
+          <include name="testInit"/>
+          <include name="testInit"/>
+          <include name="beforeTes"/>
+          <include name="beforeTes"/>
+          <include name="beforeTes"/>
+          <include name="beforeTes"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- com.zixi.testing.BroadcasterSinglePullInStreamCreationTest -->
+      <class name="com.zixi.testing.BroadcasterInputStatisticSingleStreamTest">
+        <methods>
+          <include name="startTest"/>
+          <include name="startTest"/>
+          <include name="startTest"/>
+          <include name="startTest"/>
+          <include name="beforeTes"/>
+          <include name="beforeTes"/>
+          <include name="beforeTes"/>
+          <include name="beforeTes"/>
+          <include name="testInit"/>
+          <include name="testInit"/>
+          <include name="testInit"/>
+          <include name="testInit"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- com.zixi.testing.BroadcasterInputStatisticSingleStreamTest -->
+      <class name="com.zixi.testing.FFMPEGImageStatisticTest">
+        <methods>
+          <include name="startTest"/>
+          <include name="startTest"/>
+          <include name="startTest"/>
+          <include name="startTest"/>
+          <include name="beforeTes"/>
+          <include name="beforeTes"/>
+          <include name="beforeTes"/>
+          <include name="beforeTes"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+          <include name="testInit"/>
+          <include name="testInit"/>
+          <include name="testInit"/>
+          <include name="testInit"/>
+          <include name="broadcasterSingleInputStreamStatisticAnilyzer" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.zixi.testing.FFMPEGImageStatisticTest -->
+      <class name="com.zixi.testing.BroadcasterUDPOutputStreamCreationTest">
+        <methods>
+          <include name="startTest"/>
+          <include name="startTest"/>
+          <include name="startTest"/>
+          <include name="startTest"/>
+          <include name="beforeTes"/>
+          <include name="beforeTes"/>
+          <include name="beforeTes"/>
+          <include name="beforeTes"/>
+          <include name="testInit"/>
+          <include name="testInit"/>
+          <include name="testInit"/>
+          <include name="testInit"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
         </methods>
       </class> <!-- com.zixi.testing.BroadcasterUDPOutputStreamCreationTest -->
       <class name="com.zixi.testing.BroadcasterIntelTrannscodeStreamTest">
@@ -606,101 +1348,12 @@
           <include name="testInit"/>
         </methods>
       </class> <!-- com.zixi.testing.BroadcasterIntelTrannscodeStreamTest -->
-      <class name="com.zixi.testing.BroadcasterSingleInputStreamDeletionTest">
-        <methods>
-          <include name="startTest"/>
-          <include name="startTest"/>
-          <include name="startTest"/>
-          <include name="startTest"/>
-          <include name="testInit"/>
-          <include name="testInit"/>
-          <include name="testInit"/>
-          <include name="testInit"/>
-          <include name="beforeTes"/>
-          <include name="beforeTes"/>
-          <include name="beforeTes"/>
-          <include name="beforeTes"/>
-          <include name="afterTest"/>
-          <include name="afterTest"/>
-          <include name="afterTest"/>
-          <include name="afterTest"/>
-        </methods>
-      </class> <!-- com.zixi.testing.BroadcasterSingleInputStreamDeletionTest -->
-      <class name="com.zixi.testing.BroadcasterAddIntelTranscoderProfileTest">
-        <methods>
-          <include name="startTest"/>
-          <include name="startTest"/>
-          <include name="startTest"/>
-          <include name="startTest"/>
-          <include name="beforeTes"/>
-          <include name="beforeTes"/>
-          <include name="beforeTes"/>
-          <include name="beforeTes"/>
-          <include name="afterTest"/>
-          <include name="afterTest"/>
-          <include name="afterTest"/>
-          <include name="afterTest"/>
-          <include name="testInit"/>
-          <include name="testInit"/>
-          <include name="testInit"/>
-          <include name="testInit"/>
-        </methods>
-      </class> <!-- com.zixi.testing.BroadcasterAddIntelTranscoderProfileTest -->
-      <class name="com.zixi.testing.FFMPEGImageStatisticTest">
-        <methods>
-          <include name="startTest"/>
-          <include name="startTest"/>
-          <include name="startTest"/>
-          <include name="startTest"/>
-          <include name="beforeTes"/>
-          <include name="beforeTes"/>
-          <include name="beforeTes"/>
-          <include name="beforeTes"/>
-          <include name="afterTest"/>
-          <include name="afterTest"/>
-          <include name="afterTest"/>
-          <include name="afterTest"/>
-          <include name="testInit"/>
-          <include name="testInit"/>
-          <include name="testInit"/>
-          <include name="testInit"/>
-          <include name="broadcasterSingleInputStreamStatisticAnilyzer" invocation-numbers="0"/>
-        </methods>
-      </class> <!-- com.zixi.testing.FFMPEGImageStatisticTest -->
-      <class name="com.zixi.testing.BroadcasterSinglePullInStreamCreationTest">
-        <methods>
-          <include name="startTest"/>
-          <include name="startTest"/>
-          <include name="startTest"/>
-          <include name="startTest"/>
-          <include name="testInit"/>
-          <include name="testInit"/>
-          <include name="testInit"/>
-          <include name="testInit"/>
-          <include name="beforeTes"/>
-          <include name="beforeTes"/>
-          <include name="beforeTes"/>
-          <include name="beforeTes"/>
-          <include name="afterTest"/>
-          <include name="afterTest"/>
-          <include name="afterTest"/>
-          <include name="afterTest"/>
-        </methods>
-      </class> <!-- com.zixi.testing.BroadcasterSinglePullInStreamCreationTest -->
       <class name="com.zixi.testing.BroadcaserSingleOutputStreamDeletionTest">
         <methods>
           <include name="startTest"/>
           <include name="startTest"/>
           <include name="startTest"/>
           <include name="startTest"/>
-          <include name="startTest"/>
-          <include name="startTest"/>
-          <include name="startTest"/>
-          <include name="startTest"/>
-          <include name="beforeTes"/>
-          <include name="beforeTes"/>
-          <include name="beforeTes"/>
-          <include name="beforeTes"/>
           <include name="beforeTes"/>
           <include name="beforeTes"/>
           <include name="beforeTes"/>
@@ -709,45 +1362,124 @@
           <include name="afterTest"/>
           <include name="afterTest"/>
           <include name="afterTest"/>
-          <include name="afterTest"/>
-          <include name="afterTest"/>
-          <include name="afterTest"/>
-          <include name="afterTest"/>
-          <include name="testInit"/>
-          <include name="testInit"/>
-          <include name="testInit"/>
-          <include name="testInit"/>
           <include name="testInit"/>
           <include name="testInit"/>
           <include name="testInit"/>
           <include name="testInit"/>
         </methods>
       </class> <!-- com.zixi.testing.BroadcaserSingleOutputStreamDeletionTest -->
-      <class name="com.zixi.testing.BroadcasterTranscoderDeletProfileTest">
-        <methods>
-          <include name="startTest"/>
-          <include name="startTest"/>
-          <include name="startTest"/>
-          <include name="startTest"/>
-          <include name="beforeTes"/>
-          <include name="beforeTes"/>
-          <include name="beforeTes"/>
-          <include name="beforeTes"/>
-          <include name="afterTest"/>
-          <include name="afterTest"/>
-          <include name="afterTest"/>
-          <include name="afterTest"/>
-          <include name="testInit"/>
-          <include name="testInit"/>
-          <include name="testInit"/>
-          <include name="testInit"/>
-        </methods>
-      </class> <!-- com.zixi.testing.BroadcasterTranscoderDeletProfileTest -->
     </classes>
   </test> <!-- FFMPEG test transcoded stream - 1280x720p30(failed) -->
-  <test name="FFMPEG analyser transcoded stream 1280x720p30 all_pids(failed)">
-    <parameter name="testid" value="1425"/>
+  <test name="Broadcaster - Record a transcoded steam and waits 1280x720p30_trans_sw(failed)">
+    <parameter name="uiport" value="4444"/>
+    <parameter name="userPass" value="1234"/>
+    <parameter name="testid" value="1249"/>
+    <parameter name="id" value="1280x720p30_trans_sw"/>
+    <parameter name="userName" value="admin"/>
+    <parameter name="login_ip" value="10.7.0.78"/>
+    <parameter name="on" value="1"/>
     <classes>
+      <class name="com.zixi.testing.BroadcasterAddIntelTranscoderProfileTest">
+        <methods>
+          <include name="startTest"/>
+          <include name="startTest"/>
+          <include name="startTest"/>
+          <include name="startTest"/>
+          <include name="beforeTes"/>
+          <include name="beforeTes"/>
+          <include name="beforeTes"/>
+          <include name="beforeTes"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+          <include name="testInit"/>
+          <include name="testInit"/>
+          <include name="testInit"/>
+          <include name="testInit"/>
+        </methods>
+      </class> <!-- com.zixi.testing.BroadcasterAddIntelTranscoderProfileTest -->
+      <class name="com.zixi.testing.BroadcasterFileInputTest">
+        <methods>
+          <include name="startTest"/>
+          <include name="startTest"/>
+          <include name="startTest"/>
+          <include name="startTest"/>
+          <include name="beforeTes"/>
+          <include name="beforeTes"/>
+          <include name="beforeTes"/>
+          <include name="beforeTes"/>
+          <include name="broadcasterRecordInout" invocation-numbers="0"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+          <include name="testInit"/>
+          <include name="testInit"/>
+          <include name="testInit"/>
+          <include name="testInit"/>
+        </methods>
+      </class> <!-- com.zixi.testing.BroadcasterFileInputTest -->
+      <class name="com.zixi.testing.BroadcasterTranscoderDeletProfileTest">
+        <methods>
+          <include name="startTest"/>
+          <include name="startTest"/>
+          <include name="startTest"/>
+          <include name="startTest"/>
+          <include name="beforeTes"/>
+          <include name="beforeTes"/>
+          <include name="beforeTes"/>
+          <include name="beforeTes"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+          <include name="testInit"/>
+          <include name="testInit"/>
+          <include name="testInit"/>
+          <include name="testInit"/>
+        </methods>
+      </class> <!-- com.zixi.testing.BroadcasterTranscoderDeletProfileTest -->
+      <class name="com.zixi.testing.BroadcasterSingleInputStreamDeletionTest">
+        <methods>
+          <include name="startTest"/>
+          <include name="startTest"/>
+          <include name="startTest"/>
+          <include name="startTest"/>
+          <include name="testInit"/>
+          <include name="testInit"/>
+          <include name="testInit"/>
+          <include name="testInit"/>
+          <include name="beforeTes"/>
+          <include name="beforeTes"/>
+          <include name="beforeTes"/>
+          <include name="beforeTes"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- com.zixi.testing.BroadcasterSingleInputStreamDeletionTest -->
+      <class name="com.zixi.testing.BroadcasterSinglePullInStreamCreationTest">
+        <methods>
+          <include name="startTest"/>
+          <include name="startTest"/>
+          <include name="startTest"/>
+          <include name="startTest"/>
+          <include name="testInit"/>
+          <include name="testInit"/>
+          <include name="testInit"/>
+          <include name="testInit"/>
+          <include name="beforeTes"/>
+          <include name="beforeTes"/>
+          <include name="beforeTes"/>
+          <include name="beforeTes"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- com.zixi.testing.BroadcasterSinglePullInStreamCreationTest -->
       <class name="com.zixi.testing.BroadcasterInputStatisticSingleStreamTest">
         <methods>
           <include name="startTest"/>
@@ -774,6 +1506,22 @@
           <include name="startTest"/>
           <include name="startTest"/>
           <include name="startTest"/>
+          <include name="beforeTes"/>
+          <include name="beforeTes"/>
+          <include name="beforeTes"/>
+          <include name="beforeTes"/>
+          <include name="testInit"/>
+          <include name="testInit"/>
+          <include name="testInit"/>
+          <include name="testInit"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- com.zixi.testing.BroadcasterUDPOutputStreamCreationTest -->
+      <class name="com.zixi.testing.FFMPEGImageStatisticTest">
+        <methods>
           <include name="startTest"/>
           <include name="startTest"/>
           <include name="startTest"/>
@@ -782,6 +1530,22 @@
           <include name="beforeTes"/>
           <include name="beforeTes"/>
           <include name="beforeTes"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+          <include name="testInit"/>
+          <include name="testInit"/>
+          <include name="testInit"/>
+          <include name="testInit"/>
+        </methods>
+      </class> <!-- com.zixi.testing.FFMPEGImageStatisticTest -->
+      <class name="com.zixi.testing.BroadcasterIntelTrannscodeStreamTest">
+        <methods>
+          <include name="startTest"/>
+          <include name="startTest"/>
+          <include name="startTest"/>
+          <include name="startTest"/>
           <include name="beforeTes"/>
           <include name="beforeTes"/>
           <include name="beforeTes"/>
@@ -790,6 +1554,22 @@
           <include name="afterTest"/>
           <include name="afterTest"/>
           <include name="afterTest"/>
+          <include name="testInit"/>
+          <include name="testInit"/>
+          <include name="testInit"/>
+          <include name="testInit"/>
+        </methods>
+      </class> <!-- com.zixi.testing.BroadcasterIntelTrannscodeStreamTest -->
+      <class name="com.zixi.testing.BroadcaserSingleOutputStreamDeletionTest">
+        <methods>
+          <include name="startTest"/>
+          <include name="startTest"/>
+          <include name="startTest"/>
+          <include name="startTest"/>
+          <include name="beforeTes"/>
+          <include name="beforeTes"/>
+          <include name="beforeTes"/>
+          <include name="beforeTes"/>
           <include name="afterTest"/>
           <include name="afterTest"/>
           <include name="afterTest"/>
@@ -798,10 +1578,172 @@
           <include name="testInit"/>
           <include name="testInit"/>
           <include name="testInit"/>
+        </methods>
+      </class> <!-- com.zixi.testing.BroadcaserSingleOutputStreamDeletionTest -->
+    </classes>
+  </test> <!-- Broadcaster - Record a transcoded steam and waits 1280x720p30_trans_sw(failed) -->
+  <test name="FFMPEG analyser transcoded stream 1280x720p30 all_pids(failed)">
+    <parameter name="testid" value="4811"/>
+    <classes>
+      <class name="com.zixi.testing.BroadcasterAddIntelTranscoderProfileTest">
+        <methods>
+          <include name="startTest"/>
+          <include name="startTest"/>
+          <include name="startTest"/>
+          <include name="startTest"/>
+          <include name="beforeTes"/>
+          <include name="beforeTes"/>
+          <include name="beforeTes"/>
+          <include name="beforeTes"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
           <include name="testInit"/>
           <include name="testInit"/>
           <include name="testInit"/>
           <include name="testInit"/>
+        </methods>
+      </class> <!-- com.zixi.testing.BroadcasterAddIntelTranscoderProfileTest -->
+      <class name="com.zixi.testing.BroadcasterFileInputTest">
+        <methods>
+          <include name="startTest"/>
+          <include name="startTest"/>
+          <include name="startTest"/>
+          <include name="startTest"/>
+          <include name="beforeTes"/>
+          <include name="beforeTes"/>
+          <include name="beforeTes"/>
+          <include name="beforeTes"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+          <include name="testInit"/>
+          <include name="testInit"/>
+          <include name="testInit"/>
+          <include name="testInit"/>
+        </methods>
+      </class> <!-- com.zixi.testing.BroadcasterFileInputTest -->
+      <class name="com.zixi.testing.BroadcasterTranscoderDeletProfileTest">
+        <methods>
+          <include name="startTest"/>
+          <include name="startTest"/>
+          <include name="startTest"/>
+          <include name="startTest"/>
+          <include name="beforeTes"/>
+          <include name="beforeTes"/>
+          <include name="beforeTes"/>
+          <include name="beforeTes"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+          <include name="testInit"/>
+          <include name="testInit"/>
+          <include name="testInit"/>
+          <include name="testInit"/>
+        </methods>
+      </class> <!-- com.zixi.testing.BroadcasterTranscoderDeletProfileTest -->
+      <class name="com.zixi.testing.BroadcasterSingleInputStreamDeletionTest">
+        <methods>
+          <include name="startTest"/>
+          <include name="startTest"/>
+          <include name="startTest"/>
+          <include name="startTest"/>
+          <include name="testInit"/>
+          <include name="testInit"/>
+          <include name="testInit"/>
+          <include name="testInit"/>
+          <include name="beforeTes"/>
+          <include name="beforeTes"/>
+          <include name="beforeTes"/>
+          <include name="beforeTes"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- com.zixi.testing.BroadcasterSingleInputStreamDeletionTest -->
+      <class name="com.zixi.testing.BroadcasterSinglePullInStreamCreationTest">
+        <methods>
+          <include name="startTest"/>
+          <include name="startTest"/>
+          <include name="startTest"/>
+          <include name="startTest"/>
+          <include name="testInit"/>
+          <include name="testInit"/>
+          <include name="testInit"/>
+          <include name="testInit"/>
+          <include name="beforeTes"/>
+          <include name="beforeTes"/>
+          <include name="beforeTes"/>
+          <include name="beforeTes"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- com.zixi.testing.BroadcasterSinglePullInStreamCreationTest -->
+      <class name="com.zixi.testing.BroadcasterInputStatisticSingleStreamTest">
+        <methods>
+          <include name="startTest"/>
+          <include name="startTest"/>
+          <include name="startTest"/>
+          <include name="startTest"/>
+          <include name="beforeTes"/>
+          <include name="beforeTes"/>
+          <include name="beforeTes"/>
+          <include name="beforeTes"/>
+          <include name="testInit"/>
+          <include name="testInit"/>
+          <include name="testInit"/>
+          <include name="testInit"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- com.zixi.testing.BroadcasterInputStatisticSingleStreamTest -->
+      <class name="com.zixi.testing.FFMPEGImageStatisticTest">
+        <methods>
+          <include name="startTest"/>
+          <include name="startTest"/>
+          <include name="startTest"/>
+          <include name="startTest"/>
+          <include name="beforeTes"/>
+          <include name="beforeTes"/>
+          <include name="beforeTes"/>
+          <include name="beforeTes"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+          <include name="testInit"/>
+          <include name="testInit"/>
+          <include name="testInit"/>
+          <include name="testInit"/>
+          <include name="broadcasterSingleInputStreamStatisticAnilyzer" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.zixi.testing.FFMPEGImageStatisticTest -->
+      <class name="com.zixi.testing.BroadcasterUDPOutputStreamCreationTest">
+        <methods>
+          <include name="startTest"/>
+          <include name="startTest"/>
+          <include name="startTest"/>
+          <include name="startTest"/>
+          <include name="beforeTes"/>
+          <include name="beforeTes"/>
+          <include name="beforeTes"/>
+          <include name="beforeTes"/>
+          <include name="testInit"/>
+          <include name="testInit"/>
+          <include name="testInit"/>
+          <include name="testInit"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
         </methods>
       </class> <!-- com.zixi.testing.BroadcasterUDPOutputStreamCreationTest -->
       <class name="com.zixi.testing.BroadcasterIntelTrannscodeStreamTest">
@@ -824,16 +1766,12 @@
           <include name="testInit"/>
         </methods>
       </class> <!-- com.zixi.testing.BroadcasterIntelTrannscodeStreamTest -->
-      <class name="com.zixi.testing.BroadcasterSingleInputStreamDeletionTest">
+      <class name="com.zixi.testing.BroadcaserSingleOutputStreamDeletionTest">
         <methods>
           <include name="startTest"/>
           <include name="startTest"/>
           <include name="startTest"/>
           <include name="startTest"/>
-          <include name="testInit"/>
-          <include name="testInit"/>
-          <include name="testInit"/>
-          <include name="testInit"/>
           <include name="beforeTes"/>
           <include name="beforeTes"/>
           <include name="beforeTes"/>
@@ -842,8 +1780,23 @@
           <include name="afterTest"/>
           <include name="afterTest"/>
           <include name="afterTest"/>
+          <include name="testInit"/>
+          <include name="testInit"/>
+          <include name="testInit"/>
+          <include name="testInit"/>
         </methods>
-      </class> <!-- com.zixi.testing.BroadcasterSingleInputStreamDeletionTest -->
+      </class> <!-- com.zixi.testing.BroadcaserSingleOutputStreamDeletionTest -->
+    </classes>
+  </test> <!-- FFMPEG analyser transcoded stream 1280x720p30 all_pids(failed) -->
+  <test name="Broadcaster - Record a transcoded steam and waits 1280x720p30_trans_sw2(failed)">
+    <parameter name="uiport" value="4444"/>
+    <parameter name="userPass" value="1234"/>
+    <parameter name="testid" value="1249"/>
+    <parameter name="id" value="1280x720p30_trans_sw_all_pids"/>
+    <parameter name="userName" value="admin"/>
+    <parameter name="login_ip" value="10.7.0.78"/>
+    <parameter name="on" value="1"/>
+    <classes>
       <class name="com.zixi.testing.BroadcasterAddIntelTranscoderProfileTest">
         <methods>
           <include name="startTest"/>
@@ -864,7 +1817,7 @@
           <include name="testInit"/>
         </methods>
       </class> <!-- com.zixi.testing.BroadcasterAddIntelTranscoderProfileTest -->
-      <class name="com.zixi.testing.FFMPEGImageStatisticTest">
+      <class name="com.zixi.testing.BroadcasterFileInputTest">
         <methods>
           <include name="startTest"/>
           <include name="startTest"/>
@@ -874,73 +1827,17 @@
           <include name="beforeTes"/>
           <include name="beforeTes"/>
           <include name="beforeTes"/>
+          <include name="broadcasterRecordInout" invocation-numbers="0"/>
           <include name="afterTest"/>
           <include name="afterTest"/>
           <include name="afterTest"/>
           <include name="afterTest"/>
-          <include name="testInit"/>
-          <include name="testInit"/>
-          <include name="testInit"/>
-          <include name="testInit"/>
-          <include name="broadcasterSingleInputStreamStatisticAnilyzer" invocation-numbers="0"/>
-        </methods>
-      </class> <!-- com.zixi.testing.FFMPEGImageStatisticTest -->
-      <class name="com.zixi.testing.BroadcasterSinglePullInStreamCreationTest">
-        <methods>
-          <include name="startTest"/>
-          <include name="startTest"/>
-          <include name="startTest"/>
-          <include name="startTest"/>
-          <include name="testInit"/>
-          <include name="testInit"/>
-          <include name="testInit"/>
-          <include name="testInit"/>
-          <include name="beforeTes"/>
-          <include name="beforeTes"/>
-          <include name="beforeTes"/>
-          <include name="beforeTes"/>
-          <include name="afterTest"/>
-          <include name="afterTest"/>
-          <include name="afterTest"/>
-          <include name="afterTest"/>
-        </methods>
-      </class> <!-- com.zixi.testing.BroadcasterSinglePullInStreamCreationTest -->
-      <class name="com.zixi.testing.BroadcaserSingleOutputStreamDeletionTest">
-        <methods>
-          <include name="startTest"/>
-          <include name="startTest"/>
-          <include name="startTest"/>
-          <include name="startTest"/>
-          <include name="startTest"/>
-          <include name="startTest"/>
-          <include name="startTest"/>
-          <include name="startTest"/>
-          <include name="beforeTes"/>
-          <include name="beforeTes"/>
-          <include name="beforeTes"/>
-          <include name="beforeTes"/>
-          <include name="beforeTes"/>
-          <include name="beforeTes"/>
-          <include name="beforeTes"/>
-          <include name="beforeTes"/>
-          <include name="afterTest"/>
-          <include name="afterTest"/>
-          <include name="afterTest"/>
-          <include name="afterTest"/>
-          <include name="afterTest"/>
-          <include name="afterTest"/>
-          <include name="afterTest"/>
-          <include name="afterTest"/>
-          <include name="testInit"/>
-          <include name="testInit"/>
-          <include name="testInit"/>
-          <include name="testInit"/>
           <include name="testInit"/>
           <include name="testInit"/>
           <include name="testInit"/>
           <include name="testInit"/>
         </methods>
-      </class> <!-- com.zixi.testing.BroadcaserSingleOutputStreamDeletionTest -->
+      </class> <!-- com.zixi.testing.BroadcasterFileInputTest -->
       <class name="com.zixi.testing.BroadcasterTranscoderDeletProfileTest">
         <methods>
           <include name="startTest"/>
@@ -961,6 +1858,146 @@
           <include name="testInit"/>
         </methods>
       </class> <!-- com.zixi.testing.BroadcasterTranscoderDeletProfileTest -->
+      <class name="com.zixi.testing.BroadcasterSingleInputStreamDeletionTest">
+        <methods>
+          <include name="startTest"/>
+          <include name="startTest"/>
+          <include name="startTest"/>
+          <include name="startTest"/>
+          <include name="testInit"/>
+          <include name="testInit"/>
+          <include name="testInit"/>
+          <include name="testInit"/>
+          <include name="beforeTes"/>
+          <include name="beforeTes"/>
+          <include name="beforeTes"/>
+          <include name="beforeTes"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- com.zixi.testing.BroadcasterSingleInputStreamDeletionTest -->
+      <class name="com.zixi.testing.BroadcasterSinglePullInStreamCreationTest">
+        <methods>
+          <include name="startTest"/>
+          <include name="startTest"/>
+          <include name="startTest"/>
+          <include name="startTest"/>
+          <include name="testInit"/>
+          <include name="testInit"/>
+          <include name="testInit"/>
+          <include name="testInit"/>
+          <include name="beforeTes"/>
+          <include name="beforeTes"/>
+          <include name="beforeTes"/>
+          <include name="beforeTes"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- com.zixi.testing.BroadcasterSinglePullInStreamCreationTest -->
+      <class name="com.zixi.testing.BroadcasterInputStatisticSingleStreamTest">
+        <methods>
+          <include name="startTest"/>
+          <include name="startTest"/>
+          <include name="startTest"/>
+          <include name="startTest"/>
+          <include name="beforeTes"/>
+          <include name="beforeTes"/>
+          <include name="beforeTes"/>
+          <include name="beforeTes"/>
+          <include name="testInit"/>
+          <include name="testInit"/>
+          <include name="testInit"/>
+          <include name="testInit"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- com.zixi.testing.BroadcasterInputStatisticSingleStreamTest -->
+      <class name="com.zixi.testing.BroadcasterUDPOutputStreamCreationTest">
+        <methods>
+          <include name="startTest"/>
+          <include name="startTest"/>
+          <include name="startTest"/>
+          <include name="startTest"/>
+          <include name="beforeTes"/>
+          <include name="beforeTes"/>
+          <include name="beforeTes"/>
+          <include name="beforeTes"/>
+          <include name="testInit"/>
+          <include name="testInit"/>
+          <include name="testInit"/>
+          <include name="testInit"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- com.zixi.testing.BroadcasterUDPOutputStreamCreationTest -->
+      <class name="com.zixi.testing.FFMPEGImageStatisticTest">
+        <methods>
+          <include name="startTest"/>
+          <include name="startTest"/>
+          <include name="startTest"/>
+          <include name="startTest"/>
+          <include name="beforeTes"/>
+          <include name="beforeTes"/>
+          <include name="beforeTes"/>
+          <include name="beforeTes"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+          <include name="testInit"/>
+          <include name="testInit"/>
+          <include name="testInit"/>
+          <include name="testInit"/>
+        </methods>
+      </class> <!-- com.zixi.testing.FFMPEGImageStatisticTest -->
+      <class name="com.zixi.testing.BroadcasterIntelTrannscodeStreamTest">
+        <methods>
+          <include name="startTest"/>
+          <include name="startTest"/>
+          <include name="startTest"/>
+          <include name="startTest"/>
+          <include name="beforeTes"/>
+          <include name="beforeTes"/>
+          <include name="beforeTes"/>
+          <include name="beforeTes"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+          <include name="testInit"/>
+          <include name="testInit"/>
+          <include name="testInit"/>
+          <include name="testInit"/>
+        </methods>
+      </class> <!-- com.zixi.testing.BroadcasterIntelTrannscodeStreamTest -->
+      <class name="com.zixi.testing.BroadcaserSingleOutputStreamDeletionTest">
+        <methods>
+          <include name="startTest"/>
+          <include name="startTest"/>
+          <include name="startTest"/>
+          <include name="startTest"/>
+          <include name="beforeTes"/>
+          <include name="beforeTes"/>
+          <include name="beforeTes"/>
+          <include name="beforeTes"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+          <include name="testInit"/>
+          <include name="testInit"/>
+          <include name="testInit"/>
+          <include name="testInit"/>
+        </methods>
+      </class> <!-- com.zixi.testing.BroadcaserSingleOutputStreamDeletionTest -->
     </classes>
-  </test> <!-- FFMPEG analyser transcoded stream 1280x720p30 all_pids(failed) -->
-</suite> <!-- Failed suite [Broadcaster: Intel Transcoder H.264 to H.264 24 FPS] -->
+  </test> <!-- Broadcaster - Record a transcoded steam and waits 1280x720p30_trans_sw2(failed) -->
+</suite> <!-- Failed suite [Broadcaster: Intel Transcoder H.264 to H.264] -->
