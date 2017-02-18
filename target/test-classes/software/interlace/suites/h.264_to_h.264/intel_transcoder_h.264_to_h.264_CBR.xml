@@ -555,7 +555,7 @@
 		    <class name="com.zixi.testing.FFMPEGImageStatisticTest"/>
 		</classes>
 	</test>
-	<test name="Broadcaster - Record a transcoded steam and waits 480p_trans_sw_all_pids">
+	<test name="Broadcaster - Record a transcoded steam and waits 1280x720p30_trans_sw">
 		<parameter name="userName" value="admin" />
 		<parameter name="userPass" value="1234" />
 		<parameter name="login_ip" value="10.7.0.78" />
