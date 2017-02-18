@@ -152,6 +152,22 @@
 		    <class name="com.zixi.testing.FFMPEGImageStatisticTest"/>
 		</classes>
 	</test>
+	<test name="Broadcaster - Record a transcoded steam and waits 480p_trans1">
+		<parameter name="userName" value="admin" />
+		<parameter name="userPass" value="1234" />
+		<parameter name="login_ip" value="10.7.0.78" />
+		<parameter name="uiport" value="4444" />
+		<parameter name="id" value="480p_trans_sw" />
+		<parameter name="on" value="1" />
+		<parameter name="testid" value="1249" />    
+		<classes>
+		    <class name="com.zixi.testing.BroadcasterFileInputTest">
+		    <methods>
+        		<include name="broadcasterRecordInout" />
+     		 </methods>
+     		 </class>
+		</classes>
+	</test>
 	<test name="Broadcaster - Remove udp output stream - 720*480">
 		<parameter name="login_ip" value="10.7.0.78" />
 		<parameter name="userName" value="admin" />
@@ -337,7 +353,22 @@
 		    <class name="com.zixi.testing.FFMPEGImageStatisticTest"/>
 		</classes>
 	</test>
-	
+	<test name="Broadcaster - Record a transcoded steam and waits 480p_trans1">
+		<parameter name="userName" value="admin" />
+		<parameter name="userPass" value="1234" />
+		<parameter name="login_ip" value="10.7.0.78" />
+		<parameter name="uiport" value="4444" />
+		<parameter name="id" value="480p_trans_sw_all_pids" />
+		<parameter name="on" value="1" />
+		<parameter name="testid" value="1249" />    
+		<classes>
+		    <class name="com.zixi.testing.BroadcasterFileInputTest">
+		    <methods>
+        		<include name="broadcasterRecordInout" />
+     		 </methods>
+     		 </class>
+		</classes>
+	</test>
 	<test name="Broadcaster - Remove udp output stream - 720*480 all_pids">
 		<parameter name="login_ip" value="10.7.0.78" />
 		<parameter name="userName" value="admin" />
@@ -524,6 +555,22 @@
 		    <class name="com.zixi.testing.FFMPEGImageStatisticTest"/>
 		</classes>
 	</test>
+	<test name="Broadcaster - Record a transcoded steam and waits 480p_trans1">
+		<parameter name="userName" value="admin" />
+		<parameter name="userPass" value="1234" />
+		<parameter name="login_ip" value="10.7.0.78" />
+		<parameter name="uiport" value="4444" />
+		<parameter name="id" value="1280x720p30_trans_sw" />
+		<parameter name="on" value="1" />
+		<parameter name="testid" value="1249" />    
+		<classes>
+		    <class name="com.zixi.testing.BroadcasterFileInputTest">
+		    <methods>
+        		<include name="broadcasterRecordInout" />
+     		 </methods>
+     		 </class>
+		</classes>
+	</test>
 	<test name="Broadcaster - Remove udp output stream - 1280x720p30">
 		<parameter name="login_ip" value="10.7.0.78" />
 		<parameter name="userName" value="admin" />
@@ -707,6 +754,22 @@
 		<parameter name="testid" value="2108" />  
 		<classes>
 		    <class name="com.zixi.testing.FFMPEGImageStatisticTest"/>
+		</classes>
+	</test>
+	<test name="Broadcaster - Record a transcoded steam and waits 480p_trans1">
+		<parameter name="userName" value="admin" />
+		<parameter name="userPass" value="1234" />
+		<parameter name="login_ip" value="10.7.0.78" />
+		<parameter name="uiport" value="4444" />
+		<parameter name="id" value="1280x720p30_trans_sw_all_pids" />
+		<parameter name="on" value="1" />
+		<parameter name="testid" value="1249" />    
+		<classes>
+		    <class name="com.zixi.testing.BroadcasterFileInputTest">
+		    <methods>
+        		<include name="broadcasterRecordInout" />
+     		 </methods>
+     		 </class>
 		</classes>
 	</test>
 	<test name="Broadcaster - Remove udp output stream - 1280x720p30 all_pids">
