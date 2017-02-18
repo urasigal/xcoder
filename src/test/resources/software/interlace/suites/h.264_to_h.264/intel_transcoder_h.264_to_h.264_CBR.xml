@@ -560,7 +560,7 @@
 		<parameter name="userPass" value="1234" />
 		<parameter name="login_ip" value="10.7.0.78" />
 		<parameter name="uiport" value="4444" />
-		<parameter name="id" value="480p_trans_sw_all_pids" />
+		<parameter name="id" value="1280x720p30_trans_sw" />
 		<parameter name="on" value="1" />
 		<parameter name="testid" value="1249" />    
 		<classes>
