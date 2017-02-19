@@ -90,7 +90,7 @@
 		<parameter name="login_ip" value="10.7.0.78" />
 		<parameter name="uiport" value="4444" />
 		<parameter name="type" value="Transcoded" />
-		<parameter name="id" value="480p_trans_sw" />
+		<parameter name="id" value="480p_trans_hw" />
 		<parameter name="matrix" value="1" />
 		<parameter name="max_outputs" value="-1" />
 		<parameter name="mcast_out" value="0" />
@@ -120,10 +120,10 @@
 		<parameter name="userPass" value="1234" />
 		<parameter name="login_ip" value="10.7.0.78" />
 		<parameter name="port" value="5555" />
-		<parameter name="stream" value="480p_trans_sw" />
-		<parameter name="streamname" value="480p_trans_sw" />
+		<parameter name="stream" value="480p_trans_hw" />
+		<parameter name="streamname" value="480p_trans_hw" />
 		<parameter name="host" value="10.7.0.150" />
-		<parameter name="id" value="480p_trans_sw" />
+		<parameter name="id" value="480p_trans_hw" />
 		<parameter name="rtp" value="0" />
 		<parameter name="fec" value="0" />
 		<parameter name="smoothing" value="0" />
@@ -157,7 +157,7 @@
 		<parameter name="userPass" value="1234" />
 		<parameter name="login_ip" value="10.7.0.78" />
 		<parameter name="uiport" value="4444" />
-		<parameter name="id" value="480p_trans_sw" />
+		<parameter name="id" value="480p_trans_hw" />
 		<parameter name="on" value="1" />
 		<parameter name="testid" value="1249" />    
 		<classes>
@@ -172,7 +172,7 @@
 		<parameter name="login_ip" value="10.7.0.78" />
 		<parameter name="userName" value="admin" />
 		<parameter name="userPassword" value="1234" />
-		<parameter name="id" value="480p_trans_sw" />
+		<parameter name="id" value="480p_trans_hw" />
 		<parameter name="uiport" value="4444" />
 		<parameter name="testid" value="2072" />  
 		<classes>
@@ -291,7 +291,7 @@
 		<parameter name="login_ip" value="10.7.0.78" />
 		<parameter name="uiport" value="4444" />
 		<parameter name="type" value="Transcoded" />
-		<parameter name="id" value="480p_trans_sw_all_pids" />
+		<parameter name="id" value="480p_trans_hw_all_pids" />
 		<parameter name="matrix" value="1" />
 		<parameter name="max_outputs" value="-1" />
 		<parameter name="mcast_out" value="0" />
@@ -321,10 +321,10 @@
 		<parameter name="userPass" value="1234" />
 		<parameter name="login_ip" value="10.7.0.78" />
 		<parameter name="port" value="5555" />
-		<parameter name="stream" value="480p_trans_sw_all_pids" />
-		<parameter name="streamname" value="480p_trans_sw_all_pids" />
+		<parameter name="stream" value="480p_trans_hw_all_pids" />
+		<parameter name="streamname" value="480p_trans_hw_all_pids" />
 		<parameter name="host" value="10.7.0.150" />
-		<parameter name="id" value="480p_trans_sw_all_pids" />
+		<parameter name="id" value="480p_trans_hw_all_pids" />
 		<parameter name="rtp" value="0" />
 		<parameter name="fec" value="0" />
 		<parameter name="smoothing" value="0" />
@@ -358,7 +358,7 @@
 		<parameter name="userPass" value="1234" />
 		<parameter name="login_ip" value="10.7.0.78" />
 		<parameter name="uiport" value="4444" />
-		<parameter name="id" value="480p_trans_sw_all_pids" />
+		<parameter name="id" value="480p_trans_hw_all_pids" />
 		<parameter name="on" value="1" />
 		<parameter name="testid" value="1249" />    
 		<classes>
@@ -373,7 +373,7 @@
 		<parameter name="login_ip" value="10.7.0.78" />
 		<parameter name="userName" value="admin" />
 		<parameter name="userPassword" value="1234" />
-		<parameter name="id" value="480p_trans_sw_all_pids" />
+		<parameter name="id" value="480p_trans_hw_all_pids" />
 		<parameter name="uiport" value="4444" />
 		<parameter name="testid" value="2401" />  
 		<classes>
@@ -493,7 +493,7 @@
 		<parameter name="login_ip" value="10.7.0.78" />
 		<parameter name="uiport" value="4444" />
 		<parameter name="type" value="Transcoded" />
-		<parameter name="id" value="1280x720p30_trans_sw" />
+		<parameter name="id" value="1280x720p30_trans_hw" />
 		<parameter name="matrix" value="1" />
 		<parameter name="max_outputs" value="-1" />
 		<parameter name="mcast_out" value="0" />
@@ -523,10 +523,10 @@
 		<parameter name="userPass" value="1234" />
 		<parameter name="login_ip" value="10.7.0.78" />
 		<parameter name="port" value="5555" />
-		<parameter name="stream" value="1280x720p30_trans_sw" />
-		<parameter name="streamname" value="1280x720p30_trans_sw" />
+		<parameter name="stream" value="1280x720p30_trans_hw" />
+		<parameter name="streamname" value="1280x720p30_trans_hw" />
 		<parameter name="host" value="10.7.0.150" />
-		<parameter name="id" value="1280x720p30_trans_sw" />
+		<parameter name="id" value="1280x720p30_trans_hw" />
 		<parameter name="rtp" value="0" />
 		<parameter name="fec" value="0" />
 		<parameter name="smoothing" value="0" />
@@ -560,7 +560,7 @@
 		<parameter name="userPass" value="1234" />
 		<parameter name="login_ip" value="10.7.0.78" />
 		<parameter name="uiport" value="4444" />
-		<parameter name="id" value="1280x720p30_trans_sw" />
+		<parameter name="id" value="1280x720p30_trans_hw" />
 		<parameter name="on" value="1" />
 		<parameter name="testid" value="1249" />    
 		<classes>
@@ -575,7 +575,7 @@
 		<parameter name="login_ip" value="10.7.0.78" />
 		<parameter name="userName" value="admin" />
 		<parameter name="userPassword" value="1234" />
-		<parameter name="id" value="1280x720p30_trans_sw" />
+		<parameter name="id" value="1280x720p30_trans_hw" />
 		<parameter name="uiport" value="4444" />
 		<parameter name="testid" value="2091" />  
 		<classes>
@@ -694,7 +694,7 @@
 		<parameter name="login_ip" value="10.7.0.78" />
 		<parameter name="uiport" value="4444" />
 		<parameter name="type" value="Transcoded" />
-		<parameter name="id" value="1280x720p30_trans_sw_all_pids" />
+		<parameter name="id" value="1280x720p30_trans_hw_all_pids" />
 		<parameter name="matrix" value="1" />
 		<parameter name="max_outputs" value="-1" />
 		<parameter name="mcast_out" value="0" />
@@ -724,10 +724,10 @@
 		<parameter name="userPass" value="1234" />
 		<parameter name="login_ip" value="10.7.0.78" />
 		<parameter name="port" value="5555" />
-		<parameter name="stream" value="1280x720p30_trans_sw_all_pids" />
-		<parameter name="streamname" value="1280x720p30_trans_sw_all_pids" />
+		<parameter name="stream" value="1280x720p30_trans_hw_all_pids" />
+		<parameter name="streamname" value="1280x720p30_trans_hw_all_pids" />
 		<parameter name="host" value="10.7.0.150" />
-		<parameter name="id" value="1280x720p30_trans_sw_all_pids" />
+		<parameter name="id" value="1280x720p30_trans_hw_all_pids" />
 		<parameter name="rtp" value="0" />
 		<parameter name="fec" value="0" />
 		<parameter name="smoothing" value="0" />
@@ -761,7 +761,7 @@
 		<parameter name="userPass" value="1234" />
 		<parameter name="login_ip" value="10.7.0.78" />
 		<parameter name="uiport" value="4444" />
-		<parameter name="id" value="1280x720p30_trans_sw_all_pids" />
+		<parameter name="id" value="1280x720p30_trans_hw_all_pids" />
 		<parameter name="on" value="1" />
 		<parameter name="testid" value="1249" />    
 		<classes>
@@ -776,7 +776,7 @@
 		<parameter name="login_ip" value="10.7.0.78" />
 		<parameter name="userName" value="admin" />
 		<parameter name="userPassword" value="1234" />
-		<parameter name="id" value="1280x720p30_trans_sw_all_pids" />
+		<parameter name="id" value="1280x720p30_trans_hw_all_pids" />
 		<parameter name="uiport" value="4444" />
 		<parameter name="testid" value="2110" />  
 		<classes>
