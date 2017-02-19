@@ -77,7 +77,7 @@
   <parameter name="Host" value="10.7.0.64"/>
   <parameter name="userName" value="admin"/>
   <parameter name="rows" value="10"/>
-  <parameter name="use_hw" value="1"/>
+  <parameter name="use_hw" value="0"/>
   <parameter name="ttl" value="5"/>
   <parameter name="remux_buff" value="1000"/>
   <parameter name="fec_overhead" value="30"/>
