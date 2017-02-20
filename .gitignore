@@ -1,1 +1,4 @@
 /target/
+src/test/resources/cpu/
+test-output/
+src/main/resources/log.*
