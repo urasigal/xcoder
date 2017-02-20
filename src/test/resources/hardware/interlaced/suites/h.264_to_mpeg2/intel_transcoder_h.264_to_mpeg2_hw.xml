@@ -65,7 +65,7 @@
 		<parameter name="height" value="480" />
 		<parameter name="crf" value="23" />
 		<parameter name="tune" value="zerolatency" />
-		<parameter name="use_hw" value="0" />
+		<parameter name="use_hw" value="1" />
 		<parameter name="max_bitrate" value="2500000" />  
 		<parameter name="testid" value="4656" />
 		<classes>
@@ -105,7 +105,7 @@
 		<parameter name="rec_duration" value="7200" />
 		<parameter name="src" value="transcoder" />
 		<parameter name="ap" value="-1" />
-		<parameter name="use_hw" value="0" />
+		<parameter name="use_hw" value="1" />
 		<parameter name="ll" value="0" />
 		<parameter name="all_pids" value="0" />
 		<parameter name="bit" value="0" />
@@ -266,7 +266,7 @@
 		<parameter name="height" value="480" />
 		<parameter name="crf" value="23" />
 		<parameter name="tune" value="zerolatency" />
-		<parameter name="use_hw" value="0" />
+		<parameter name="use_hw" value="1" />
 		<parameter name="max_bitrate" value="2500000" />  
 		<parameter name="testid" value="4700" />
 		<classes>
@@ -306,7 +306,7 @@
 		<parameter name="rec_duration" value="7200" />
 		<parameter name="src" value="transcoder" />
 		<parameter name="ap" value="-1" />
-		<parameter name="use_hw" value="0" />
+		<parameter name="use_hw" value="1" />
 		<parameter name="ll" value="0" />
 		<parameter name="all_pids" value="1" />
 		<parameter name="bit" value="0" />
