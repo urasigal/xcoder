@@ -48,7 +48,7 @@
 		<parameter name="uiport" value="4444" />
 		<parameter name="mode" value="h.264" />
 		<parameter name="profile_name" value="qlty_assess" />
-		<parameter name="enc" value="1" />
+		<parameter name="enc" value="3" />
 		<parameter name="bitrate" value="500000" />
 		<parameter name="gop" value="30" />
 		<parameter name="fixed_gop" value="1" />
@@ -209,7 +209,7 @@
 		<parameter name="uiport" value="4444" />
 		<parameter name="mode" value="h.264" />
 		<parameter name="profile_name" value="qlty_assess" />
-		<parameter name="enc" value="1" />
+		<parameter name="enc" value="3" />
 		<parameter name="bitrate" value="750000" />
 		<parameter name="gop" value="30" />
 		<parameter name="fixed_gop" value="1" />
@@ -371,7 +371,7 @@
 		<parameter name="uiport" value="4444" />
 		<parameter name="mode" value="h.264" />
 		<parameter name="profile_name" value="qlty_assess" />
-		<parameter name="enc" value="1" />
+		<parameter name="enc" value="3" />
 		<parameter name="bitrate" value="1000000" />
 		<parameter name="gop" value="30" />
 		<parameter name="fixed_gop" value="1" />
@@ -533,7 +533,7 @@
 		<parameter name="uiport" value="4444" />
 		<parameter name="mode" value="h.264" />
 		<parameter name="profile_name" value="qlty_assess" />
-		<parameter name="enc" value="1" />
+		<parameter name="enc" value="3" />
 		<parameter name="bitrate" value="1500000" />
 		<parameter name="gop" value="30" />
 		<parameter name="fixed_gop" value="1" />
@@ -695,7 +695,7 @@
 		<parameter name="uiport" value="4444" />
 		<parameter name="mode" value="h.264" />
 		<parameter name="profile_name" value="qlty_assess" />
-		<parameter name="enc" value="1" />
+		<parameter name="enc" value="3" />
 		<parameter name="bitrate" value="2000000" />
 		<parameter name="gop" value="30" />
 		<parameter name="fixed_gop" value="1" />
@@ -857,7 +857,7 @@
 		<parameter name="uiport" value="4444" />
 		<parameter name="mode" value="h.264" />
 		<parameter name="profile_name" value="qlty_assess" />
-		<parameter name="enc" value="1" />
+		<parameter name="enc" value="3" />
 		<parameter name="bitrate" value="2500000" />
 		<parameter name="gop" value="30" />
 		<parameter name="fixed_gop" value="1" />
@@ -1019,7 +1019,7 @@
 		<parameter name="uiport" value="4444" />
 		<parameter name="mode" value="h.264" />
 		<parameter name="profile_name" value="qlty_assess" />
-		<parameter name="enc" value="1" />
+		<parameter name="enc" value="3" />
 		<parameter name="bitrate" value="3000000" />
 		<parameter name="gop" value="30" />
 		<parameter name="fixed_gop" value="1" />
@@ -1181,7 +1181,7 @@
 		<parameter name="uiport" value="4444" />
 		<parameter name="mode" value="h.264" />
 		<parameter name="profile_name" value="qlty_assess" />
-		<parameter name="enc" value="1" />
+		<parameter name="enc" value="3" />
 		<parameter name="bitrate" value="3500000" />
 		<parameter name="gop" value="30" />
 		<parameter name="fixed_gop" value="1" />
@@ -1343,7 +1343,7 @@
 		<parameter name="uiport" value="4444" />
 		<parameter name="mode" value="h.264" />
 		<parameter name="profile_name" value="qlty_assess" />
-		<parameter name="enc" value="1" />
+		<parameter name="enc" value="3" />
 		<parameter name="bitrate" value="4000000" />
 		<parameter name="gop" value="30" />
 		<parameter name="fixed_gop" value="1" />
@@ -1505,7 +1505,7 @@
 		<parameter name="uiport" value="4444" />
 		<parameter name="mode" value="h.264" />
 		<parameter name="profile_name" value="qlty_assess" />
-		<parameter name="enc" value="1" />
+		<parameter name="enc" value="3" />
 		<parameter name="bitrate" value="4500000" />
 		<parameter name="gop" value="30" />
 		<parameter name="fixed_gop" value="1" />
@@ -1667,7 +1667,7 @@
 		<parameter name="uiport" value="4444" />
 		<parameter name="mode" value="h.264" />
 		<parameter name="profile_name" value="qlty_assess" />
-		<parameter name="enc" value="1" />
+		<parameter name="enc" value="3" />
 		<parameter name="bitrate" value="6000000" />
 		<parameter name="gop" value="30" />
 		<parameter name="fixed_gop" value="1" />
@@ -1829,7 +1829,7 @@
 		<parameter name="uiport" value="4444" />
 		<parameter name="mode" value="h.264" />
 		<parameter name="profile_name" value="qlty_assess" />
-		<parameter name="enc" value="1" />
+		<parameter name="enc" value="3" />
 		<parameter name="bitrate" value="8000000" />
 		<parameter name="gop" value="30" />
 		<parameter name="fixed_gop" value="1" />
@@ -1991,7 +1991,7 @@
 		<parameter name="uiport" value="4444" />
 		<parameter name="mode" value="h.264" />
 		<parameter name="profile_name" value="qlty_assess" />
-		<parameter name="enc" value="1" />
+		<parameter name="enc" value="3" />
 		<parameter name="bitrate" value="10000000" />
 		<parameter name="gop" value="30" />
 		<parameter name="fixed_gop" value="1" />
@@ -2153,7 +2153,7 @@
 		<parameter name="uiport" value="4444" />
 		<parameter name="mode" value="h.264" />
 		<parameter name="profile_name" value="qlty_assess" />
-		<parameter name="enc" value="1" />
+		<parameter name="enc" value="3" />
 		<parameter name="bitrate" value="500000" />
 		<parameter name="gop" value="30" />
 		<parameter name="fixed_gop" value="1" />
@@ -2315,7 +2315,7 @@
 		<parameter name="uiport" value="4444" />
 		<parameter name="mode" value="h.264" />
 		<parameter name="profile_name" value="qlty_assess" />
-		<parameter name="enc" value="1" />
+		<parameter name="enc" value="3" />
 		<parameter name="bitrate" value="750000" />
 		<parameter name="gop" value="30" />
 		<parameter name="fixed_gop" value="1" />
@@ -2478,7 +2478,7 @@
 		<parameter name="uiport" value="4444" />
 		<parameter name="mode" value="h.264" />
 		<parameter name="profile_name" value="qlty_assess" />
-		<parameter name="enc" value="1" />
+		<parameter name="enc" value="3" />
 		<parameter name="bitrate" value="1000000" />
 		<parameter name="gop" value="30" />
 		<parameter name="fixed_gop" value="1" />
@@ -2640,7 +2640,7 @@
 		<parameter name="uiport" value="4444" />
 		<parameter name="mode" value="h.264" />
 		<parameter name="profile_name" value="qlty_assess" />
-		<parameter name="enc" value="1" />
+		<parameter name="enc" value="3" />
 		<parameter name="bitrate" value="1500000" />
 		<parameter name="gop" value="30" />
 		<parameter name="fixed_gop" value="1" />
@@ -2802,7 +2802,7 @@
 		<parameter name="uiport" value="4444" />
 		<parameter name="mode" value="h.264" />
 		<parameter name="profile_name" value="qlty_assess" />
-		<parameter name="enc" value="1" />
+		<parameter name="enc" value="3" />
 		<parameter name="bitrate" value="2000000" />
 		<parameter name="gop" value="30" />
 		<parameter name="fixed_gop" value="1" />
@@ -2964,7 +2964,7 @@
 		<parameter name="uiport" value="4444" />
 		<parameter name="mode" value="h.264" />
 		<parameter name="profile_name" value="qlty_assess" />
-		<parameter name="enc" value="1" />
+		<parameter name="enc" value="3" />
 		<parameter name="bitrate" value="2500000" />
 		<parameter name="gop" value="30" />
 		<parameter name="fixed_gop" value="1" />
@@ -3126,7 +3126,7 @@
 		<parameter name="uiport" value="4444" />
 		<parameter name="mode" value="h.264" />
 		<parameter name="profile_name" value="qlty_assess" />
-		<parameter name="enc" value="1" />
+		<parameter name="enc" value="3" />
 		<parameter name="bitrate" value="3000000" />
 		<parameter name="gop" value="30" />
 		<parameter name="fixed_gop" value="1" />
@@ -3288,7 +3288,7 @@
 		<parameter name="uiport" value="4444" />
 		<parameter name="mode" value="h.264" />
 		<parameter name="profile_name" value="qlty_assess" />
-		<parameter name="enc" value="1" />
+		<parameter name="enc" value="3" />
 		<parameter name="bitrate" value="3500000" />
 		<parameter name="gop" value="30" />
 		<parameter name="fixed_gop" value="1" />
@@ -3450,7 +3450,7 @@
 		<parameter name="uiport" value="4444" />
 		<parameter name="mode" value="h.264" />
 		<parameter name="profile_name" value="qlty_assess" />
-		<parameter name="enc" value="1" />
+		<parameter name="enc" value="3" />
 		<parameter name="bitrate" value="4000000" />
 		<parameter name="gop" value="30" />
 		<parameter name="fixed_gop" value="1" />
@@ -3612,7 +3612,7 @@
 		<parameter name="uiport" value="4444" />
 		<parameter name="mode" value="h.264" />
 		<parameter name="profile_name" value="qlty_assess" />
-		<parameter name="enc" value="1" />
+		<parameter name="enc" value="3" />
 		<parameter name="bitrate" value="4500000" />
 		<parameter name="gop" value="30" />
 		<parameter name="fixed_gop" value="1" />
@@ -3774,7 +3774,7 @@
 		<parameter name="uiport" value="4444" />
 		<parameter name="mode" value="h.264" />
 		<parameter name="profile_name" value="qlty_assess" />
-		<parameter name="enc" value="1" />
+		<parameter name="enc" value="3" />
 		<parameter name="bitrate" value="6000000" />
 		<parameter name="gop" value="30" />
 		<parameter name="fixed_gop" value="1" />
@@ -3936,7 +3936,7 @@
 		<parameter name="uiport" value="4444" />
 		<parameter name="mode" value="h.264" />
 		<parameter name="profile_name" value="qlty_assess" />
-		<parameter name="enc" value="1" />
+		<parameter name="enc" value="3" />
 		<parameter name="bitrate" value="8000000" />
 		<parameter name="gop" value="30" />
 		<parameter name="fixed_gop" value="1" />
@@ -4098,7 +4098,7 @@
 		<parameter name="uiport" value="4444" />
 		<parameter name="mode" value="h.264" />
 		<parameter name="profile_name" value="qlty_assess" />
-		<parameter name="enc" value="1" />
+		<parameter name="enc" value="3" />
 		<parameter name="bitrate" value="10000000" />
 		<parameter name="gop" value="30" />
 		<parameter name="fixed_gop" value="1" />
@@ -4260,7 +4260,7 @@
 		<parameter name="uiport" value="4444" />
 		<parameter name="mode" value="h.264" />
 		<parameter name="profile_name" value="qlty_assess" />
-		<parameter name="enc" value="1" />
+		<parameter name="enc" value="3" />
 		<parameter name="bitrate" value="500000" />
 		<parameter name="gop" value="30" />
 		<parameter name="fixed_gop" value="1" />
@@ -4422,7 +4422,7 @@
 		<parameter name="uiport" value="4444" />
 		<parameter name="mode" value="h.264" />
 		<parameter name="profile_name" value="qlty_assess" />
-		<parameter name="enc" value="1" />
+		<parameter name="enc" value="3" />
 		<parameter name="bitrate" value="750000" />
 		<parameter name="gop" value="30" />
 		<parameter name="fixed_gop" value="1" />
@@ -4585,7 +4585,7 @@
 		<parameter name="uiport" value="4444" />
 		<parameter name="mode" value="h.264" />
 		<parameter name="profile_name" value="qlty_assess" />
-		<parameter name="enc" value="1" />
+		<parameter name="enc" value="3" />
 		<parameter name="bitrate" value="1000000" />
 		<parameter name="gop" value="30" />
 		<parameter name="fixed_gop" value="1" />
@@ -4747,7 +4747,7 @@
 		<parameter name="uiport" value="4444" />
 		<parameter name="mode" value="h.264" />
 		<parameter name="profile_name" value="qlty_assess" />
-		<parameter name="enc" value="1" />
+		<parameter name="enc" value="3" />
 		<parameter name="bitrate" value="1500000" />
 		<parameter name="gop" value="30" />
 		<parameter name="fixed_gop" value="1" />
@@ -4909,7 +4909,7 @@
 		<parameter name="uiport" value="4444" />
 		<parameter name="mode" value="h.264" />
 		<parameter name="profile_name" value="qlty_assess" />
-		<parameter name="enc" value="1" />
+		<parameter name="enc" value="3" />
 		<parameter name="bitrate" value="2000000" />
 		<parameter name="gop" value="30" />
 		<parameter name="fixed_gop" value="1" />
@@ -5071,7 +5071,7 @@
 		<parameter name="uiport" value="4444" />
 		<parameter name="mode" value="h.264" />
 		<parameter name="profile_name" value="qlty_assess" />
-		<parameter name="enc" value="1" />
+		<parameter name="enc" value="3" />
 		<parameter name="bitrate" value="2500000" />
 		<parameter name="gop" value="30" />
 		<parameter name="fixed_gop" value="1" />
@@ -5233,7 +5233,7 @@
 		<parameter name="uiport" value="4444" />
 		<parameter name="mode" value="h.264" />
 		<parameter name="profile_name" value="qlty_assess" />
-		<parameter name="enc" value="1" />
+		<parameter name="enc" value="3" />
 		<parameter name="bitrate" value="3000000" />
 		<parameter name="gop" value="30" />
 		<parameter name="fixed_gop" value="1" />
@@ -5395,7 +5395,7 @@
 		<parameter name="uiport" value="4444" />
 		<parameter name="mode" value="h.264" />
 		<parameter name="profile_name" value="qlty_assess" />
-		<parameter name="enc" value="1" />
+		<parameter name="enc" value="3" />
 		<parameter name="bitrate" value="3500000" />
 		<parameter name="gop" value="30" />
 		<parameter name="fixed_gop" value="1" />
@@ -5557,7 +5557,7 @@
 		<parameter name="uiport" value="4444" />
 		<parameter name="mode" value="h.264" />
 		<parameter name="profile_name" value="qlty_assess" />
-		<parameter name="enc" value="1" />
+		<parameter name="enc" value="3" />
 		<parameter name="bitrate" value="4000000" />
 		<parameter name="gop" value="30" />
 		<parameter name="fixed_gop" value="1" />
@@ -5719,7 +5719,7 @@
 		<parameter name="uiport" value="4444" />
 		<parameter name="mode" value="h.264" />
 		<parameter name="profile_name" value="qlty_assess" />
-		<parameter name="enc" value="1" />
+		<parameter name="enc" value="3" />
 		<parameter name="bitrate" value="4500000" />
 		<parameter name="gop" value="30" />
 		<parameter name="fixed_gop" value="1" />
@@ -5881,7 +5881,7 @@
 		<parameter name="uiport" value="4444" />
 		<parameter name="mode" value="h.264" />
 		<parameter name="profile_name" value="qlty_assess" />
-		<parameter name="enc" value="1" />
+		<parameter name="enc" value="3" />
 		<parameter name="bitrate" value="6000000" />
 		<parameter name="gop" value="30" />
 		<parameter name="fixed_gop" value="1" />
@@ -6043,7 +6043,7 @@
 		<parameter name="uiport" value="4444" />
 		<parameter name="mode" value="h.264" />
 		<parameter name="profile_name" value="qlty_assess" />
-		<parameter name="enc" value="1" />
+		<parameter name="enc" value="3" />
 		<parameter name="bitrate" value="8000000" />
 		<parameter name="gop" value="30" />
 		<parameter name="fixed_gop" value="1" />
@@ -6205,7 +6205,7 @@
 		<parameter name="uiport" value="4444" />
 		<parameter name="mode" value="h.264" />
 		<parameter name="profile_name" value="qlty_assess" />
-		<parameter name="enc" value="1" />
+		<parameter name="enc" value="3" />
 		<parameter name="bitrate" value="10000000" />
 		<parameter name="gop" value="30" />
 		<parameter name="fixed_gop" value="1" />
@@ -6367,7 +6367,7 @@
 		<parameter name="uiport" value="4444" />
 		<parameter name="mode" value="h.264" />
 		<parameter name="profile_name" value="qlty_assess" />
-		<parameter name="enc" value="1" />
+		<parameter name="enc" value="3" />
 		<parameter name="bitrate" value="500000" />
 		<parameter name="gop" value="30" />
 		<parameter name="fixed_gop" value="1" />
@@ -6529,7 +6529,7 @@
 		<parameter name="uiport" value="4444" />
 		<parameter name="mode" value="h.264" />
 		<parameter name="profile_name" value="qlty_assess" />
-		<parameter name="enc" value="1" />
+		<parameter name="enc" value="3" />
 		<parameter name="bitrate" value="750000" />
 		<parameter name="gop" value="30" />
 		<parameter name="fixed_gop" value="1" />
@@ -6692,7 +6692,7 @@
 		<parameter name="uiport" value="4444" />
 		<parameter name="mode" value="h.264" />
 		<parameter name="profile_name" value="qlty_assess" />
-		<parameter name="enc" value="1" />
+		<parameter name="enc" value="3" />
 		<parameter name="bitrate" value="1000000" />
 		<parameter name="gop" value="30" />
 		<parameter name="fixed_gop" value="1" />
@@ -6854,7 +6854,7 @@
 		<parameter name="uiport" value="4444" />
 		<parameter name="mode" value="h.264" />
 		<parameter name="profile_name" value="qlty_assess" />
-		<parameter name="enc" value="1" />
+		<parameter name="enc" value="3" />
 		<parameter name="bitrate" value="1500000" />
 		<parameter name="gop" value="30" />
 		<parameter name="fixed_gop" value="1" />
@@ -7016,7 +7016,7 @@
 		<parameter name="uiport" value="4444" />
 		<parameter name="mode" value="h.264" />
 		<parameter name="profile_name" value="qlty_assess" />
-		<parameter name="enc" value="1" />
+		<parameter name="enc" value="3" />
 		<parameter name="bitrate" value="2000000" />
 		<parameter name="gop" value="30" />
 		<parameter name="fixed_gop" value="1" />
@@ -7178,7 +7178,7 @@
 		<parameter name="uiport" value="4444" />
 		<parameter name="mode" value="h.264" />
 		<parameter name="profile_name" value="qlty_assess" />
-		<parameter name="enc" value="1" />
+		<parameter name="enc" value="3" />
 		<parameter name="bitrate" value="2500000" />
 		<parameter name="gop" value="30" />
 		<parameter name="fixed_gop" value="1" />
@@ -7340,7 +7340,7 @@
 		<parameter name="uiport" value="4444" />
 		<parameter name="mode" value="h.264" />
 		<parameter name="profile_name" value="qlty_assess" />
-		<parameter name="enc" value="1" />
+		<parameter name="enc" value="3" />
 		<parameter name="bitrate" value="3000000" />
 		<parameter name="gop" value="30" />
 		<parameter name="fixed_gop" value="1" />
@@ -7502,7 +7502,7 @@
 		<parameter name="uiport" value="4444" />
 		<parameter name="mode" value="h.264" />
 		<parameter name="profile_name" value="qlty_assess" />
-		<parameter name="enc" value="1" />
+		<parameter name="enc" value="3" />
 		<parameter name="bitrate" value="3500000" />
 		<parameter name="gop" value="30" />
 		<parameter name="fixed_gop" value="1" />
@@ -7664,7 +7664,7 @@
 		<parameter name="uiport" value="4444" />
 		<parameter name="mode" value="h.264" />
 		<parameter name="profile_name" value="qlty_assess" />
-		<parameter name="enc" value="1" />
+		<parameter name="enc" value="3" />
 		<parameter name="bitrate" value="4000000" />
 		<parameter name="gop" value="30" />
 		<parameter name="fixed_gop" value="1" />
@@ -7826,7 +7826,7 @@
 		<parameter name="uiport" value="4444" />
 		<parameter name="mode" value="h.264" />
 		<parameter name="profile_name" value="qlty_assess" />
-		<parameter name="enc" value="1" />
+		<parameter name="enc" value="3" />
 		<parameter name="bitrate" value="4500000" />
 		<parameter name="gop" value="30" />
 		<parameter name="fixed_gop" value="1" />
@@ -7988,7 +7988,7 @@
 		<parameter name="uiport" value="4444" />
 		<parameter name="mode" value="h.264" />
 		<parameter name="profile_name" value="qlty_assess" />
-		<parameter name="enc" value="1" />
+		<parameter name="enc" value="3" />
 		<parameter name="bitrate" value="6000000" />
 		<parameter name="gop" value="30" />
 		<parameter name="fixed_gop" value="1" />
@@ -8150,7 +8150,7 @@
 		<parameter name="uiport" value="4444" />
 		<parameter name="mode" value="h.264" />
 		<parameter name="profile_name" value="qlty_assess" />
-		<parameter name="enc" value="1" />
+		<parameter name="enc" value="3" />
 		<parameter name="bitrate" value="8000000" />
 		<parameter name="gop" value="30" />
 		<parameter name="fixed_gop" value="1" />
@@ -8312,7 +8312,7 @@
 		<parameter name="uiport" value="4444" />
 		<parameter name="mode" value="h.264" />
 		<parameter name="profile_name" value="qlty_assess" />
-		<parameter name="enc" value="1" />
+		<parameter name="enc" value="3" />
 		<parameter name="bitrate" value="10000000" />
 		<parameter name="gop" value="30" />
 		<parameter name="fixed_gop" value="1" />
@@ -8474,7 +8474,7 @@
 		<parameter name="uiport" value="4444" />
 		<parameter name="mode" value="h.264" />
 		<parameter name="profile_name" value="qlty_assess" />
-		<parameter name="enc" value="1" />
+		<parameter name="enc" value="3" />
 		<parameter name="bitrate" value="500000" />
 		<parameter name="gop" value="30" />
 		<parameter name="fixed_gop" value="1" />
@@ -8636,7 +8636,7 @@
 		<parameter name="uiport" value="4444" />
 		<parameter name="mode" value="h.264" />
 		<parameter name="profile_name" value="qlty_assess" />
-		<parameter name="enc" value="1" />
+		<parameter name="enc" value="3" />
 		<parameter name="bitrate" value="750000" />
 		<parameter name="gop" value="30" />
 		<parameter name="fixed_gop" value="1" />
@@ -8799,7 +8799,7 @@
 		<parameter name="uiport" value="4444" />
 		<parameter name="mode" value="h.264" />
 		<parameter name="profile_name" value="qlty_assess" />
-		<parameter name="enc" value="1" />
+		<parameter name="enc" value="3" />
 		<parameter name="bitrate" value="1000000" />
 		<parameter name="gop" value="30" />
 		<parameter name="fixed_gop" value="1" />
@@ -8961,7 +8961,7 @@
 		<parameter name="uiport" value="4444" />
 		<parameter name="mode" value="h.264" />
 		<parameter name="profile_name" value="qlty_assess" />
-		<parameter name="enc" value="1" />
+		<parameter name="enc" value="3" />
 		<parameter name="bitrate" value="1500000" />
 		<parameter name="gop" value="30" />
 		<parameter name="fixed_gop" value="1" />
@@ -9123,7 +9123,7 @@
 		<parameter name="uiport" value="4444" />
 		<parameter name="mode" value="h.264" />
 		<parameter name="profile_name" value="qlty_assess" />
-		<parameter name="enc" value="1" />
+		<parameter name="enc" value="3" />
 		<parameter name="bitrate" value="2000000" />
 		<parameter name="gop" value="30" />
 		<parameter name="fixed_gop" value="1" />
@@ -9285,7 +9285,7 @@
 		<parameter name="uiport" value="4444" />
 		<parameter name="mode" value="h.264" />
 		<parameter name="profile_name" value="qlty_assess" />
-		<parameter name="enc" value="1" />
+		<parameter name="enc" value="3" />
 		<parameter name="bitrate" value="2500000" />
 		<parameter name="gop" value="30" />
 		<parameter name="fixed_gop" value="1" />
@@ -9447,7 +9447,7 @@
 		<parameter name="uiport" value="4444" />
 		<parameter name="mode" value="h.264" />
 		<parameter name="profile_name" value="qlty_assess" />
-		<parameter name="enc" value="1" />
+		<parameter name="enc" value="3" />
 		<parameter name="bitrate" value="3000000" />
 		<parameter name="gop" value="30" />
 		<parameter name="fixed_gop" value="1" />
@@ -9609,7 +9609,7 @@
 		<parameter name="uiport" value="4444" />
 		<parameter name="mode" value="h.264" />
 		<parameter name="profile_name" value="qlty_assess" />
-		<parameter name="enc" value="1" />
+		<parameter name="enc" value="3" />
 		<parameter name="bitrate" value="3500000" />
 		<parameter name="gop" value="30" />
 		<parameter name="fixed_gop" value="1" />
@@ -9771,7 +9771,7 @@
 		<parameter name="uiport" value="4444" />
 		<parameter name="mode" value="h.264" />
 		<parameter name="profile_name" value="qlty_assess" />
-		<parameter name="enc" value="1" />
+		<parameter name="enc" value="3" />
 		<parameter name="bitrate" value="4000000" />
 		<parameter name="gop" value="30" />
 		<parameter name="fixed_gop" value="1" />
@@ -9933,7 +9933,7 @@
 		<parameter name="uiport" value="4444" />
 		<parameter name="mode" value="h.264" />
 		<parameter name="profile_name" value="qlty_assess" />
-		<parameter name="enc" value="1" />
+		<parameter name="enc" value="3" />
 		<parameter name="bitrate" value="4500000" />
 		<parameter name="gop" value="30" />
 		<parameter name="fixed_gop" value="1" />
@@ -10095,7 +10095,7 @@
 		<parameter name="uiport" value="4444" />
 		<parameter name="mode" value="h.264" />
 		<parameter name="profile_name" value="qlty_assess" />
-		<parameter name="enc" value="1" />
+		<parameter name="enc" value="3" />
 		<parameter name="bitrate" value="6000000" />
 		<parameter name="gop" value="30" />
 		<parameter name="fixed_gop" value="1" />
@@ -10257,7 +10257,7 @@
 		<parameter name="uiport" value="4444" />
 		<parameter name="mode" value="h.264" />
 		<parameter name="profile_name" value="qlty_assess" />
-		<parameter name="enc" value="1" />
+		<parameter name="enc" value="3" />
 		<parameter name="bitrate" value="8000000" />
 		<parameter name="gop" value="30" />
 		<parameter name="fixed_gop" value="1" />
@@ -10419,7 +10419,7 @@
 		<parameter name="uiport" value="4444" />
 		<parameter name="mode" value="h.264" />
 		<parameter name="profile_name" value="qlty_assess" />
-		<parameter name="enc" value="1" />
+		<parameter name="enc" value="3" />
 		<parameter name="bitrate" value="10000000" />
 		<parameter name="gop" value="30" />
 		<parameter name="fixed_gop" value="1" />
@@ -10581,7 +10581,7 @@
 		<parameter name="uiport" value="4444" />
 		<parameter name="mode" value="h.264" />
 		<parameter name="profile_name" value="qlty_assess" />
-		<parameter name="enc" value="1" />
+		<parameter name="enc" value="3" />
 		<parameter name="bitrate" value="500000" />
 		<parameter name="gop" value="30" />
 		<parameter name="fixed_gop" value="1" />
@@ -10743,7 +10743,7 @@
 		<parameter name="uiport" value="4444" />
 		<parameter name="mode" value="h.264" />
 		<parameter name="profile_name" value="qlty_assess" />
-		<parameter name="enc" value="1" />
+		<parameter name="enc" value="3" />
 		<parameter name="bitrate" value="750000" />
 		<parameter name="gop" value="30" />
 		<parameter name="fixed_gop" value="1" />
@@ -10906,7 +10906,7 @@
 		<parameter name="uiport" value="4444" />
 		<parameter name="mode" value="h.264" />
 		<parameter name="profile_name" value="qlty_assess" />
-		<parameter name="enc" value="1" />
+		<parameter name="enc" value="3" />
 		<parameter name="bitrate" value="1000000" />
 		<parameter name="gop" value="30" />
 		<parameter name="fixed_gop" value="1" />
@@ -11068,7 +11068,7 @@
 		<parameter name="uiport" value="4444" />
 		<parameter name="mode" value="h.264" />
 		<parameter name="profile_name" value="qlty_assess" />
-		<parameter name="enc" value="1" />
+		<parameter name="enc" value="3" />
 		<parameter name="bitrate" value="1500000" />
 		<parameter name="gop" value="30" />
 		<parameter name="fixed_gop" value="1" />
@@ -11230,7 +11230,7 @@
 		<parameter name="uiport" value="4444" />
 		<parameter name="mode" value="h.264" />
 		<parameter name="profile_name" value="qlty_assess" />
-		<parameter name="enc" value="1" />
+		<parameter name="enc" value="3" />
 		<parameter name="bitrate" value="2000000" />
 		<parameter name="gop" value="30" />
 		<parameter name="fixed_gop" value="1" />
@@ -11392,7 +11392,7 @@
 		<parameter name="uiport" value="4444" />
 		<parameter name="mode" value="h.264" />
 		<parameter name="profile_name" value="qlty_assess" />
-		<parameter name="enc" value="1" />
+		<parameter name="enc" value="3" />
 		<parameter name="bitrate" value="2500000" />
 		<parameter name="gop" value="30" />
 		<parameter name="fixed_gop" value="1" />
@@ -11554,7 +11554,7 @@
 		<parameter name="uiport" value="4444" />
 		<parameter name="mode" value="h.264" />
 		<parameter name="profile_name" value="qlty_assess" />
-		<parameter name="enc" value="1" />
+		<parameter name="enc" value="3" />
 		<parameter name="bitrate" value="3000000" />
 		<parameter name="gop" value="30" />
 		<parameter name="fixed_gop" value="1" />
@@ -11716,7 +11716,7 @@
 		<parameter name="uiport" value="4444" />
 		<parameter name="mode" value="h.264" />
 		<parameter name="profile_name" value="qlty_assess" />
-		<parameter name="enc" value="1" />
+		<parameter name="enc" value="3" />
 		<parameter name="bitrate" value="3500000" />
 		<parameter name="gop" value="30" />
 		<parameter name="fixed_gop" value="1" />
@@ -11878,7 +11878,7 @@
 		<parameter name="uiport" value="4444" />
 		<parameter name="mode" value="h.264" />
 		<parameter name="profile_name" value="qlty_assess" />
-		<parameter name="enc" value="1" />
+		<parameter name="enc" value="3" />
 		<parameter name="bitrate" value="4000000" />
 		<parameter name="gop" value="30" />
 		<parameter name="fixed_gop" value="1" />
@@ -12040,7 +12040,7 @@
 		<parameter name="uiport" value="4444" />
 		<parameter name="mode" value="h.264" />
 		<parameter name="profile_name" value="qlty_assess" />
-		<parameter name="enc" value="1" />
+		<parameter name="enc" value="3" />
 		<parameter name="bitrate" value="4500000" />
 		<parameter name="gop" value="30" />
 		<parameter name="fixed_gop" value="1" />
@@ -12202,7 +12202,7 @@
 		<parameter name="uiport" value="4444" />
 		<parameter name="mode" value="h.264" />
 		<parameter name="profile_name" value="qlty_assess" />
-		<parameter name="enc" value="1" />
+		<parameter name="enc" value="3" />
 		<parameter name="bitrate" value="6000000" />
 		<parameter name="gop" value="30" />
 		<parameter name="fixed_gop" value="1" />
@@ -12364,7 +12364,7 @@
 		<parameter name="uiport" value="4444" />
 		<parameter name="mode" value="h.264" />
 		<parameter name="profile_name" value="qlty_assess" />
-		<parameter name="enc" value="1" />
+		<parameter name="enc" value="3" />
 		<parameter name="bitrate" value="8000000" />
 		<parameter name="gop" value="30" />
 		<parameter name="fixed_gop" value="1" />
@@ -12526,7 +12526,7 @@
 		<parameter name="uiport" value="4444" />
 		<parameter name="mode" value="h.264" />
 		<parameter name="profile_name" value="qlty_assess" />
-		<parameter name="enc" value="1" />
+		<parameter name="enc" value="3" />
 		<parameter name="bitrate" value="10000000" />
 		<parameter name="gop" value="30" />
 		<parameter name="fixed_gop" value="1" />
@@ -12688,7 +12688,7 @@
 		<parameter name="uiport" value="4444" />
 		<parameter name="mode" value="h.264" />
 		<parameter name="profile_name" value="qlty_assess" />
-		<parameter name="enc" value="1" />
+		<parameter name="enc" value="3" />
 		<parameter name="bitrate" value="500000" />
 		<parameter name="gop" value="30" />
 		<parameter name="fixed_gop" value="1" />
@@ -12850,7 +12850,7 @@
 		<parameter name="uiport" value="4444" />
 		<parameter name="mode" value="h.264" />
 		<parameter name="profile_name" value="qlty_assess" />
-		<parameter name="enc" value="1" />
+		<parameter name="enc" value="3" />
 		<parameter name="bitrate" value="750000" />
 		<parameter name="gop" value="30" />
 		<parameter name="fixed_gop" value="1" />
@@ -13012,7 +13012,7 @@
 		<parameter name="uiport" value="4444" />
 		<parameter name="mode" value="h.264" />
 		<parameter name="profile_name" value="qlty_assess" />
-		<parameter name="enc" value="1" />
+		<parameter name="enc" value="3" />
 		<parameter name="bitrate" value="1000000" />
 		<parameter name="gop" value="30" />
 		<parameter name="fixed_gop" value="1" />
@@ -13174,7 +13174,7 @@
 		<parameter name="uiport" value="4444" />
 		<parameter name="mode" value="h.264" />
 		<parameter name="profile_name" value="qlty_assess" />
-		<parameter name="enc" value="1" />
+		<parameter name="enc" value="3" />
 		<parameter name="bitrate" value="1500000" />
 		<parameter name="gop" value="30" />
 		<parameter name="fixed_gop" value="1" />
@@ -13336,7 +13336,7 @@
 		<parameter name="uiport" value="4444" />
 		<parameter name="mode" value="h.264" />
 		<parameter name="profile_name" value="qlty_assess" />
-		<parameter name="enc" value="1" />
+		<parameter name="enc" value="3" />
 		<parameter name="bitrate" value="2000000" />
 		<parameter name="gop" value="30" />
 		<parameter name="fixed_gop" value="1" />
@@ -13498,7 +13498,7 @@
 		<parameter name="uiport" value="4444" />
 		<parameter name="mode" value="h.264" />
 		<parameter name="profile_name" value="qlty_assess" />
-		<parameter name="enc" value="1" />
+		<parameter name="enc" value="3" />
 		<parameter name="bitrate" value="2500000" />
 		<parameter name="gop" value="30" />
 		<parameter name="fixed_gop" value="1" />
@@ -13660,7 +13660,7 @@
 		<parameter name="uiport" value="4444" />
 		<parameter name="mode" value="h.264" />
 		<parameter name="profile_name" value="qlty_assess" />
-		<parameter name="enc" value="1" />
+		<parameter name="enc" value="3" />
 		<parameter name="bitrate" value="3000000" />
 		<parameter name="gop" value="30" />
 		<parameter name="fixed_gop" value="1" />
@@ -13822,7 +13822,7 @@
 		<parameter name="uiport" value="4444" />
 		<parameter name="mode" value="h.264" />
 		<parameter name="profile_name" value="qlty_assess" />
-		<parameter name="enc" value="1" />
+		<parameter name="enc" value="3" />
 		<parameter name="bitrate" value="3500000" />
 		<parameter name="gop" value="30" />
 		<parameter name="fixed_gop" value="1" />
@@ -13984,7 +13984,7 @@
 		<parameter name="uiport" value="4444" />
 		<parameter name="mode" value="h.264" />
 		<parameter name="profile_name" value="qlty_assess" />
-		<parameter name="enc" value="1" />
+		<parameter name="enc" value="3" />
 		<parameter name="bitrate" value="4000000" />
 		<parameter name="gop" value="30" />
 		<parameter name="fixed_gop" value="1" />
@@ -14146,7 +14146,7 @@
 		<parameter name="uiport" value="4444" />
 		<parameter name="mode" value="h.264" />
 		<parameter name="profile_name" value="qlty_assess" />
-		<parameter name="enc" value="1" />
+		<parameter name="enc" value="3" />
 		<parameter name="bitrate" value="4500000" />
 		<parameter name="gop" value="30" />
 		<parameter name="fixed_gop" value="1" />
@@ -14308,7 +14308,7 @@
 		<parameter name="uiport" value="4444" />
 		<parameter name="mode" value="h.264" />
 		<parameter name="profile_name" value="qlty_assess" />
-		<parameter name="enc" value="1" />
+		<parameter name="enc" value="3" />
 		<parameter name="bitrate" value="6000000" />
 		<parameter name="gop" value="30" />
 		<parameter name="fixed_gop" value="1" />
@@ -14470,7 +14470,7 @@
 		<parameter name="uiport" value="4444" />
 		<parameter name="mode" value="h.264" />
 		<parameter name="profile_name" value="qlty_assess" />
-		<parameter name="enc" value="1" />
+		<parameter name="enc" value="3" />
 		<parameter name="bitrate" value="8000000" />
 		<parameter name="gop" value="30" />
 		<parameter name="fixed_gop" value="1" />
@@ -14632,7 +14632,7 @@
 		<parameter name="uiport" value="4444" />
 		<parameter name="mode" value="h.264" />
 		<parameter name="profile_name" value="qlty_assess" />
-		<parameter name="enc" value="1" />
+		<parameter name="enc" value="3" />
 		<parameter name="bitrate" value="10000000" />
 		<parameter name="gop" value="30" />
 		<parameter name="fixed_gop" value="1" />
