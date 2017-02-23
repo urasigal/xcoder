@@ -57,7 +57,7 @@
 		<parameter name="performance" value="1" />
 		<parameter name="b_frames" value="3" />
 		<parameter name="frame_type" value="0" />
-		<parameter name="profile" value="1" />
+		<parameter name="profile" value="0" />
 		<parameter name="level" value="100" />
 		<parameter name="bitrate_mode" value="0" />
 		<parameter name="ref_frames" value="2" />
@@ -218,7 +218,7 @@
 		<parameter name="performance" value="1" />
 		<parameter name="b_frames" value="3" />
 		<parameter name="frame_type" value="0" />
-		<parameter name="profile" value="1" />
+		<parameter name="profile" value="0" />
 		<parameter name="level" value="100" />
 		<parameter name="bitrate_mode" value="0" />
 		<parameter name="ref_frames" value="2" />
@@ -380,7 +380,7 @@
 		<parameter name="performance" value="1" />
 		<parameter name="b_frames" value="3" />
 		<parameter name="frame_type" value="0" />
-		<parameter name="profile" value="1" />
+		<parameter name="profile" value="0" />
 		<parameter name="level" value="100" />
 		<parameter name="bitrate_mode" value="0" />
 		<parameter name="ref_frames" value="2" />
@@ -542,7 +542,7 @@
 		<parameter name="performance" value="1" />
 		<parameter name="b_frames" value="3" />
 		<parameter name="frame_type" value="0" />
-		<parameter name="profile" value="1" />
+		<parameter name="profile" value="0" />
 		<parameter name="level" value="100" />
 		<parameter name="bitrate_mode" value="0" />
 		<parameter name="ref_frames" value="2" />
@@ -704,7 +704,7 @@
 		<parameter name="performance" value="1" />
 		<parameter name="b_frames" value="3" />
 		<parameter name="frame_type" value="0" />
-		<parameter name="profile" value="1" />
+		<parameter name="profile" value="0" />
 		<parameter name="level" value="100" />
 		<parameter name="bitrate_mode" value="0" />
 		<parameter name="ref_frames" value="2" />
@@ -866,7 +866,7 @@
 		<parameter name="performance" value="1" />
 		<parameter name="b_frames" value="3" />
 		<parameter name="frame_type" value="0" />
-		<parameter name="profile" value="1" />
+		<parameter name="profile" value="0" />
 		<parameter name="level" value="100" />
 		<parameter name="bitrate_mode" value="0" />
 		<parameter name="ref_frames" value="2" />
@@ -1028,7 +1028,7 @@
 		<parameter name="performance" value="1" />
 		<parameter name="b_frames" value="3" />
 		<parameter name="frame_type" value="0" />
-		<parameter name="profile" value="1" />
+		<parameter name="profile" value="0" />
 		<parameter name="level" value="100" />
 		<parameter name="bitrate_mode" value="0" />
 		<parameter name="ref_frames" value="2" />
@@ -1190,7 +1190,7 @@
 		<parameter name="performance" value="1" />
 		<parameter name="b_frames" value="3" />
 		<parameter name="frame_type" value="0" />
-		<parameter name="profile" value="1" />
+		<parameter name="profile" value="0" />
 		<parameter name="level" value="100" />
 		<parameter name="bitrate_mode" value="0" />
 		<parameter name="ref_frames" value="2" />
@@ -1352,7 +1352,7 @@
 		<parameter name="performance" value="1" />
 		<parameter name="b_frames" value="3" />
 		<parameter name="frame_type" value="0" />
-		<parameter name="profile" value="1" />
+		<parameter name="profile" value="0" />
 		<parameter name="level" value="100" />
 		<parameter name="bitrate_mode" value="0" />
 		<parameter name="ref_frames" value="2" />
@@ -1514,7 +1514,7 @@
 		<parameter name="performance" value="1" />
 		<parameter name="b_frames" value="3" />
 		<parameter name="frame_type" value="0" />
-		<parameter name="profile" value="1" />
+		<parameter name="profile" value="0" />
 		<parameter name="level" value="100" />
 		<parameter name="bitrate_mode" value="0" />
 		<parameter name="ref_frames" value="2" />
@@ -1676,7 +1676,7 @@
 		<parameter name="performance" value="1" />
 		<parameter name="b_frames" value="3" />
 		<parameter name="frame_type" value="0" />
-		<parameter name="profile" value="1" />
+		<parameter name="profile" value="0" />
 		<parameter name="level" value="100" />
 		<parameter name="bitrate_mode" value="0" />
 		<parameter name="ref_frames" value="2" />
@@ -1838,7 +1838,7 @@
 		<parameter name="performance" value="1" />
 		<parameter name="b_frames" value="3" />
 		<parameter name="frame_type" value="0" />
-		<parameter name="profile" value="1" />
+		<parameter name="profile" value="0" />
 		<parameter name="level" value="100" />
 		<parameter name="bitrate_mode" value="0" />
 		<parameter name="ref_frames" value="2" />
@@ -2000,7 +2000,7 @@
 		<parameter name="performance" value="1" />
 		<parameter name="b_frames" value="3" />
 		<parameter name="frame_type" value="0" />
-		<parameter name="profile" value="1" />
+		<parameter name="profile" value="0" />
 		<parameter name="level" value="100" />
 		<parameter name="bitrate_mode" value="0" />
 		<parameter name="ref_frames" value="2" />
@@ -2162,7 +2162,7 @@
 		<parameter name="performance" value="2" />
 		<parameter name="b_frames" value="3" />
 		<parameter name="frame_type" value="0" />
-		<parameter name="profile" value="1" />
+		<parameter name="profile" value="0" />
 		<parameter name="level" value="100" />
 		<parameter name="bitrate_mode" value="0" />
 		<parameter name="ref_frames" value="2" />
@@ -2324,7 +2324,7 @@
 		<parameter name="performance" value="1" />
 		<parameter name="b_frames" value="3" />
 		<parameter name="frame_type" value="0" />
-		<parameter name="profile" value="1" />
+		<parameter name="profile" value="0" />
 		<parameter name="level" value="100" />
 		<parameter name="bitrate_mode" value="0" />
 		<parameter name="ref_frames" value="2" />
@@ -2487,7 +2487,7 @@
 		<parameter name="performance" value="2" />
 		<parameter name="b_frames" value="3" />
 		<parameter name="frame_type" value="0" />
-		<parameter name="profile" value="1" />
+		<parameter name="profile" value="0" />
 		<parameter name="level" value="100" />
 		<parameter name="bitrate_mode" value="0" />
 		<parameter name="ref_frames" value="2" />
@@ -2649,7 +2649,7 @@
 		<parameter name="performance" value="2" />
 		<parameter name="b_frames" value="3" />
 		<parameter name="frame_type" value="0" />
-		<parameter name="profile" value="1" />
+		<parameter name="profile" value="0" />
 		<parameter name="level" value="100" />
 		<parameter name="bitrate_mode" value="0" />
 		<parameter name="ref_frames" value="2" />
@@ -2811,7 +2811,7 @@
 		<parameter name="performance" value="2" />
 		<parameter name="b_frames" value="3" />
 		<parameter name="frame_type" value="0" />
-		<parameter name="profile" value="1" />
+		<parameter name="profile" value="0" />
 		<parameter name="level" value="100" />
 		<parameter name="bitrate_mode" value="0" />
 		<parameter name="ref_frames" value="2" />
@@ -2973,7 +2973,7 @@
 		<parameter name="performance" value="2" />
 		<parameter name="b_frames" value="3" />
 		<parameter name="frame_type" value="0" />
-		<parameter name="profile" value="1" />
+		<parameter name="profile" value="0" />
 		<parameter name="level" value="100" />
 		<parameter name="bitrate_mode" value="0" />
 		<parameter name="ref_frames" value="2" />
@@ -3135,7 +3135,7 @@
 		<parameter name="performance" value="2" />
 		<parameter name="b_frames" value="3" />
 		<parameter name="frame_type" value="0" />
-		<parameter name="profile" value="1" />
+		<parameter name="profile" value="0" />
 		<parameter name="level" value="100" />
 		<parameter name="bitrate_mode" value="0" />
 		<parameter name="ref_frames" value="2" />
@@ -3297,7 +3297,7 @@
 		<parameter name="performance" value="2" />
 		<parameter name="b_frames" value="3" />
 		<parameter name="frame_type" value="0" />
-		<parameter name="profile" value="1" />
+		<parameter name="profile" value="0" />
 		<parameter name="level" value="100" />
 		<parameter name="bitrate_mode" value="0" />
 		<parameter name="ref_frames" value="2" />
@@ -3459,7 +3459,7 @@
 		<parameter name="performance" value="2" />
 		<parameter name="b_frames" value="3" />
 		<parameter name="frame_type" value="0" />
-		<parameter name="profile" value="1" />
+		<parameter name="profile" value="0" />
 		<parameter name="level" value="100" />
 		<parameter name="bitrate_mode" value="0" />
 		<parameter name="ref_frames" value="2" />
@@ -3621,7 +3621,7 @@
 		<parameter name="performance" value="2" />
 		<parameter name="b_frames" value="3" />
 		<parameter name="frame_type" value="0" />
-		<parameter name="profile" value="1" />
+		<parameter name="profile" value="0" />
 		<parameter name="level" value="100" />
 		<parameter name="bitrate_mode" value="0" />
 		<parameter name="ref_frames" value="2" />
@@ -3783,7 +3783,7 @@
 		<parameter name="performance" value="2" />
 		<parameter name="b_frames" value="3" />
 		<parameter name="frame_type" value="0" />
-		<parameter name="profile" value="1" />
+		<parameter name="profile" value="0" />
 		<parameter name="level" value="100" />
 		<parameter name="bitrate_mode" value="0" />
 		<parameter name="ref_frames" value="2" />
@@ -3945,7 +3945,7 @@
 		<parameter name="performance" value="2" />
 		<parameter name="b_frames" value="3" />
 		<parameter name="frame_type" value="0" />
-		<parameter name="profile" value="1" />
+		<parameter name="profile" value="0" />
 		<parameter name="level" value="100" />
 		<parameter name="bitrate_mode" value="0" />
 		<parameter name="ref_frames" value="2" />
@@ -4107,7 +4107,7 @@
 		<parameter name="performance" value="2" />
 		<parameter name="b_frames" value="3" />
 		<parameter name="frame_type" value="0" />
-		<parameter name="profile" value="1" />
+		<parameter name="profile" value="0" />
 		<parameter name="level" value="100" />
 		<parameter name="bitrate_mode" value="0" />
 		<parameter name="ref_frames" value="2" />
@@ -4269,7 +4269,7 @@
 		<parameter name="performance" value="3" />
 		<parameter name="b_frames" value="3" />
 		<parameter name="frame_type" value="0" />
-		<parameter name="profile" value="1" />
+		<parameter name="profile" value="0" />
 		<parameter name="level" value="100" />
 		<parameter name="bitrate_mode" value="0" />
 		<parameter name="ref_frames" value="2" />
@@ -4431,7 +4431,7 @@
 		<parameter name="performance" value="1" />
 		<parameter name="b_frames" value="3" />
 		<parameter name="frame_type" value="0" />
-		<parameter name="profile" value="1" />
+		<parameter name="profile" value="0" />
 		<parameter name="level" value="100" />
 		<parameter name="bitrate_mode" value="0" />
 		<parameter name="ref_frames" value="2" />
@@ -4594,7 +4594,7 @@
 		<parameter name="performance" value="3" />
 		<parameter name="b_frames" value="3" />
 		<parameter name="frame_type" value="0" />
-		<parameter name="profile" value="1" />
+		<parameter name="profile" value="0" />
 		<parameter name="level" value="100" />
 		<parameter name="bitrate_mode" value="0" />
 		<parameter name="ref_frames" value="2" />
@@ -4756,7 +4756,7 @@
 		<parameter name="performance" value="3" />
 		<parameter name="b_frames" value="3" />
 		<parameter name="frame_type" value="0" />
-		<parameter name="profile" value="1" />
+		<parameter name="profile" value="0" />
 		<parameter name="level" value="100" />
 		<parameter name="bitrate_mode" value="0" />
 		<parameter name="ref_frames" value="2" />
@@ -4918,7 +4918,7 @@
 		<parameter name="performance" value="3" />
 		<parameter name="b_frames" value="3" />
 		<parameter name="frame_type" value="0" />
-		<parameter name="profile" value="1" />
+		<parameter name="profile" value="0" />
 		<parameter name="level" value="100" />
 		<parameter name="bitrate_mode" value="0" />
 		<parameter name="ref_frames" value="2" />
@@ -5080,7 +5080,7 @@
 		<parameter name="performance" value="3" />
 		<parameter name="b_frames" value="3" />
 		<parameter name="frame_type" value="0" />
-		<parameter name="profile" value="1" />
+		<parameter name="profile" value="0" />
 		<parameter name="level" value="100" />
 		<parameter name="bitrate_mode" value="0" />
 		<parameter name="ref_frames" value="2" />
@@ -5242,7 +5242,7 @@
 		<parameter name="performance" value="3" />
 		<parameter name="b_frames" value="3" />
 		<parameter name="frame_type" value="0" />
-		<parameter name="profile" value="1" />
+		<parameter name="profile" value="0" />
 		<parameter name="level" value="100" />
 		<parameter name="bitrate_mode" value="0" />
 		<parameter name="ref_frames" value="2" />
@@ -5404,7 +5404,7 @@
 		<parameter name="performance" value="3" />
 		<parameter name="b_frames" value="3" />
 		<parameter name="frame_type" value="0" />
-		<parameter name="profile" value="1" />
+		<parameter name="profile" value="0" />
 		<parameter name="level" value="100" />
 		<parameter name="bitrate_mode" value="0" />
 		<parameter name="ref_frames" value="2" />
@@ -5566,7 +5566,7 @@
 		<parameter name="performance" value="3" />
 		<parameter name="b_frames" value="3" />
 		<parameter name="frame_type" value="0" />
-		<parameter name="profile" value="1" />
+		<parameter name="profile" value="0" />
 		<parameter name="level" value="100" />
 		<parameter name="bitrate_mode" value="0" />
 		<parameter name="ref_frames" value="2" />
@@ -5728,7 +5728,7 @@
 		<parameter name="performance" value="3" />
 		<parameter name="b_frames" value="3" />
 		<parameter name="frame_type" value="0" />
-		<parameter name="profile" value="1" />
+		<parameter name="profile" value="0" />
 		<parameter name="level" value="100" />
 		<parameter name="bitrate_mode" value="0" />
 		<parameter name="ref_frames" value="2" />
@@ -5890,7 +5890,7 @@
 		<parameter name="performance" value="3" />
 		<parameter name="b_frames" value="3" />
 		<parameter name="frame_type" value="0" />
-		<parameter name="profile" value="1" />
+		<parameter name="profile" value="0" />
 		<parameter name="level" value="100" />
 		<parameter name="bitrate_mode" value="0" />
 		<parameter name="ref_frames" value="2" />
@@ -6052,7 +6052,7 @@
 		<parameter name="performance" value="3" />
 		<parameter name="b_frames" value="3" />
 		<parameter name="frame_type" value="0" />
-		<parameter name="profile" value="1" />
+		<parameter name="profile" value="0" />
 		<parameter name="level" value="100" />
 		<parameter name="bitrate_mode" value="0" />
 		<parameter name="ref_frames" value="2" />
@@ -6214,7 +6214,7 @@
 		<parameter name="performance" value="3" />
 		<parameter name="b_frames" value="3" />
 		<parameter name="frame_type" value="0" />
-		<parameter name="profile" value="1" />
+		<parameter name="profile" value="0" />
 		<parameter name="level" value="100" />
 		<parameter name="bitrate_mode" value="0" />
 		<parameter name="ref_frames" value="2" />
@@ -6376,7 +6376,7 @@
 		<parameter name="performance" value="4" />
 		<parameter name="b_frames" value="3" />
 		<parameter name="frame_type" value="0" />
-		<parameter name="profile" value="1" />
+		<parameter name="profile" value="0" />
 		<parameter name="level" value="100" />
 		<parameter name="bitrate_mode" value="0" />
 		<parameter name="ref_frames" value="2" />
@@ -6538,7 +6538,7 @@
 		<parameter name="performance" value="1" />
 		<parameter name="b_frames" value="3" />
 		<parameter name="frame_type" value="0" />
-		<parameter name="profile" value="1" />
+		<parameter name="profile" value="0" />
 		<parameter name="level" value="100" />
 		<parameter name="bitrate_mode" value="0" />
 		<parameter name="ref_frames" value="2" />
@@ -6701,7 +6701,7 @@
 		<parameter name="performance" value="4" />
 		<parameter name="b_frames" value="3" />
 		<parameter name="frame_type" value="0" />
-		<parameter name="profile" value="1" />
+		<parameter name="profile" value="0" />
 		<parameter name="level" value="100" />
 		<parameter name="bitrate_mode" value="0" />
 		<parameter name="ref_frames" value="2" />
@@ -6863,7 +6863,7 @@
 		<parameter name="performance" value="4" />
 		<parameter name="b_frames" value="3" />
 		<parameter name="frame_type" value="0" />
-		<parameter name="profile" value="1" />
+		<parameter name="profile" value="0" />
 		<parameter name="level" value="100" />
 		<parameter name="bitrate_mode" value="0" />
 		<parameter name="ref_frames" value="2" />
@@ -7025,7 +7025,7 @@
 		<parameter name="performance" value="4" />
 		<parameter name="b_frames" value="3" />
 		<parameter name="frame_type" value="0" />
-		<parameter name="profile" value="1" />
+		<parameter name="profile" value="0" />
 		<parameter name="level" value="100" />
 		<parameter name="bitrate_mode" value="0" />
 		<parameter name="ref_frames" value="2" />
@@ -7187,7 +7187,7 @@
 		<parameter name="performance" value="4" />
 		<parameter name="b_frames" value="3" />
 		<parameter name="frame_type" value="0" />
-		<parameter name="profile" value="1" />
+		<parameter name="profile" value="0" />
 		<parameter name="level" value="100" />
 		<parameter name="bitrate_mode" value="0" />
 		<parameter name="ref_frames" value="2" />
@@ -7349,7 +7349,7 @@
 		<parameter name="performance" value="4" />
 		<parameter name="b_frames" value="3" />
 		<parameter name="frame_type" value="0" />
-		<parameter name="profile" value="1" />
+		<parameter name="profile" value="0" />
 		<parameter name="level" value="100" />
 		<parameter name="bitrate_mode" value="0" />
 		<parameter name="ref_frames" value="2" />
@@ -7511,7 +7511,7 @@
 		<parameter name="performance" value="4" />
 		<parameter name="b_frames" value="3" />
 		<parameter name="frame_type" value="0" />
-		<parameter name="profile" value="1" />
+		<parameter name="profile" value="0" />
 		<parameter name="level" value="100" />
 		<parameter name="bitrate_mode" value="0" />
 		<parameter name="ref_frames" value="2" />
@@ -7673,7 +7673,7 @@
 		<parameter name="performance" value="4" />
 		<parameter name="b_frames" value="3" />
 		<parameter name="frame_type" value="0" />
-		<parameter name="profile" value="1" />
+		<parameter name="profile" value="0" />
 		<parameter name="level" value="100" />
 		<parameter name="bitrate_mode" value="0" />
 		<parameter name="ref_frames" value="2" />
@@ -7835,7 +7835,7 @@
 		<parameter name="performance" value="4" />
 		<parameter name="b_frames" value="3" />
 		<parameter name="frame_type" value="0" />
-		<parameter name="profile" value="1" />
+		<parameter name="profile" value="0" />
 		<parameter name="level" value="100" />
 		<parameter name="bitrate_mode" value="0" />
 		<parameter name="ref_frames" value="2" />
@@ -7997,7 +7997,7 @@
 		<parameter name="performance" value="4" />
 		<parameter name="b_frames" value="3" />
 		<parameter name="frame_type" value="0" />
-		<parameter name="profile" value="1" />
+		<parameter name="profile" value="0" />
 		<parameter name="level" value="100" />
 		<parameter name="bitrate_mode" value="0" />
 		<parameter name="ref_frames" value="2" />
@@ -8159,7 +8159,7 @@
 		<parameter name="performance" value="4" />
 		<parameter name="b_frames" value="3" />
 		<parameter name="frame_type" value="0" />
-		<parameter name="profile" value="1" />
+		<parameter name="profile" value="0" />
 		<parameter name="level" value="100" />
 		<parameter name="bitrate_mode" value="0" />
 		<parameter name="ref_frames" value="2" />
@@ -8321,7 +8321,7 @@
 		<parameter name="performance" value="4" />
 		<parameter name="b_frames" value="3" />
 		<parameter name="frame_type" value="0" />
-		<parameter name="profile" value="1" />
+		<parameter name="profile" value="0" />
 		<parameter name="level" value="100" />
 		<parameter name="bitrate_mode" value="0" />
 		<parameter name="ref_frames" value="2" />
@@ -8483,7 +8483,7 @@
 		<parameter name="performance" value="5" />
 		<parameter name="b_frames" value="3" />
 		<parameter name="frame_type" value="0" />
-		<parameter name="profile" value="1" />
+		<parameter name="profile" value="0" />
 		<parameter name="level" value="100" />
 		<parameter name="bitrate_mode" value="0" />
 		<parameter name="ref_frames" value="2" />
@@ -8645,7 +8645,7 @@
 		<parameter name="performance" value="1" />
 		<parameter name="b_frames" value="3" />
 		<parameter name="frame_type" value="0" />
-		<parameter name="profile" value="1" />
+		<parameter name="profile" value="0" />
 		<parameter name="level" value="100" />
 		<parameter name="bitrate_mode" value="0" />
 		<parameter name="ref_frames" value="2" />
@@ -8808,7 +8808,7 @@
 		<parameter name="performance" value="5" />
 		<parameter name="b_frames" value="3" />
 		<parameter name="frame_type" value="0" />
-		<parameter name="profile" value="1" />
+		<parameter name="profile" value="0" />
 		<parameter name="level" value="100" />
 		<parameter name="bitrate_mode" value="0" />
 		<parameter name="ref_frames" value="2" />
@@ -8970,7 +8970,7 @@
 		<parameter name="performance" value="5" />
 		<parameter name="b_frames" value="3" />
 		<parameter name="frame_type" value="0" />
-		<parameter name="profile" value="1" />
+		<parameter name="profile" value="0" />
 		<parameter name="level" value="100" />
 		<parameter name="bitrate_mode" value="0" />
 		<parameter name="ref_frames" value="2" />
@@ -9132,7 +9132,7 @@
 		<parameter name="performance" value="5" />
 		<parameter name="b_frames" value="3" />
 		<parameter name="frame_type" value="0" />
-		<parameter name="profile" value="1" />
+		<parameter name="profile" value="0" />
 		<parameter name="level" value="100" />
 		<parameter name="bitrate_mode" value="0" />
 		<parameter name="ref_frames" value="2" />
@@ -9294,7 +9294,7 @@
 		<parameter name="performance" value="5" />
 		<parameter name="b_frames" value="3" />
 		<parameter name="frame_type" value="0" />
-		<parameter name="profile" value="1" />
+		<parameter name="profile" value="0" />
 		<parameter name="level" value="100" />
 		<parameter name="bitrate_mode" value="0" />
 		<parameter name="ref_frames" value="2" />
@@ -9456,7 +9456,7 @@
 		<parameter name="performance" value="5" />
 		<parameter name="b_frames" value="3" />
 		<parameter name="frame_type" value="0" />
-		<parameter name="profile" value="1" />
+		<parameter name="profile" value="0" />
 		<parameter name="level" value="100" />
 		<parameter name="bitrate_mode" value="0" />
 		<parameter name="ref_frames" value="2" />
@@ -9618,7 +9618,7 @@
 		<parameter name="performance" value="5" />
 		<parameter name="b_frames" value="3" />
 		<parameter name="frame_type" value="0" />
-		<parameter name="profile" value="1" />
+		<parameter name="profile" value="0" />
 		<parameter name="level" value="100" />
 		<parameter name="bitrate_mode" value="0" />
 		<parameter name="ref_frames" value="2" />
@@ -9780,7 +9780,7 @@
 		<parameter name="performance" value="5" />
 		<parameter name="b_frames" value="3" />
 		<parameter name="frame_type" value="0" />
-		<parameter name="profile" value="1" />
+		<parameter name="profile" value="0" />
 		<parameter name="level" value="100" />
 		<parameter name="bitrate_mode" value="0" />
 		<parameter name="ref_frames" value="2" />
@@ -9942,7 +9942,7 @@
 		<parameter name="performance" value="5" />
 		<parameter name="b_frames" value="3" />
 		<parameter name="frame_type" value="0" />
-		<parameter name="profile" value="1" />
+		<parameter name="profile" value="0" />
 		<parameter name="level" value="100" />
 		<parameter name="bitrate_mode" value="0" />
 		<parameter name="ref_frames" value="2" />
@@ -10104,7 +10104,7 @@
 		<parameter name="performance" value="5" />
 		<parameter name="b_frames" value="3" />
 		<parameter name="frame_type" value="0" />
-		<parameter name="profile" value="1" />
+		<parameter name="profile" value="0" />
 		<parameter name="level" value="100" />
 		<parameter name="bitrate_mode" value="0" />
 		<parameter name="ref_frames" value="2" />
@@ -10266,7 +10266,7 @@
 		<parameter name="performance" value="5" />
 		<parameter name="b_frames" value="3" />
 		<parameter name="frame_type" value="0" />
-		<parameter name="profile" value="1" />
+		<parameter name="profile" value="0" />
 		<parameter name="level" value="100" />
 		<parameter name="bitrate_mode" value="0" />
 		<parameter name="ref_frames" value="2" />
@@ -10428,7 +10428,7 @@
 		<parameter name="performance" value="5" />
 		<parameter name="b_frames" value="3" />
 		<parameter name="frame_type" value="0" />
-		<parameter name="profile" value="1" />
+		<parameter name="profile" value="0" />
 		<parameter name="level" value="100" />
 		<parameter name="bitrate_mode" value="0" />
 		<parameter name="ref_frames" value="2" />
@@ -10590,7 +10590,7 @@
 		<parameter name="performance" value="6" />
 		<parameter name="b_frames" value="3" />
 		<parameter name="frame_type" value="0" />
-		<parameter name="profile" value="1" />
+		<parameter name="profile" value="0" />
 		<parameter name="level" value="100" />
 		<parameter name="bitrate_mode" value="0" />
 		<parameter name="ref_frames" value="2" />
@@ -10752,7 +10752,7 @@
 		<parameter name="performance" value="1" />
 		<parameter name="b_frames" value="3" />
 		<parameter name="frame_type" value="0" />
-		<parameter name="profile" value="1" />
+		<parameter name="profile" value="0" />
 		<parameter name="level" value="100" />
 		<parameter name="bitrate_mode" value="0" />
 		<parameter name="ref_frames" value="2" />
@@ -10915,7 +10915,7 @@
 		<parameter name="performance" value="6" />
 		<parameter name="b_frames" value="3" />
 		<parameter name="frame_type" value="0" />
-		<parameter name="profile" value="1" />
+		<parameter name="profile" value="0" />
 		<parameter name="level" value="100" />
 		<parameter name="bitrate_mode" value="0" />
 		<parameter name="ref_frames" value="2" />
@@ -11077,7 +11077,7 @@
 		<parameter name="performance" value="6" />
 		<parameter name="b_frames" value="3" />
 		<parameter name="frame_type" value="0" />
-		<parameter name="profile" value="1" />
+		<parameter name="profile" value="0" />
 		<parameter name="level" value="100" />
 		<parameter name="bitrate_mode" value="0" />
 		<parameter name="ref_frames" value="2" />
@@ -11239,7 +11239,7 @@
 		<parameter name="performance" value="6" />
 		<parameter name="b_frames" value="3" />
 		<parameter name="frame_type" value="0" />
-		<parameter name="profile" value="1" />
+		<parameter name="profile" value="0" />
 		<parameter name="level" value="100" />
 		<parameter name="bitrate_mode" value="0" />
 		<parameter name="ref_frames" value="2" />
@@ -11401,7 +11401,7 @@
 		<parameter name="performance" value="6" />
 		<parameter name="b_frames" value="3" />
 		<parameter name="frame_type" value="0" />
-		<parameter name="profile" value="1" />
+		<parameter name="profile" value="0" />
 		<parameter name="level" value="100" />
 		<parameter name="bitrate_mode" value="0" />
 		<parameter name="ref_frames" value="2" />
@@ -11563,7 +11563,7 @@
 		<parameter name="performance" value="6" />
 		<parameter name="b_frames" value="3" />
 		<parameter name="frame_type" value="0" />
-		<parameter name="profile" value="1" />
+		<parameter name="profile" value="0" />
 		<parameter name="level" value="100" />
 		<parameter name="bitrate_mode" value="0" />
 		<parameter name="ref_frames" value="2" />
@@ -11725,7 +11725,7 @@
 		<parameter name="performance" value="6" />
 		<parameter name="b_frames" value="3" />
 		<parameter name="frame_type" value="0" />
-		<parameter name="profile" value="1" />
+		<parameter name="profile" value="0" />
 		<parameter name="level" value="100" />
 		<parameter name="bitrate_mode" value="0" />
 		<parameter name="ref_frames" value="2" />
@@ -11887,7 +11887,7 @@
 		<parameter name="performance" value="6" />
 		<parameter name="b_frames" value="3" />
 		<parameter name="frame_type" value="0" />
-		<parameter name="profile" value="1" />
+		<parameter name="profile" value="0" />
 		<parameter name="level" value="100" />
 		<parameter name="bitrate_mode" value="0" />
 		<parameter name="ref_frames" value="2" />
@@ -12049,7 +12049,7 @@
 		<parameter name="performance" value="6" />
 		<parameter name="b_frames" value="3" />
 		<parameter name="frame_type" value="0" />
-		<parameter name="profile" value="1" />
+		<parameter name="profile" value="0" />
 		<parameter name="level" value="100" />
 		<parameter name="bitrate_mode" value="0" />
 		<parameter name="ref_frames" value="2" />
@@ -12211,7 +12211,7 @@
 		<parameter name="performance" value="6" />
 		<parameter name="b_frames" value="3" />
 		<parameter name="frame_type" value="0" />
-		<parameter name="profile" value="1" />
+		<parameter name="profile" value="0" />
 		<parameter name="level" value="100" />
 		<parameter name="bitrate_mode" value="0" />
 		<parameter name="ref_frames" value="2" />
@@ -12373,7 +12373,7 @@
 		<parameter name="performance" value="6" />
 		<parameter name="b_frames" value="3" />
 		<parameter name="frame_type" value="0" />
-		<parameter name="profile" value="1" />
+		<parameter name="profile" value="0" />
 		<parameter name="level" value="100" />
 		<parameter name="bitrate_mode" value="0" />
 		<parameter name="ref_frames" value="2" />
@@ -12535,7 +12535,7 @@
 		<parameter name="performance" value="6" />
 		<parameter name="b_frames" value="3" />
 		<parameter name="frame_type" value="0" />
-		<parameter name="profile" value="1" />
+		<parameter name="profile" value="0" />
 		<parameter name="level" value="100" />
 		<parameter name="bitrate_mode" value="0" />
 		<parameter name="ref_frames" value="2" />
@@ -12697,7 +12697,7 @@
 		<parameter name="performance" value="7" />
 		<parameter name="b_frames" value="3" />
 		<parameter name="frame_type" value="0" />
-		<parameter name="profile" value="1" />
+		<parameter name="profile" value="0" />
 		<parameter name="level" value="100" />
 		<parameter name="bitrate_mode" value="0" />
 		<parameter name="ref_frames" value="2" />
@@ -12859,7 +12859,7 @@
 		<parameter name="performance" value="1" />
 		<parameter name="b_frames" value="3" />
 		<parameter name="frame_type" value="0" />
-		<parameter name="profile" value="1" />
+		<parameter name="profile" value="0" />
 		<parameter name="level" value="100" />
 		<parameter name="bitrate_mode" value="0" />
 		<parameter name="ref_frames" value="2" />
@@ -13021,7 +13021,7 @@
 		<parameter name="performance" value="7" />
 		<parameter name="b_frames" value="3" />
 		<parameter name="frame_type" value="0" />
-		<parameter name="profile" value="1" />
+		<parameter name="profile" value="0" />
 		<parameter name="level" value="100" />
 		<parameter name="bitrate_mode" value="0" />
 		<parameter name="ref_frames" value="2" />
@@ -13183,7 +13183,7 @@
 		<parameter name="performance" value="7" />
 		<parameter name="b_frames" value="3" />
 		<parameter name="frame_type" value="0" />
-		<parameter name="profile" value="1" />
+		<parameter name="profile" value="0" />
 		<parameter name="level" value="100" />
 		<parameter name="bitrate_mode" value="0" />
 		<parameter name="ref_frames" value="2" />
@@ -13345,7 +13345,7 @@
 		<parameter name="performance" value="7" />
 		<parameter name="b_frames" value="3" />
 		<parameter name="frame_type" value="0" />
-		<parameter name="profile" value="1" />
+		<parameter name="profile" value="0" />
 		<parameter name="level" value="100" />
 		<parameter name="bitrate_mode" value="0" />
 		<parameter name="ref_frames" value="2" />
@@ -13507,7 +13507,7 @@
 		<parameter name="performance" value="7" />
 		<parameter name="b_frames" value="3" />
 		<parameter name="frame_type" value="0" />
-		<parameter name="profile" value="1" />
+		<parameter name="profile" value="0" />
 		<parameter name="level" value="100" />
 		<parameter name="bitrate_mode" value="0" />
 		<parameter name="ref_frames" value="2" />
@@ -13669,7 +13669,7 @@
 		<parameter name="performance" value="7" />
 		<parameter name="b_frames" value="3" />
 		<parameter name="frame_type" value="0" />
-		<parameter name="profile" value="1" />
+		<parameter name="profile" value="0" />
 		<parameter name="level" value="100" />
 		<parameter name="bitrate_mode" value="0" />
 		<parameter name="ref_frames" value="2" />
@@ -13831,7 +13831,7 @@
 		<parameter name="performance" value="7" />
 		<parameter name="b_frames" value="3" />
 		<parameter name="frame_type" value="0" />
-		<parameter name="profile" value="1" />
+		<parameter name="profile" value="0" />
 		<parameter name="level" value="100" />
 		<parameter name="bitrate_mode" value="0" />
 		<parameter name="ref_frames" value="2" />
@@ -13993,7 +13993,7 @@
 		<parameter name="performance" value="7" />
 		<parameter name="b_frames" value="3" />
 		<parameter name="frame_type" value="0" />
-		<parameter name="profile" value="1" />
+		<parameter name="profile" value="0" />
 		<parameter name="level" value="100" />
 		<parameter name="bitrate_mode" value="0" />
 		<parameter name="ref_frames" value="2" />
@@ -14155,7 +14155,7 @@
 		<parameter name="performance" value="7" />
 		<parameter name="b_frames" value="3" />
 		<parameter name="frame_type" value="0" />
-		<parameter name="profile" value="1" />
+		<parameter name="profile" value="0" />
 		<parameter name="level" value="100" />
 		<parameter name="bitrate_mode" value="0" />
 		<parameter name="ref_frames" value="2" />
@@ -14317,7 +14317,7 @@
 		<parameter name="performance" value="7" />
 		<parameter name="b_frames" value="3" />
 		<parameter name="frame_type" value="0" />
-		<parameter name="profile" value="1" />
+		<parameter name="profile" value="0" />
 		<parameter name="level" value="100" />
 		<parameter name="bitrate_mode" value="0" />
 		<parameter name="ref_frames" value="2" />
@@ -14479,7 +14479,7 @@
 		<parameter name="performance" value="7" />
 		<parameter name="b_frames" value="3" />
 		<parameter name="frame_type" value="0" />
-		<parameter name="profile" value="1" />
+		<parameter name="profile" value="0" />
 		<parameter name="level" value="100" />
 		<parameter name="bitrate_mode" value="0" />
 		<parameter name="ref_frames" value="2" />
@@ -14641,7 +14641,7 @@
 		<parameter name="performance" value="7" />
 		<parameter name="b_frames" value="3" />
 		<parameter name="frame_type" value="0" />
-		<parameter name="profile" value="1" />
+		<parameter name="profile" value="0" />
 		<parameter name="level" value="100" />
 		<parameter name="bitrate_mode" value="0" />
 		<parameter name="ref_frames" value="2" />
