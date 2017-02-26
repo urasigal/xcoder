@@ -46,7 +46,7 @@ public class BroadcasterFileInputDriver extends BroadcasterLoggableApiWorker imp
 		String ret =  apiworker.sendGet("http://" + login_ip + ":" + uiport + "/set_live_recording.json?id=" + id + "&on=" + on, "", 77, responseCookieContainer, login_ip, this, uiport);
 		
 		File file = FileManagerTools.createFile("src/test/resources/cpu/" + id);
-		for(int i = 0; i < 120; i++)
+		for(int i = 0; i < 150; i++)
 		{
 			String cpuLoad = null;
 			try {
