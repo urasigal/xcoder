@@ -14619,10 +14619,11 @@
 		<parameter name="on" value="0" />
 		<parameter name="testid" value="1249" />    
 		<classes>
-		    <class name="com.zixi.testing.BroadcasterFileInputTest"/>
+		    <class name="com.zixi.testing.BroadcasterFileInputTest">
 		    <methods>
         		<include name="broadcasterStopFileInout" />
      		 </methods>
+     		 </class>
 		</classes>
 	</test> 
 	<test name="Broadcaster: add profile h.264 - 1280*720 10000@7">
