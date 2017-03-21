@@ -61,19 +61,19 @@ public class BroadcasterFileInputTest extends BaseTest{
 	
 	
 	/// Used in multiple file recording testing.
-	@Parameters({ "userName", "userPass", "login_ip", "uiport", "id", "on","testid" })
+	@Parameters({ "userName", "userPass", "login_ip", "uiport", "id", "on", "cpuFolder", "testid" })
 	@Test
-	public void broadcasterRecordInout(String userName, String userPass, String login_ip, String uiport,String id, String on, String testid)
+	public void broadcasterRecordInout(String userName, String userPass, String login_ip, String uiport,String id, String on, String cpuFolder, String testid)
 	throws InterruptedException {
 		
 		this.testid = testid;
 		
 		this.version = productAboutDriver.getBroadcasterVersion(login_ip, uiport, userName, userPass);
 		
-		testParameters = buildTestParametersString(new String[] { "userName", "userPass", "login_ip", "uiport", "id","on", "testid"}, 
+		testParameters = buildTestParametersString(new String[] { "userName", "userPass", "login_ip", "uiport", "id","on", "cpuFolder", "testid"}, 
 		new String[] {userName, userPass, login_ip, uiport, id, on, testid });
 		
-		Assert.assertEquals(((BroadcasterFileInputDriver) testDriver).testIMPLRec(userName, userPass, login_ip, uiport, id, on), "added");
+		Assert.assertEquals(((BroadcasterFileInputDriver) testDriver).testIMPLRec(userName, userPass, login_ip, uiport, id, on, cpuFolder), "added");
 		
 	}
 }
