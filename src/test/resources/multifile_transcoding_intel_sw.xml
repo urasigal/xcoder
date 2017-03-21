@@ -131,6 +131,7 @@
 		<parameter name="uiport" value="4444" />
 		<parameter name="id" value="trans_500@1" />
 		<parameter name="on" value="1" />
+		<parameter name="cpuFolder" value="cpuintelsw" />
 		<parameter name="testid" value="1249" />    
 		<classes>
 		    <class name="com.zixi.testing.BroadcasterFileInputTest"/>
@@ -292,6 +293,7 @@
 		<parameter name="uiport" value="4444" />
 		<parameter name="id" value="trans_750@1" />
 		<parameter name="on" value="1" />
+		<parameter name="cpuFolder" value="cpuintelsw" />
 		<parameter name="testid" value="1249" />    
 		<classes>
 		    <class name="com.zixi.testing.BroadcasterFileInputTest"/>
@@ -454,6 +456,7 @@
 		<parameter name="uiport" value="4444" />
 		<parameter name="id" value="trans_1000@1" />
 		<parameter name="on" value="1" />
+		<parameter name="cpuFolder" value="cpuintelsw" />
 		<parameter name="testid" value="1249" />    
 		<classes>
 		    <class name="com.zixi.testing.BroadcasterFileInputTest"/>
@@ -616,6 +619,7 @@
 		<parameter name="uiport" value="4444" />
 		<parameter name="id" value="trans_1500@1" />
 		<parameter name="on" value="1" />
+		<parameter name="cpuFolder" value="cpuintelsw" />
 		<parameter name="testid" value="1249" />    
 		<classes>
 		    <class name="com.zixi.testing.BroadcasterFileInputTest"/>
@@ -778,6 +782,7 @@
 		<parameter name="uiport" value="4444" />
 		<parameter name="id" value="trans_2000@1" />
 		<parameter name="on" value="1" />
+		<parameter name="cpuFolder" value="cpuintelsw" />
 		<parameter name="testid" value="1249" />    
 		<classes>
 		    <class name="com.zixi.testing.BroadcasterFileInputTest"/>
@@ -940,6 +945,7 @@
 		<parameter name="uiport" value="4444" />
 		<parameter name="id" value="trans_2500@1" />
 		<parameter name="on" value="1" />
+		<parameter name="cpuFolder" value="cpuintelsw" />
 		<parameter name="testid" value="1249" />    
 		<classes>
 		    <class name="com.zixi.testing.BroadcasterFileInputTest"/>
@@ -1102,6 +1108,7 @@
 		<parameter name="uiport" value="4444" />
 		<parameter name="id" value="trans_3000@1" />
 		<parameter name="on" value="1" />
+		<parameter name="cpuFolder" value="cpuintelsw" />
 		<parameter name="testid" value="1249" />    
 		<classes>
 		    <class name="com.zixi.testing.BroadcasterFileInputTest"/>
@@ -1264,6 +1271,7 @@
 		<parameter name="uiport" value="4444" />
 		<parameter name="id" value="trans_3500@1" />
 		<parameter name="on" value="1" />
+		<parameter name="cpuFolder" value="cpuintelsw" />
 		<parameter name="testid" value="1249" />    
 		<classes>
 		    <class name="com.zixi.testing.BroadcasterFileInputTest"/>
@@ -1426,6 +1434,7 @@
 		<parameter name="uiport" value="4444" />
 		<parameter name="id" value="trans_4000@1" />
 		<parameter name="on" value="1" />
+		<parameter name="cpuFolder" value="cpuintelsw" />
 		<parameter name="testid" value="1249" />    
 		<classes>
 		    <class name="com.zixi.testing.BroadcasterFileInputTest"/>
@@ -1588,6 +1597,7 @@
 		<parameter name="uiport" value="4444" />
 		<parameter name="id" value="trans_4500@1" />
 		<parameter name="on" value="1" />
+		<parameter name="cpuFolder" value="cpuintelsw" />
 		<parameter name="testid" value="1249" />    
 		<classes>
 		    <class name="com.zixi.testing.BroadcasterFileInputTest"/>
@@ -1750,6 +1760,7 @@
 		<parameter name="uiport" value="4444" />
 		<parameter name="id" value="trans_6000@1" />
 		<parameter name="on" value="1" />
+		<parameter name="cpuFolder" value="cpuintelsw" />
 		<parameter name="testid" value="1249" />    
 		<classes>
 		    <class name="com.zixi.testing.BroadcasterFileInputTest"/>
@@ -1912,6 +1923,7 @@
 		<parameter name="uiport" value="4444" />
 		<parameter name="id" value="trans_8000@1" />
 		<parameter name="on" value="1" />
+		<parameter name="cpuFolder" value="cpuintelsw" />
 		<parameter name="testid" value="1249" />    
 		<classes>
 		    <class name="com.zixi.testing.BroadcasterFileInputTest"/>
@@ -2074,6 +2086,7 @@
 		<parameter name="uiport" value="4444" />
 		<parameter name="id" value="trans_10000@1" />
 		<parameter name="on" value="1" />
+		<parameter name="cpuFolder" value="cpuintelsw" />
 		<parameter name="testid" value="1249" />    
 		<classes>
 		    <class name="com.zixi.testing.BroadcasterFileInputTest"/>
@@ -2236,6 +2249,7 @@
 		<parameter name="uiport" value="4444" />
 		<parameter name="id" value="trans_500@2" />
 		<parameter name="on" value="1" />
+		<parameter name="cpuFolder" value="cpuintelsw" />
 		<parameter name="testid" value="1249" />    
 		<classes>
 		    <class name="com.zixi.testing.BroadcasterFileInputTest"/>
@@ -2398,6 +2412,7 @@
 		<parameter name="uiport" value="4444" />
 		<parameter name="id" value="trans_750@2" />
 		<parameter name="on" value="1" />
+		<parameter name="cpuFolder" value="cpuintelsw" />
 		<parameter name="testid" value="1249" />    
 		<classes>
 		    <class name="com.zixi.testing.BroadcasterFileInputTest"/>
@@ -2561,6 +2576,7 @@
 		<parameter name="uiport" value="4444" />
 		<parameter name="id" value="trans_1000@2" />
 		<parameter name="on" value="1" />
+		<parameter name="cpuFolder" value="cpuintelsw" />
 		<parameter name="testid" value="1249" />    
 		<classes>
 		    <class name="com.zixi.testing.BroadcasterFileInputTest"/>
@@ -2723,6 +2739,7 @@
 		<parameter name="uiport" value="4444" />
 		<parameter name="id" value="trans_1500@2" />
 		<parameter name="on" value="1" />
+		<parameter name="cpuFolder" value="cpuintelsw" />
 		<parameter name="testid" value="1249" />    
 		<classes>
 		    <class name="com.zixi.testing.BroadcasterFileInputTest"/>
@@ -2885,6 +2902,7 @@
 		<parameter name="uiport" value="4444" />
 		<parameter name="id" value="trans_2000@2" />
 		<parameter name="on" value="1" />
+		<parameter name="cpuFolder" value="cpuintelsw" />
 		<parameter name="testid" value="1249" />    
 		<classes>
 		    <class name="com.zixi.testing.BroadcasterFileInputTest"/>
@@ -3047,6 +3065,7 @@
 		<parameter name="uiport" value="4444" />
 		<parameter name="id" value="trans_2500@2" />
 		<parameter name="on" value="1" />
+		<parameter name="cpuFolder" value="cpuintelsw" />
 		<parameter name="testid" value="1249" />    
 		<classes>
 		    <class name="com.zixi.testing.BroadcasterFileInputTest"/>
@@ -3209,6 +3228,7 @@
 		<parameter name="uiport" value="4444" />
 		<parameter name="id" value="trans_3000@2" />
 		<parameter name="on" value="1" />
+		<parameter name="cpuFolder" value="cpuintelsw" />
 		<parameter name="testid" value="1249" />    
 		<classes>
 		    <class name="com.zixi.testing.BroadcasterFileInputTest"/>
@@ -3371,6 +3391,7 @@
 		<parameter name="uiport" value="4444" />
 		<parameter name="id" value="trans_3500@2" />
 		<parameter name="on" value="1" />
+		<parameter name="cpuFolder" value="cpuintelsw" />
 		<parameter name="testid" value="1249" />    
 		<classes>
 		    <class name="com.zixi.testing.BroadcasterFileInputTest"/>
@@ -3533,6 +3554,7 @@
 		<parameter name="uiport" value="4444" />
 		<parameter name="id" value="trans_4000@2" />
 		<parameter name="on" value="1" />
+		<parameter name="cpuFolder" value="cpuintelsw" />
 		<parameter name="testid" value="1249" />    
 		<classes>
 		    <class name="com.zixi.testing.BroadcasterFileInputTest"/>
@@ -3695,6 +3717,7 @@
 		<parameter name="uiport" value="4444" />
 		<parameter name="id" value="trans_4500@2" />
 		<parameter name="on" value="1" />
+		<parameter name="cpuFolder" value="cpuintelsw" />
 		<parameter name="testid" value="1249" />    
 		<classes>
 		    <class name="com.zixi.testing.BroadcasterFileInputTest"/>
@@ -3857,6 +3880,7 @@
 		<parameter name="uiport" value="4444" />
 		<parameter name="id" value="trans_6000@2" />
 		<parameter name="on" value="1" />
+		<parameter name="cpuFolder" value="cpuintelsw" />
 		<parameter name="testid" value="1249" />    
 		<classes>
 		    <class name="com.zixi.testing.BroadcasterFileInputTest"/>
@@ -4019,6 +4043,7 @@
 		<parameter name="uiport" value="4444" />
 		<parameter name="id" value="trans_8000@2" />
 		<parameter name="on" value="1" />
+		<parameter name="cpuFolder" value="cpuintelsw" />
 		<parameter name="testid" value="1249" />    
 		<classes>
 		    <class name="com.zixi.testing.BroadcasterFileInputTest"/>
@@ -4181,6 +4206,7 @@
 		<parameter name="uiport" value="4444" />
 		<parameter name="id" value="trans_10000@2" />
 		<parameter name="on" value="1" />
+		<parameter name="cpuFolder" value="cpuintelsw" />
 		<parameter name="testid" value="1249" />    
 		<classes>
 		    <class name="com.zixi.testing.BroadcasterFileInputTest"/>
@@ -4343,6 +4369,7 @@
 		<parameter name="uiport" value="4444" />
 		<parameter name="id" value="trans_500@3" />
 		<parameter name="on" value="1" />
+		<parameter name="cpuFolder" value="cpuintelsw" />
 		<parameter name="testid" value="1249" />    
 		<classes>
 		    <class name="com.zixi.testing.BroadcasterFileInputTest"/>
@@ -4505,6 +4532,7 @@
 		<parameter name="uiport" value="4444" />
 		<parameter name="id" value="trans_750@3" />
 		<parameter name="on" value="1" />
+		<parameter name="cpuFolder" value="cpuintelsw" />
 		<parameter name="testid" value="1249" />    
 		<classes>
 		    <class name="com.zixi.testing.BroadcasterFileInputTest"/>
@@ -4668,6 +4696,7 @@
 		<parameter name="uiport" value="4444" />
 		<parameter name="id" value="trans_1000@3" />
 		<parameter name="on" value="1" />
+		<parameter name="cpuFolder" value="cpuintelsw" />
 		<parameter name="testid" value="1249" />    
 		<classes>
 		    <class name="com.zixi.testing.BroadcasterFileInputTest"/>
@@ -4830,6 +4859,7 @@
 		<parameter name="uiport" value="4444" />
 		<parameter name="id" value="trans_1500@3" />
 		<parameter name="on" value="1" />
+		<parameter name="cpuFolder" value="cpuintelsw" />
 		<parameter name="testid" value="1249" />    
 		<classes>
 		    <class name="com.zixi.testing.BroadcasterFileInputTest"/>
@@ -4992,6 +5022,7 @@
 		<parameter name="uiport" value="4444" />
 		<parameter name="id" value="trans_2000@3" />
 		<parameter name="on" value="1" />
+		<parameter name="cpuFolder" value="cpuintelsw" />
 		<parameter name="testid" value="1249" />    
 		<classes>
 		    <class name="com.zixi.testing.BroadcasterFileInputTest"/>
@@ -5154,6 +5185,7 @@
 		<parameter name="uiport" value="4444" />
 		<parameter name="id" value="trans_2500@3" />
 		<parameter name="on" value="1" />
+		<parameter name="cpuFolder" value="cpuintelsw" />
 		<parameter name="testid" value="1249" />    
 		<classes>
 		    <class name="com.zixi.testing.BroadcasterFileInputTest"/>
@@ -5316,6 +5348,7 @@
 		<parameter name="uiport" value="4444" />
 		<parameter name="id" value="trans_3000@3" />
 		<parameter name="on" value="1" />
+		<parameter name="cpuFolder" value="cpuintelsw" />
 		<parameter name="testid" value="1249" />    
 		<classes>
 		    <class name="com.zixi.testing.BroadcasterFileInputTest"/>
@@ -5478,6 +5511,7 @@
 		<parameter name="uiport" value="4444" />
 		<parameter name="id" value="trans_3500@3" />
 		<parameter name="on" value="1" />
+		<parameter name="cpuFolder" value="cpuintelsw" />
 		<parameter name="testid" value="1249" />    
 		<classes>
 		    <class name="com.zixi.testing.BroadcasterFileInputTest"/>
@@ -5640,6 +5674,7 @@
 		<parameter name="uiport" value="4444" />
 		<parameter name="id" value="trans_4000@3" />
 		<parameter name="on" value="1" />
+		<parameter name="cpuFolder" value="cpuintelsw" />
 		<parameter name="testid" value="1249" />    
 		<classes>
 		    <class name="com.zixi.testing.BroadcasterFileInputTest"/>
@@ -5802,6 +5837,7 @@
 		<parameter name="uiport" value="4444" />
 		<parameter name="id" value="trans_4500@3" />
 		<parameter name="on" value="1" />
+		<parameter name="cpuFolder" value="cpuintelsw" />
 		<parameter name="testid" value="1249" />    
 		<classes>
 		    <class name="com.zixi.testing.BroadcasterFileInputTest"/>
@@ -5964,6 +6000,7 @@
 		<parameter name="uiport" value="4444" />
 		<parameter name="id" value="trans_6000@3" />
 		<parameter name="on" value="1" />
+		<parameter name="cpuFolder" value="cpuintelsw" />
 		<parameter name="testid" value="1249" />    
 		<classes>
 		    <class name="com.zixi.testing.BroadcasterFileInputTest"/>
@@ -6126,6 +6163,7 @@
 		<parameter name="uiport" value="4444" />
 		<parameter name="id" value="trans_8000@3" />
 		<parameter name="on" value="1" />
+		<parameter name="cpuFolder" value="cpuintelsw" />
 		<parameter name="testid" value="1249" />    
 		<classes>
 		    <class name="com.zixi.testing.BroadcasterFileInputTest"/>
@@ -6288,6 +6326,7 @@
 		<parameter name="uiport" value="4444" />
 		<parameter name="id" value="trans_10000@3" />
 		<parameter name="on" value="1" />
+		<parameter name="cpuFolder" value="cpuintelsw" />
 		<parameter name="testid" value="1249" />    
 		<classes>
 		    <class name="com.zixi.testing.BroadcasterFileInputTest"/>
@@ -6450,6 +6489,7 @@
 		<parameter name="uiport" value="4444" />
 		<parameter name="id" value="trans_500@4" />
 		<parameter name="on" value="1" />
+		<parameter name="cpuFolder" value="cpuintelsw" />
 		<parameter name="testid" value="1249" />    
 		<classes>
 		    <class name="com.zixi.testing.BroadcasterFileInputTest"/>
@@ -6612,6 +6652,7 @@
 		<parameter name="uiport" value="4444" />
 		<parameter name="id" value="trans_750@4" />
 		<parameter name="on" value="1" />
+		<parameter name="cpuFolder" value="cpuintelsw" />
 		<parameter name="testid" value="1249" />    
 		<classes>
 		    <class name="com.zixi.testing.BroadcasterFileInputTest"/>
@@ -6775,6 +6816,7 @@
 		<parameter name="uiport" value="4444" />
 		<parameter name="id" value="trans_1000@4" />
 		<parameter name="on" value="1" />
+		<parameter name="cpuFolder" value="cpuintelsw" />
 		<parameter name="testid" value="1249" />    
 		<classes>
 		    <class name="com.zixi.testing.BroadcasterFileInputTest"/>
@@ -6937,6 +6979,7 @@
 		<parameter name="uiport" value="4444" />
 		<parameter name="id" value="trans_1500@4" />
 		<parameter name="on" value="1" />
+		<parameter name="cpuFolder" value="cpuintelsw" />
 		<parameter name="testid" value="1249" />    
 		<classes>
 		    <class name="com.zixi.testing.BroadcasterFileInputTest"/>
@@ -7099,6 +7142,7 @@
 		<parameter name="uiport" value="4444" />
 		<parameter name="id" value="trans_2000@4" />
 		<parameter name="on" value="1" />
+		<parameter name="cpuFolder" value="cpuintelsw" />
 		<parameter name="testid" value="1249" />    
 		<classes>
 		    <class name="com.zixi.testing.BroadcasterFileInputTest"/>
@@ -7261,6 +7305,7 @@
 		<parameter name="uiport" value="4444" />
 		<parameter name="id" value="trans_2500@4" />
 		<parameter name="on" value="1" />
+		<parameter name="cpuFolder" value="cpuintelsw" />
 		<parameter name="testid" value="1249" />    
 		<classes>
 		    <class name="com.zixi.testing.BroadcasterFileInputTest"/>
@@ -7423,6 +7468,7 @@
 		<parameter name="uiport" value="4444" />
 		<parameter name="id" value="trans_3000@4" />
 		<parameter name="on" value="1" />
+		<parameter name="cpuFolder" value="cpuintelsw" />
 		<parameter name="testid" value="1249" />    
 		<classes>
 		    <class name="com.zixi.testing.BroadcasterFileInputTest"/>
@@ -7585,6 +7631,7 @@
 		<parameter name="uiport" value="4444" />
 		<parameter name="id" value="trans_3500@4" />
 		<parameter name="on" value="1" />
+		<parameter name="cpuFolder" value="cpuintelsw" />
 		<parameter name="testid" value="1249" />    
 		<classes>
 		    <class name="com.zixi.testing.BroadcasterFileInputTest"/>
@@ -7747,6 +7794,7 @@
 		<parameter name="uiport" value="4444" />
 		<parameter name="id" value="trans_4000@4" />
 		<parameter name="on" value="1" />
+		<parameter name="cpuFolder" value="cpuintelsw" />
 		<parameter name="testid" value="1249" />    
 		<classes>
 		    <class name="com.zixi.testing.BroadcasterFileInputTest"/>
@@ -7909,6 +7957,7 @@
 		<parameter name="uiport" value="4444" />
 		<parameter name="id" value="trans_4500@4" />
 		<parameter name="on" value="1" />
+		<parameter name="cpuFolder" value="cpuintelsw" />
 		<parameter name="testid" value="1249" />    
 		<classes>
 		    <class name="com.zixi.testing.BroadcasterFileInputTest"/>
@@ -8071,6 +8120,7 @@
 		<parameter name="uiport" value="4444" />
 		<parameter name="id" value="trans_6000@4" />
 		<parameter name="on" value="1" />
+		<parameter name="cpuFolder" value="cpuintelsw" />
 		<parameter name="testid" value="1249" />    
 		<classes>
 		    <class name="com.zixi.testing.BroadcasterFileInputTest"/>
@@ -8233,6 +8283,7 @@
 		<parameter name="uiport" value="4444" />
 		<parameter name="id" value="trans_8000@4" />
 		<parameter name="on" value="1" />
+		<parameter name="cpuFolder" value="cpuintelsw" />
 		<parameter name="testid" value="1249" />    
 		<classes>
 		    <class name="com.zixi.testing.BroadcasterFileInputTest"/>
@@ -8395,6 +8446,7 @@
 		<parameter name="uiport" value="4444" />
 		<parameter name="id" value="trans_10000@4" />
 		<parameter name="on" value="1" />
+		<parameter name="cpuFolder" value="cpuintelsw" />
 		<parameter name="testid" value="1249" />    
 		<classes>
 		    <class name="com.zixi.testing.BroadcasterFileInputTest"/>
@@ -8557,6 +8609,7 @@
 		<parameter name="uiport" value="4444" />
 		<parameter name="id" value="trans_500@5" />
 		<parameter name="on" value="1" />
+		<parameter name="cpuFolder" value="cpuintelsw" />
 		<parameter name="testid" value="1249" />    
 		<classes>
 		    <class name="com.zixi.testing.BroadcasterFileInputTest"/>
@@ -8719,6 +8772,7 @@
 		<parameter name="uiport" value="4444" />
 		<parameter name="id" value="trans_750@5" />
 		<parameter name="on" value="1" />
+		<parameter name="cpuFolder" value="cpuintelsw" />
 		<parameter name="testid" value="1249" />    
 		<classes>
 		    <class name="com.zixi.testing.BroadcasterFileInputTest"/>
@@ -8882,6 +8936,7 @@
 		<parameter name="uiport" value="4444" />
 		<parameter name="id" value="trans_1000@5" />
 		<parameter name="on" value="1" />
+		<parameter name="cpuFolder" value="cpuintelsw" />
 		<parameter name="testid" value="1249" />    
 		<classes>
 		    <class name="com.zixi.testing.BroadcasterFileInputTest"/>
@@ -9044,6 +9099,7 @@
 		<parameter name="uiport" value="4444" />
 		<parameter name="id" value="trans_1500@5" />
 		<parameter name="on" value="1" />
+		<parameter name="cpuFolder" value="cpuintelsw" />
 		<parameter name="testid" value="1249" />    
 		<classes>
 		    <class name="com.zixi.testing.BroadcasterFileInputTest"/>
@@ -9206,6 +9262,7 @@
 		<parameter name="uiport" value="4444" />
 		<parameter name="id" value="trans_2000@5" />
 		<parameter name="on" value="1" />
+		<parameter name="cpuFolder" value="cpuintelsw" />
 		<parameter name="testid" value="1249" />    
 		<classes>
 		    <class name="com.zixi.testing.BroadcasterFileInputTest"/>
@@ -9368,6 +9425,7 @@
 		<parameter name="uiport" value="4444" />
 		<parameter name="id" value="trans_2500@5" />
 		<parameter name="on" value="1" />
+		<parameter name="cpuFolder" value="cpuintelsw" />
 		<parameter name="testid" value="1249" />    
 		<classes>
 		    <class name="com.zixi.testing.BroadcasterFileInputTest"/>
@@ -9530,6 +9588,7 @@
 		<parameter name="uiport" value="4444" />
 		<parameter name="id" value="trans_3000@5" />
 		<parameter name="on" value="1" />
+		<parameter name="cpuFolder" value="cpuintelsw" />
 		<parameter name="testid" value="1249" />    
 		<classes>
 		    <class name="com.zixi.testing.BroadcasterFileInputTest"/>
@@ -9692,6 +9751,7 @@
 		<parameter name="uiport" value="4444" />
 		<parameter name="id" value="trans_3500@5" />
 		<parameter name="on" value="1" />
+		<parameter name="cpuFolder" value="cpuintelsw" />
 		<parameter name="testid" value="1249" />    
 		<classes>
 		    <class name="com.zixi.testing.BroadcasterFileInputTest"/>
@@ -9854,6 +9914,7 @@
 		<parameter name="uiport" value="4444" />
 		<parameter name="id" value="trans_4000@5" />
 		<parameter name="on" value="1" />
+		<parameter name="cpuFolder" value="cpuintelsw" />
 		<parameter name="testid" value="1249" />    
 		<classes>
 		    <class name="com.zixi.testing.BroadcasterFileInputTest"/>
@@ -10016,6 +10077,7 @@
 		<parameter name="uiport" value="4444" />
 		<parameter name="id" value="trans_4500@5" />
 		<parameter name="on" value="1" />
+		<parameter name="cpuFolder" value="cpuintelsw" />
 		<parameter name="testid" value="1249" />    
 		<classes>
 		    <class name="com.zixi.testing.BroadcasterFileInputTest"/>
@@ -10178,6 +10240,7 @@
 		<parameter name="uiport" value="4444" />
 		<parameter name="id" value="trans_6000@5" />
 		<parameter name="on" value="1" />
+		<parameter name="cpuFolder" value="cpuintelsw" />
 		<parameter name="testid" value="1249" />    
 		<classes>
 		    <class name="com.zixi.testing.BroadcasterFileInputTest"/>
@@ -10340,6 +10403,7 @@
 		<parameter name="uiport" value="4444" />
 		<parameter name="id" value="trans_8000@5" />
 		<parameter name="on" value="1" />
+		<parameter name="cpuFolder" value="cpuintelsw" />
 		<parameter name="testid" value="1249" />    
 		<classes>
 		    <class name="com.zixi.testing.BroadcasterFileInputTest"/>
@@ -10502,6 +10566,7 @@
 		<parameter name="uiport" value="4444" />
 		<parameter name="id" value="trans_10000@5" />
 		<parameter name="on" value="1" />
+		<parameter name="cpuFolder" value="cpuintelsw" />
 		<parameter name="testid" value="1249" />    
 		<classes>
 		    <class name="com.zixi.testing.BroadcasterFileInputTest"/>
@@ -10664,6 +10729,7 @@
 		<parameter name="uiport" value="4444" />
 		<parameter name="id" value="trans_500@6" />
 		<parameter name="on" value="1" />
+		<parameter name="cpuFolder" value="cpuintelsw" />
 		<parameter name="testid" value="1249" />    
 		<classes>
 		    <class name="com.zixi.testing.BroadcasterFileInputTest"/>
@@ -10826,6 +10892,7 @@
 		<parameter name="uiport" value="4444" />
 		<parameter name="id" value="trans_750@6" />
 		<parameter name="on" value="1" />
+		<parameter name="cpuFolder" value="cpuintelsw" />
 		<parameter name="testid" value="1249" />    
 		<classes>
 		    <class name="com.zixi.testing.BroadcasterFileInputTest"/>
@@ -10989,6 +11056,7 @@
 		<parameter name="uiport" value="4444" />
 		<parameter name="id" value="trans_1000@6" />
 		<parameter name="on" value="1" />
+		<parameter name="cpuFolder" value="cpuintelsw" />
 		<parameter name="testid" value="1249" />    
 		<classes>
 		    <class name="com.zixi.testing.BroadcasterFileInputTest"/>
@@ -11151,6 +11219,7 @@
 		<parameter name="uiport" value="4444" />
 		<parameter name="id" value="trans_1500@6" />
 		<parameter name="on" value="1" />
+		<parameter name="cpuFolder" value="cpuintelsw" />
 		<parameter name="testid" value="1249" />    
 		<classes>
 		    <class name="com.zixi.testing.BroadcasterFileInputTest"/>
@@ -11313,6 +11382,7 @@
 		<parameter name="uiport" value="4444" />
 		<parameter name="id" value="trans_2000@6" />
 		<parameter name="on" value="1" />
+		<parameter name="cpuFolder" value="cpuintelsw" />
 		<parameter name="testid" value="1249" />    
 		<classes>
 		    <class name="com.zixi.testing.BroadcasterFileInputTest"/>
@@ -11475,6 +11545,7 @@
 		<parameter name="uiport" value="4444" />
 		<parameter name="id" value="trans_2500@6" />
 		<parameter name="on" value="1" />
+		<parameter name="cpuFolder" value="cpuintelsw" />
 		<parameter name="testid" value="1249" />    
 		<classes>
 		    <class name="com.zixi.testing.BroadcasterFileInputTest"/>
@@ -11637,6 +11708,7 @@
 		<parameter name="uiport" value="4444" />
 		<parameter name="id" value="trans_3000@6" />
 		<parameter name="on" value="1" />
+		<parameter name="cpuFolder" value="cpuintelsw" />
 		<parameter name="testid" value="1249" />    
 		<classes>
 		    <class name="com.zixi.testing.BroadcasterFileInputTest"/>
@@ -11799,6 +11871,7 @@
 		<parameter name="uiport" value="4444" />
 		<parameter name="id" value="trans_3500@6" />
 		<parameter name="on" value="1" />
+		<parameter name="cpuFolder" value="cpuintelsw" />
 		<parameter name="testid" value="1249" />    
 		<classes>
 		    <class name="com.zixi.testing.BroadcasterFileInputTest"/>
@@ -11961,6 +12034,7 @@
 		<parameter name="uiport" value="4444" />
 		<parameter name="id" value="trans_4000@6" />
 		<parameter name="on" value="1" />
+		<parameter name="cpuFolder" value="cpuintelsw" />
 		<parameter name="testid" value="1249" />    
 		<classes>
 		    <class name="com.zixi.testing.BroadcasterFileInputTest"/>
@@ -12123,6 +12197,7 @@
 		<parameter name="uiport" value="4444" />
 		<parameter name="id" value="trans_4500@6" />
 		<parameter name="on" value="1" />
+		<parameter name="cpuFolder" value="cpuintelsw" />
 		<parameter name="testid" value="1249" />    
 		<classes>
 		    <class name="com.zixi.testing.BroadcasterFileInputTest"/>
@@ -12285,6 +12360,7 @@
 		<parameter name="uiport" value="4444" />
 		<parameter name="id" value="trans_6000@6" />
 		<parameter name="on" value="1" />
+		<parameter name="cpuFolder" value="cpuintelsw" />
 		<parameter name="testid" value="1249" />    
 		<classes>
 		    <class name="com.zixi.testing.BroadcasterFileInputTest"/>
@@ -12447,6 +12523,7 @@
 		<parameter name="uiport" value="4444" />
 		<parameter name="id" value="trans_8000@6" />
 		<parameter name="on" value="1" />
+		<parameter name="cpuFolder" value="cpuintelsw" />
 		<parameter name="testid" value="1249" />    
 		<classes>
 		    <class name="com.zixi.testing.BroadcasterFileInputTest"/>
@@ -12609,6 +12686,7 @@
 		<parameter name="uiport" value="4444" />
 		<parameter name="id" value="trans_10000@6" />
 		<parameter name="on" value="1" />
+		<parameter name="cpuFolder" value="cpuintelsw" />
 		<parameter name="testid" value="1249" />    
 		<classes>
 		    <class name="com.zixi.testing.BroadcasterFileInputTest"/>
@@ -12771,6 +12849,7 @@
 		<parameter name="uiport" value="4444" />
 		<parameter name="id" value="trans_500@7" />
 		<parameter name="on" value="1" />
+		<parameter name="cpuFolder" value="cpuintelsw" />
 		<parameter name="testid" value="1249" />    
 		<classes>
 		    <class name="com.zixi.testing.BroadcasterFileInputTest"/>
@@ -12933,6 +13012,7 @@
 		<parameter name="uiport" value="4444" />
 		<parameter name="id" value="trans_750@7" />
 		<parameter name="on" value="1" />
+		<parameter name="cpuFolder" value="cpuintelsw" />
 		<parameter name="testid" value="1249" />    
 		<classes>
 		    <class name="com.zixi.testing.BroadcasterFileInputTest"/>
@@ -13095,6 +13175,7 @@
 		<parameter name="uiport" value="4444" />
 		<parameter name="id" value="trans_1000@7" />
 		<parameter name="on" value="1" />
+		<parameter name="cpuFolder" value="cpuintelsw" />
 		<parameter name="testid" value="1249" />    
 		<classes>
 		    <class name="com.zixi.testing.BroadcasterFileInputTest"/>
@@ -13257,6 +13338,7 @@
 		<parameter name="uiport" value="4444" />
 		<parameter name="id" value="trans_1500@7" />
 		<parameter name="on" value="1" />
+		<parameter name="cpuFolder" value="cpuintelsw" />
 		<parameter name="testid" value="1249" />    
 		<classes>
 		    <class name="com.zixi.testing.BroadcasterFileInputTest"/>
@@ -13419,6 +13501,7 @@
 		<parameter name="uiport" value="4444" />
 		<parameter name="id" value="trans_2000@7" />
 		<parameter name="on" value="1" />
+		<parameter name="cpuFolder" value="cpuintelsw" />
 		<parameter name="testid" value="1249" />    
 		<classes>
 		    <class name="com.zixi.testing.BroadcasterFileInputTest"/>
@@ -13581,6 +13664,7 @@
 		<parameter name="uiport" value="4444" />
 		<parameter name="id" value="trans_2500@7" />
 		<parameter name="on" value="1" />
+		<parameter name="cpuFolder" value="cpuintelsw" />
 		<parameter name="testid" value="1249" />    
 		<classes>
 		    <class name="com.zixi.testing.BroadcasterFileInputTest"/>
@@ -13743,6 +13827,7 @@
 		<parameter name="uiport" value="4444" />
 		<parameter name="id" value="trans_3000@7" />
 		<parameter name="on" value="1" />
+		<parameter name="cpuFolder" value="cpuintelsw" />
 		<parameter name="testid" value="1249" />    
 		<classes>
 		    <class name="com.zixi.testing.BroadcasterFileInputTest"/>
@@ -13905,6 +13990,7 @@
 		<parameter name="uiport" value="4444" />
 		<parameter name="id" value="trans_3500@7" />
 		<parameter name="on" value="1" />
+		<parameter name="cpuFolder" value="cpuintelsw" />
 		<parameter name="testid" value="1249" />    
 		<classes>
 		    <class name="com.zixi.testing.BroadcasterFileInputTest"/>
@@ -14067,6 +14153,7 @@
 		<parameter name="uiport" value="4444" />
 		<parameter name="id" value="trans_4000@7" />
 		<parameter name="on" value="1" />
+		<parameter name="cpuFolder" value="cpuintelsw" />
 		<parameter name="testid" value="1249" />    
 		<classes>
 		    <class name="com.zixi.testing.BroadcasterFileInputTest"/>
@@ -14229,6 +14316,7 @@
 		<parameter name="uiport" value="4444" />
 		<parameter name="id" value="trans_4500@7" />
 		<parameter name="on" value="1" />
+		<parameter name="cpuFolder" value="cpuintelsw" />
 		<parameter name="testid" value="1249" />    
 		<classes>
 		    <class name="com.zixi.testing.BroadcasterFileInputTest"/>
@@ -14391,6 +14479,7 @@
 		<parameter name="uiport" value="4444" />
 		<parameter name="id" value="trans_6000@7" />
 		<parameter name="on" value="1" />
+		<parameter name="cpuFolder" value="cpuintelsw" />
 		<parameter name="testid" value="1249" />    
 		<classes>
 		    <class name="com.zixi.testing.BroadcasterFileInputTest"/>
@@ -14553,6 +14642,7 @@
 		<parameter name="uiport" value="4444" />
 		<parameter name="id" value="trans_8000@7" />
 		<parameter name="on" value="1" />
+		<parameter name="cpuFolder" value="cpuintelsw" />
 		<parameter name="testid" value="1249" />    
 		<classes>
 		    <class name="com.zixi.testing.BroadcasterFileInputTest"/>
@@ -14716,6 +14806,7 @@
 		<parameter name="uiport" value="4444" />
 		<parameter name="id" value="trans_10000@7" />
 		<parameter name="on" value="1" />
+		<parameter name="cpuFolder" value="cpuintelsw" />
 		<parameter name="testid" value="1249" />    
 		<classes>
 		    <class name="com.zixi.testing.BroadcasterFileInputTest"/>
