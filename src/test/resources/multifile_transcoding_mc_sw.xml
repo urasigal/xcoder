@@ -132,7 +132,6 @@
 		<parameter name="id" value="trans_500@1" />
 		<parameter name="on" value="1" />
 		<parameter name="cpuFolder" value="cpu" />
-		<parameter name="cpuFolder" value="cpu" />
 		<parameter name="testid" value="1249" />    
 		<classes>
 		    <class name="com.zixi.testing.BroadcasterFileInputTest"/>
