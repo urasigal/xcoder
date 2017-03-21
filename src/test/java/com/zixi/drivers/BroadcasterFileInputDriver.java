@@ -39,13 +39,13 @@ public class BroadcasterFileInputDriver extends BroadcasterLoggableApiWorker imp
 		return apiworker.sendGet("http://" + login_ip + ":" + uiport + "/zixi/edit_stream.json?id=" + id + "&on=" + on, "", UDPMODE, responseCookieContainer, login_ip, this, uiport);
 	}
 	
-	public String testIMPLRec(String userName, String userPass, String login_ip, String uiport, String id, String on) throws InterruptedException 
+	public String testIMPLRec(String userName, String userPass, String login_ip, String uiport, String id, String on, String cpuFolder) throws InterruptedException 
 	{
 		BroadcasterSystemDriver broadcasterSystemDriver = new BroadcasterSystemDriver();
 		responseCookieContainer = broadcasterInitialSecuredLogin.sendGet("http://" + login_ip + ":" + uiport + "/login.htm", userName, userPass, login_ip, uiport);
 		String ret =  apiworker.sendGet("http://" + login_ip + ":" + uiport + "/set_live_recording.json?id=" + id + "&on=" + on, "", 77, responseCookieContainer, login_ip, this, uiport);
 		
-		File file = FileManagerTools.createFile("src/test/resources/cpu/" + id);
+		File file = FileManagerTools.createFile("src/test/resources/" + cpuFolder + "/" + id);
 		for(int i = 0; i < 180; i++)
 		{
 			String cpuLoad = null;
@@ -59,7 +59,7 @@ public class BroadcasterFileInputDriver extends BroadcasterLoggableApiWorker imp
 			
 			if (file != null)
 			{
-				try(PrintWriter output = new PrintWriter(new FileWriter("src/test/resources/cpu/" + id,true))) 
+				try(PrintWriter output = new PrintWriter(new FileWriter("src/test/resources/" + cpuFolder + "/" + id,true))) 
 				{
 				    output.println(cpuLoad);
 				} 
