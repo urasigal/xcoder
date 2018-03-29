@@ -14,32 +14,24 @@ public class BroadcasterFileInputTest extends BaseTest{
 		testDriver = new BroadcasterFileInputDriver();
 	}
 	
-	@Parameters({ "userName", "userPass", "login_ip", "uiport", "type", "id",
-			"matrix", "max_outputs", "mcast_out", "time_shift", "old",
-			"fast_connect", "kompression", "enc_type", "enc_key", "path","testid" })
+	@Parameters({ "userName", "userPass", "login_ip", "uiport", "type", "id", "matrix", "max_outputs", "mcast_out", "time_shift", "old",
+	"fast_connect", "kompression", "enc_type", "enc_key", "path","testid" })
 	@Test
-	public void broadcasterCreateFileInout(String userName,
-			String userPass, String login_ip, String uiport, String type,
-			String id, String matrix, String max_outputs, String mcast_out, String time_shift, String old, String fast_connect,
-			String kompression, String enc_type, String enc_key, String path, String testid) throws InterruptedException {
-
-		this.testid = testid;
+	public void broadcasterCreateFileInout(String userName, String userPass, String login_ip, String uiport, String type, String id, String matrix, String max_outputs, 
+	String mcast_out, String time_shift, String old, String fast_connect, String kompression, String enc_type, String enc_key, String path, String testid) throws InterruptedException {
 		
 		this.version = productAboutDriver.getBroadcasterVersion(login_ip, uiport, userName, userPass);
 		
 		testParameters = buildTestParametersString(new String[] { "userName", "userPass", "login_ip", "uiport", "type", "id",
-				"matrix", "max_outputs", "mcast_out", "time_shift", "old", "fast_connect", "kompression", "enc_type", "enc_key", "path","testid"}, 
-				
-				new String[] {userName, userPass, login_ip, uiport, type, id,
-				matrix, max_outputs, mcast_out, time_shift, old, fast_connect, kompression, enc_type, enc_key, path, testid });
+		"matrix", "max_outputs", "mcast_out", "time_shift", "old", "fast_connect", "kompression", "enc_type", "enc_key", "path","testid"}, 
+		new String[] {userName, userPass, login_ip, uiport, type, id,
+		matrix, max_outputs, mcast_out, time_shift, old, fast_connect, kompression, enc_type, enc_key, path, testid });
 		
+		driverReslut = ((BroadcasterFileInputDriver) testDriver).testIMPL(userName, userPass, login_ip, uiport, type, id,
+		matrix, max_outputs, mcast_out, time_shift, old, fast_connect, kompression, enc_type, enc_key, path);
 		
-		Assert.assertEquals(((BroadcasterFileInputDriver) testDriver)
-				.testIMPL(userName, userPass, login_ip, uiport, type, id,
-						matrix, max_outputs, mcast_out, time_shift, old, fast_connect, kompression, enc_type, enc_key, path),
-				"Stream " + "'" + id + "'" + " added.");
+		Assert.assertEquals(driverReslut.getResult(), "Stream " + "'" + id + "'" + " added.");
 	}
-	
 	
 	
 	@Parameters({ "userName", "userPass", "login_ip", "uiport", "id", "on","testid" })

@@ -5,6 +5,7 @@ import java.io.FileWriter;
 import java.io.PrintWriter;
 
 import com.zixi.drivers.drivers.BroadcasterSystemDriver;
+import com.zixi.drivers.tools.DriverReslut;
 import com.zixi.entities.TestParameters;
 import com.zixi.tools.ApiWorkir;
 import com.zixi.tools.BroadcasterLoggableApiWorker;
@@ -12,10 +13,9 @@ import com.zixi.tools.FileManagerTools;
 
 import static com.zixi.globals.Macros.*;
 
-
 public class BroadcasterFileInputDriver extends BroadcasterLoggableApiWorker implements TestDriver{
 
-	public String testIMPL(String userName,
+	public DriverReslut testIMPL(String userName,
 			String userPass, String login_ip, String uiport, String type,
 			String id, String matrix, String max_outputs, String mcast_out, String time_shift, String old, String fast_connect,
 			String kompression, String enc_type, String enc_key, String path) {
@@ -26,10 +26,12 @@ public class BroadcasterFileInputDriver extends BroadcasterLoggableApiWorker imp
 
 		responseCookieContainer = broadcasterInitialSecuredLogin.sendGet("http://" + login_ip + ":" + uiport + "/login.htm", userName, userPass, login_ip, uiport);
 
-		return apiworker.sendGet("http://" + login_ip + ":" + uiport
+		DriverReslut driverReslut = new DriverReslut(apiworker.sendGet("http://" + login_ip + ":" + uiport
 				+ "/zixi/add_stream.json?type=" +  type +  "&id=" + id + "&matrix=" + matrix + "&max_outputs=" + max_outputs + 
 				"&mcast_out=" + mcast_out + "&time_shift=" + time_shift + "&old=" + old + "&fast-connect=" + fast_connect + "&kompression=" + kompression + 
-				"&enc-type=" + enc_type + "&enc-key=" + enc_key + "&path=" + path, "", UDPMODE, responseCookieContainer, login_ip, this, uiport);
+				"&enc-type=" + enc_type + "&enc-key=" + enc_key + "&path=" + path, "", UDPMODE, responseCookieContainer, login_ip, this, uiport));
+		
+		return driverReslut;
 	}
 
 	public String testIMPL(String userName, String userPass, String login_ip,
@@ -59,7 +61,7 @@ public class BroadcasterFileInputDriver extends BroadcasterLoggableApiWorker imp
 			
 			if (file != null)
 			{
-				try(PrintWriter output = new PrintWriter(new FileWriter("src/test/resources/" + cpuFolder + "/" + id,true))) 
+				try(PrintWriter output = new PrintWriter(new FileWriter("src/test/resources/" + cpuFolder + "/" + id, true))) 
 				{
 				    output.println(cpuLoad);
 				} 
