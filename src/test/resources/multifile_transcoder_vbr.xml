@@ -109,7 +109,7 @@
 		    <class name="com.zixi.testing.BroadcasterIntelTrannscodeStreamTest"/>
 		</classes>
 	</test> 
-	<test name="Broadcaster - Start a file input steam 500">
+	<test name="Broadcaster - Start a file input steam 50">
 		<parameter name="userName" value="admin" />
 		<parameter name="userPass" value="1234" />
 		<parameter name="login_ip" value="10.7.0.62" />
