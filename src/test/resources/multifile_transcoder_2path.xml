@@ -84,7 +84,7 @@
 		<parameter name="login_ip" value="10.7.0.62" />
 		<parameter name="uiport" value="4444" />
 		<parameter name="type" value="Transcoded" />
-		<parameter name="id" value="trans_1" />
+		<parameter name="id" value="trans_perf2" />
 		<parameter name="matrix" value="1" />
 		<parameter name="max_outputs" value="-1" />
 		<parameter name="mcast_out" value="0" />
@@ -129,7 +129,7 @@
 		<parameter name="userPass" value="1234" />
 		<parameter name="login_ip" value="10.7.0.62" />
 		<parameter name="uiport" value="4444" />
-		<parameter name="id" value="trans_1" />
+		<parameter name="id" value="trans_perf2" />
 		<parameter name="on" value="1" />
 		<parameter name="cpuFolder" value="cpu2pathperf2" />
 		<parameter name="testid" value="1249" />    
@@ -246,7 +246,7 @@
 		<parameter name="login_ip" value="10.7.0.62" />
 		<parameter name="uiport" value="4444" />
 		<parameter name="type" value="Transcoded" />
-		<parameter name="id" value="trans_1" />
+		<parameter name="id" value="trans_perf3" />
 		<parameter name="matrix" value="1" />
 		<parameter name="max_outputs" value="-1" />
 		<parameter name="mcast_out" value="0" />
@@ -291,7 +291,7 @@
 		<parameter name="userPass" value="1234" />
 		<parameter name="login_ip" value="10.7.0.62" />
 		<parameter name="uiport" value="4444" />
-		<parameter name="id" value="trans_1" />
+		<parameter name="id" value="trans_perf3" />
 		<parameter name="on" value="1" />
 		<parameter name="cpuFolder" value="cpu2pathperf0" />
 		<parameter name="testid" value="1249" />    
@@ -408,7 +408,7 @@
 		<parameter name="login_ip" value="10.7.0.62" />
 		<parameter name="uiport" value="4444" />
 		<parameter name="type" value="Transcoded" />
-		<parameter name="id" value="trans_1" />
+		<parameter name="id" value="trans_perf1" />
 		<parameter name="matrix" value="1" />
 		<parameter name="max_outputs" value="-1" />
 		<parameter name="mcast_out" value="0" />
@@ -453,7 +453,7 @@
 		<parameter name="userPass" value="1234" />
 		<parameter name="login_ip" value="10.7.0.62" />
 		<parameter name="uiport" value="4444" />
-		<parameter name="id" value="trans_1" />
+		<parameter name="id" value="trans_perf1" />
 		<parameter name="on" value="1" />
 		<parameter name="cpuFolder" value="cpu2pathperf1" />
 		<parameter name="testid" value="1249" />    
@@ -570,7 +570,7 @@
 		<parameter name="login_ip" value="10.7.0.62" />
 		<parameter name="uiport" value="4444" />
 		<parameter name="type" value="Transcoded" />
-		<parameter name="id" value="trans_1" />
+		<parameter name="id" value="trans_perf3" />
 		<parameter name="matrix" value="1" />
 		<parameter name="max_outputs" value="-1" />
 		<parameter name="mcast_out" value="0" />
@@ -615,7 +615,7 @@
 		<parameter name="userPass" value="1234" />
 		<parameter name="login_ip" value="10.7.0.62" />
 		<parameter name="uiport" value="4444" />
-		<parameter name="id" value="trans_1" />
+		<parameter name="id" value="trans_perf3" />
 		<parameter name="on" value="1" />
 		<parameter name="cpuFolder" value="cpu2pathperf3" />
 		<parameter name="testid" value="1249" />    
@@ -732,7 +732,7 @@
 		<parameter name="login_ip" value="10.7.0.62" />
 		<parameter name="uiport" value="4444" />
 		<parameter name="type" value="Transcoded" />
-		<parameter name="id" value="trans_1" />
+		<parameter name="id" value="trans_perf4" />
 		<parameter name="matrix" value="1" />
 		<parameter name="max_outputs" value="-1" />
 		<parameter name="mcast_out" value="0" />
@@ -777,7 +777,7 @@
 		<parameter name="userPass" value="1234" />
 		<parameter name="login_ip" value="10.7.0.62" />
 		<parameter name="uiport" value="4444" />
-		<parameter name="id" value="trans_1" />
+		<parameter name="id" value="trans_perf4" />
 		<parameter name="on" value="1" />
 		<parameter name="cpuFolder" value="cpu2pathperf4" />
 		<parameter name="testid" value="1249" />    
@@ -894,7 +894,7 @@
 		<parameter name="login_ip" value="10.7.0.62" />
 		<parameter name="uiport" value="4444" />
 		<parameter name="type" value="Transcoded" />
-		<parameter name="id" value="trans_1" />
+		<parameter name="id" value="trans_perf5" />
 		<parameter name="matrix" value="1" />
 		<parameter name="max_outputs" value="-1" />
 		<parameter name="mcast_out" value="0" />
@@ -939,7 +939,7 @@
 		<parameter name="userPass" value="1234" />
 		<parameter name="login_ip" value="10.7.0.62" />
 		<parameter name="uiport" value="4444" />
-		<parameter name="id" value="trans_1" />
+		<parameter name="id" value="trans_perf5" />
 		<parameter name="on" value="1" />
 		<parameter name="cpuFolder" value="cpu2pathperf5" />
 		<parameter name="testid" value="1249" />    
@@ -1056,7 +1056,7 @@
 		<parameter name="login_ip" value="10.7.0.62" />
 		<parameter name="uiport" value="4444" />
 		<parameter name="type" value="Transcoded" />
-		<parameter name="id" value="trans_1" />
+		<parameter name="id" value="trans_perf6" />
 		<parameter name="matrix" value="1" />
 		<parameter name="max_outputs" value="-1" />
 		<parameter name="mcast_out" value="0" />
@@ -1101,7 +1101,7 @@
 		<parameter name="userPass" value="1234" />
 		<parameter name="login_ip" value="10.7.0.62" />
 		<parameter name="uiport" value="4444" />
-		<parameter name="id" value="trans_1" />
+		<parameter name="id" value="trans_perf6" />
 		<parameter name="on" value="1" />
 		<parameter name="cpuFolder" value="cpu2pathperf6" />
 		<parameter name="testid" value="1249" />    
@@ -1218,7 +1218,7 @@
 		<parameter name="login_ip" value="10.7.0.62" />
 		<parameter name="uiport" value="4444" />
 		<parameter name="type" value="Transcoded" />
-		<parameter name="id" value="trans_1" />
+		<parameter name="id" value="trans_perf7" />
 		<parameter name="matrix" value="1" />
 		<parameter name="max_outputs" value="-1" />
 		<parameter name="mcast_out" value="0" />
@@ -1263,7 +1263,7 @@
 		<parameter name="userPass" value="1234" />
 		<parameter name="login_ip" value="10.7.0.62" />
 		<parameter name="uiport" value="4444" />
-		<parameter name="id" value="trans_1" />
+		<parameter name="id" value="trans_perf7" />
 		<parameter name="on" value="1" />
 		<parameter name="cpuFolder" value="cpu2pathperf7" />
 		<parameter name="testid" value="1249" />    
