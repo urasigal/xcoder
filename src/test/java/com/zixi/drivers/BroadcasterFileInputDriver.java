@@ -4,6 +4,8 @@ import java.io.File;
 import java.io.FileWriter;
 import java.io.PrintWriter;
 
+import org.json.JSONObject;
+
 import com.zixi.drivers.drivers.BroadcasterSystemDriver;
 import com.zixi.drivers.tools.DriverReslut;
 import com.zixi.entities.TestParameters;
@@ -72,4 +74,38 @@ public class BroadcasterFileInputDriver extends BroadcasterLoggableApiWorker imp
 		//return ret;
 		return "good";
 	}
+	
+	public String testIMPLRecCpuOnly(String userName, String userPass, String login_ip, String uiport, String id, String on, String cpuFolder) throws InterruptedException 
+	{
+		BroadcasterSystemDriver broadcasterSystemDriver = new BroadcasterSystemDriver();
+		responseCookieContainer = broadcasterInitialSecuredLogin.sendGet("http://" + login_ip + ":" + uiport + "/login.htm", userName, userPass, login_ip, uiport);
+		String ret =  apiworker.sendGet("http://" + login_ip + ":" + uiport + "/set_live_recording.json?id=" + id + "&on=" + on, "", 77, responseCookieContainer, login_ip, this, uiport);
+		
+		File file = FileManagerTools.createFile("src/test/resources/" + cpuFolder + "/" + id);
+		for(int i = 0; i < 180; i++)
+		{
+			String cpuLoad = null;
+			try {
+				cpuLoad = broadcasterSystemDriver.getCpuFromBroadcaster(userName, userPass, login_ip, uiport);
+			} catch (Exception e1) {
+				// TODO Auto-generated catch block
+				e1.printStackTrace();
+			}
+			System.out.println("CPU Load is " + cpuLoad); 
+			
+			if (file != null)
+			{
+				try(PrintWriter output = new PrintWriter(new FileWriter("src/test/resources/" + cpuFolder + "/" + id, true))) 
+				{
+					JSONObject json = new JSONObject(cpuLoad);
+				    output.println(json.getDouble("cpu_load"));
+				} 
+				catch (Exception e) {}
+			}
+			Thread.sleep(1000);
+		}
+		//return ret;
+		return "good";
+	}
+	
 }

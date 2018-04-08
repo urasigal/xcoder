@@ -57,15 +57,22 @@ public class BroadcasterFileInputTest extends BaseTest{
 	@Test
 	public void broadcasterRecordInout(String userName, String userPass, String login_ip, String uiport,String id, String on, String cpuFolder, String testid)
 	throws InterruptedException {
-		
 		this.testid = testid;
-		
 		this.version = productAboutDriver.getBroadcasterVersion(login_ip, uiport, userName, userPass);
-		
 		testParameters = buildTestParametersString(new String[] { "userName", "userPass", "login_ip", "uiport", "id","on", "cpuFolder", "testid"}, 
 		new String[] {userName, userPass, login_ip, uiport, id, on, cpuFolder, testid });
-		
 		Assert.assertEquals(((BroadcasterFileInputDriver) testDriver).testIMPLRec(userName, userPass, login_ip, uiport, id, on, cpuFolder), "added");
-		
 	}
+	
+	/// Used in multiple file recording testing.
+		@Parameters({ "userName", "userPass", "login_ip", "uiport", "id", "on", "cpuFolder", "testid" })
+		@Test
+		public void broadcasterRecordInoutMultipleBitRate(String userName, String userPass, String login_ip, String uiport,String id, String on, String cpuFolder, String testid)
+		throws InterruptedException {
+			this.testid = testid;
+			this.version = productAboutDriver.getBroadcasterVersion(login_ip, uiport, userName, userPass);
+			testParameters = buildTestParametersString(new String[] { "userName", "userPass", "login_ip", "uiport", "id","on", "cpuFolder", "testid"}, 
+			new String[] {userName, userPass, login_ip, uiport, id, on, cpuFolder, testid });
+			Assert.assertEquals(((BroadcasterFileInputDriver) testDriver).testIMPLRec(userName, userPass, login_ip, uiport, id, on, cpuFolder), "added");
+		}
 }
