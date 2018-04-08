@@ -241,7 +241,7 @@ public class ApiWorkir {
 			System.out.println("bug ------------- " + exceptionTest + "Request is "   + URL );
 		}
 		finally {
-			con.disconnect();
+			httpConnection.disconnect();
 		}
 		return response.toString();
 	}
