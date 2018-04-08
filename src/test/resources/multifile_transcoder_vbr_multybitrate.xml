@@ -335,7 +335,7 @@
 		<parameter name="uiport" value="4444" />
 		<parameter name="id" value="trans_perf2" />
 		<parameter name="on" value="1" />
-		<parameter name="cpuFolder" value="cpuvbrpathperf2" />
+		<parameter name="cpuFolder" value="cpuvbrpathperf0" />
 		<parameter name="testid" value="1249" />    
 		<classes>
 		    <class name="com.zixi.testing.BroadcasterFileInputTest"/>
