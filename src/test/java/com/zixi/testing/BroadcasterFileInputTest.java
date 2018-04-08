@@ -73,6 +73,6 @@ public class BroadcasterFileInputTest extends BaseTest{
 			this.version = productAboutDriver.getBroadcasterVersion(login_ip, uiport, userName, userPass);
 			testParameters = buildTestParametersString(new String[] { "userName", "userPass", "login_ip", "uiport", "id","on", "cpuFolder", "testid"}, 
 			new String[] {userName, userPass, login_ip, uiport, id, on, cpuFolder, testid });
-			Assert.assertEquals(((BroadcasterFileInputDriver) testDriver).testIMPLRec(userName, userPass, login_ip, uiport, id, on, cpuFolder), "added");
+			Assert.assertEquals(((BroadcasterFileInputDriver) testDriver).testIMPLRecCpuOnly(userName, userPass, login_ip, uiport, id, on, cpuFolder), "added");
 		}
 }
