@@ -98,7 +98,8 @@ public class BroadcasterFileInputDriver extends BroadcasterLoggableApiWorker imp
 				try(PrintWriter output = new PrintWriter(new FileWriter("src/test/resources/" + cpuFolder + "/" + id, true))) 
 				{
 					JSONObject json = new JSONObject(cpuLoad);
-				    output.println(json.getDouble("cpu_load"));// just cpu load
+					double cpu = json.getDouble("cpu_load");
+				    output.println(cpu + "");// just cpu load
 				} 
 				catch (Exception e) {}
 			}
