@@ -98,10 +98,9 @@ public class ApiWorkir {
 			}
 			/////////////////////////////////////////////////////////////////////////////////////
 			if(inputStream == null)
-				return null;
+				return null;  
 			
-			BufferedReader in = new BufferedReader(new InputStreamReader(
-					con.getInputStream()));
+			BufferedReader in = new BufferedReader(new InputStreamReader(inputStream));
 			String inputLine = "";
 			while ((inputLine = in.readLine()) != null) {
 				response.append(inputLine);
