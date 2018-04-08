@@ -88,7 +88,7 @@ public class BroadcasterTrannscodeStreamDriver extends
 				"http://" + login_ip + ":" + uiport + "/login.htm", userName,
 				userPass, login_ip, uiport);
 		
-		pid = StreamsDriver.getTranscoderProfiles(() -> apiworker.sendGet("http://" + login_ip + ":" + uiport
+		pid = StreamsDriver.getTranscoderProfiles( () -> apiworker.sendGet("http://" + login_ip + ":" + uiport
 						+ "/zixi/h264_profiles.json" , "", 77, responseCookieContainer, login_ip, this, uiport),  profile_name);
 
 		int audioProfile = StreamsDriver.getTranscoderProfiles(() -> apiworker.sendGet("http://" + login_ip + ":" + uiport

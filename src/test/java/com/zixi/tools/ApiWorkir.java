@@ -33,9 +33,7 @@ public class ApiWorkir {
 	// HTTP GET request
 	
 	
-	public String sendGet(String url, String id, int mode,
-			String[] responseCookieContainer, String HOST, Object caller,
-			String uiport) {
+	public String sendGet(String url, String id, int mode, String[] responseCookieContainer, String HOST, Object caller, String uiport) {
 		StringBuffer response = new StringBuffer();
 		try {
 			URL destUrl 		= new URL(url);
