@@ -1,10 +1,17 @@
 package com.zixi.tools;
 
+import java.io.BufferedInputStream;
 import java.io.BufferedReader;
+import java.io.ByteArrayOutputStream;
+import java.io.IOException;
+import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.net.HttpURLConnection;
 import java.net.URL;
 import java.util.ArrayList;
+import java.util.zip.GZIPInputStream;
+import java.util.zip.Inflater;
+import java.util.zip.InflaterInputStream;
 
 import org.apache.commons.lang3.StringUtils;
 import org.json.JSONArray;
@@ -21,6 +28,7 @@ public class ApiWorkir {
 	protected final String USER_AGENT = "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.124 Safari/537.36";
 	private String tester = null;
 	protected HttpURLConnection con;
+	protected 			HttpURLConnection 	httpConnection;
 	protected String URL = null;
 	// HTTP GET request
 	
@@ -28,29 +36,70 @@ public class ApiWorkir {
 	public String sendGet(String url, String id, int mode,
 			String[] responseCookieContainer, String HOST, Object caller,
 			String uiport) {
-		URL = url;
 		StringBuffer response = new StringBuffer();
 		try {
+			URL destUrl 		= new URL(url);
+			httpConnection 		= (HttpURLConnection) destUrl.openConnection();
+			// Setup parameters and general request properties that you may need before connecting.
+			///////////////////////////////////////////////////////////////////////////////////////
+			httpConnection.setReadTimeout(80000);
+			httpConnection.setRequestMethod("GET");
+			httpConnection.setRequestProperty("Accept", "application/json, text/javascript, */*; q=0.01");
+			httpConnection.setRequestProperty("X-Requested-With", "XMLHttpRequest");
+			httpConnection.setRequestProperty("Host", HOST + ":" + uiport);
+			httpConnection.setRequestProperty("User-Agent", USER_AGENT);
+			httpConnection.setRequestProperty("Accept-Encoding", "gzip, deflate");
+			httpConnection.setRequestProperty("Referer", "http://" + HOST + ":" + uiport + "/index.html");
+			httpConnection.setRequestProperty(StringUtils.substringBetween(responseCookieContainer[0], "=", "%"), StringUtils.substringAfter(responseCookieContainer[0], "%3D"));
+			httpConnection.setRequestProperty("Cookie", responseCookieContainer[1] + "; " + responseCookieContainer[0]);
+			///////////////////////////////////////////////////////////////////////////////////////
 			
-			URL obj = new URL(url);
-			con = (HttpURLConnection) obj.openConnection();
-			// optional, default is GET
-			con.setRequestMethod("GET");
-			// add request header
-			con.setRequestProperty("Accept",
-					"application/json, text/javascript, */*; q=0.01");
-			con.setRequestProperty("X-Requested-With", "XMLHttpRequest");
-			con.setRequestProperty("Host", HOST + ":" + uiport);
-			con.setRequestProperty("User-Agent", USER_AGENT);
-			con.setRequestProperty("Accept-Encoding", "gzip, deflate");
-			con.setRequestProperty("Referer", "http://" + HOST + ":" + uiport
-					+ "/index.html");
+			InputStream inputStream = null;
+			
+			try {
+				if ("gzip".equals(httpConnection.getContentEncoding())) {
+					inputStream = new GZIPInputStream(httpConnection.getInputStream());
+				}else
+				if("deflate".equals(httpConnection.getContentEncoding()))
+				{
+					inputStream = new InflaterInputStream(httpConnection.getInputStream(), new Inflater());
+				}
+				else {
+					inputStream = httpConnection.getInputStream();
+				}
+			} catch (IOException e) {
+				
+					InputStream es;
+					if ("gzip".equals(httpConnection.getContentEncoding())) {
+						es = new BufferedInputStream(new GZIPInputStream(httpConnection.getErrorStream()));
+					}
+					else {
+						es = new BufferedInputStream(httpConnection.getErrorStream());
+					}
 
-			con.setRequestProperty(StringUtils.substringBetween(responseCookieContainer[0], "=", "%"), StringUtils.substringAfter(responseCookieContainer[0], "%3D"));
+					ByteArrayOutputStream baos = new ByteArrayOutputStream();
+					try {
+						// read the response body
+						byte[] buf = new byte[1024];
+						int read = -1;
+						while ((read = es.read(buf)) > 0) {
+							baos.write(buf, 0, read);
+						}
+					} catch (IOException e1) {
+						System.out.println( "IOException when reading the error stream. Igored");
+					}
 
-			con.setRequestProperty("Cookie", responseCookieContainer[1] + "; "
-					+ responseCookieContainer[0]);
+					// close the errorstream
+					es.close();
 
+					throw new IOException("Error while reading from " + httpConnection.getRequestMethod() + ": [" + httpConnection.getResponseCode() + "] "
+							+ httpConnection.getResponseMessage() + "\n" + new String(baos.toByteArray(), "UTF-8"), e);
+				
+			}
+			/////////////////////////////////////////////////////////////////////////////////////
+			if(inputStream == null)
+				return null;
+			
 			BufferedReader in = new BufferedReader(new InputStreamReader(
 					con.getInputStream()));
 			String inputLine = "";
